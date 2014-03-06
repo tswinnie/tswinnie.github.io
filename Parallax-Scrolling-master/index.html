@@ -1,0 +1,468 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styleOne.css" type="text/css">
+    <link rel="author" href="https://plus.google.com/107766061849006545830"/>
+
+    <link type="text/css" rel="stylesheet" href="css/demo.css" />
+    <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" href="css/main.css">
+
+
+
+
+    <script src='js/jquery.js'></script>
+    <script src="js/jquery.als-1.3.min.js"></script>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.lettering-0.6.1.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+
+
+    <style type="text/css">
+        .mm-menu li.img a
+        {
+            font-size: 16px;
+        }
+        .mm-menu li.img a img
+        {
+            float: left;
+            margin: -5px 10px -5px 0;
+        }
+        .mm-menu li.img a small
+        {
+            font-size: 12px;
+        }
+
+
+
+    </style>
+
+
+    <style type="text/css">
+
+
+        .mm-ismenu.mm-light {
+            background: #f3f3f3;
+            color: rgba(0, 0, 0, 0.6);
+            margin-top: 68px;
+        }
+
+    </style>
+
+
+    <script type="text/javascript">
+
+
+
+
+
+
+
+        //	The menu on the left
+  $(function() {
+  $('nav#menu-left').mmenu();
+  });
+
+
+  //	The menu on the right
+  $(function() {
+
+  var $menu = $('nav#menu-right');
+
+  $menu.mmenu({
+  position	: 'right',
+  classes		: 'mm-light',
+  dragOpen	: true,
+  counters	: true,
+  searchfield	: true,
+  labels		: {
+  fixed		: !$.mmenu.support.touch
+  },
+  header		: {
+  add			: true,
+  update		: true
+  //						title		: 'Contacts'
+  }
+  });
+
+  //	Click a menu-item
+  var $confirm = $('#confirmation');
+  $menu.find( 'li a' ).not( '.mm-subopen' ).not( '.mm-subclose' ).bind(
+  'click.example',
+  function( e )
+  {
+  e.preventDefault();
+  $confirm.show().text( 'You clicked "' + $.trim( $(this).text() ) + '"' );
+  $('#menu-right').trigger( 'close' );
+  }
+  );
+  });
+  </script>
+
+
+
+
+
+</head>
+
+<body>
+
+<header>
+    <!--start of nav-->
+    <div class="menu">
+        <a href="#"><h2 class="logo">Logo</h2></a>
+        <h3 class="subHead">Vacation Rental Software</h3>
+
+        <div id="page">
+        <div id="header">
+            <!--<a href="#menu-left"></a>-->
+            <!--This is a demo page-->
+            <a href="#menu-right" class="friends right"></a>
+        </div>
+
+        <nav id="menu-right">
+            <ul>
+                <li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="horizontal-submenus.html">Free Trial</a></li>
+                <li><a href="vertical-submenus.html">The Team</a></li>
+                <li><a href="photos.html">Pricing</a></li>
+                <li><a href="colors.html">CiiRUS</a></li>
+                <li class="Selected"><a href="advanced.html">Our Customers</a></li>
+                <li><a href="onepage.html">Contact Us</a></li>
+            </ul>
+            </nav>
+        <!--<ul class="navMenu">-->
+            <!--<a href="#"><li>Home</li></a>-->
+            <!--<a href="#"><li>Free Trial</li></a>-->
+            <!--<a href="#"><li>Pricing</li></a>-->
+            <!--<a href="#"><li>CiiRUS</li></a>-->
+            <!--<a href="#"><li>The Team</li></a>-->
+            <!--<a href="#"><li>Our Customers</li></a>-->
+            <!--<a href="#"><li>Contact Us</li></a>-->
+
+
+
+
+        <!--</ul>-->
+
+        <!--sign in boxes-->
+        <a href="#"><div class="signInBoxOne">Online Edition Sign In</div></a>
+        <a href="#"><div class="signInBoxTwo">Customer Services</div></a>
+
+
+
+
+    </div>
+        </div>
+
+
+</header>
+
+  <div id="main" role="main">
+
+	<!-- Section #1 / Intro -->
+	<section id="first" class="story" data-speed="8" data-type="background">
+		<article>
+
+
+
+            <div class="innerTextOne"><p class="Title">The Industry Leader For Vacation Rental Software</p></div>
+
+
+            <div class="innerText"><p class="nt">3</p><p class="rt">Things you will love about</p><p class="nt">CiiRUS</p>   <a href="#"><div class="videoBtn"><p class="videoText">Watch Video</p></a></div>
+
+
+            <div class="boxContaier">
+
+            <div class="boxOne"> <div class="iconImg"></div>
+
+            <ul class="boxText">
+
+
+            <li>Integrated Booking Engine</li>
+            <li>Owner Accounting</li>
+            <li>Real-time Job Tracking</li>
+            <li>Advanced Reporting</li>
+            <li>Multi-User/Location Access</li>
+
+
+
+            </ul>
+
+
+
+            </div>
+            <div class="boxTwo"><div class="iconImgTwo"></div>
+            <ul class="boxText">
+
+
+            <li>Simple Efficient & Fast</li>
+            <li>Easy Data Management</li>
+            <li>Our Support Team Supports</li>
+            <li>Auto Data Backup</li>
+
+
+
+            </ul>
+
+
+
+            </div>
+            <div class="boxThree"> <div class="iconImgThree"></div>
+
+
+            <ul class="boxText">
+
+
+            <li>Access Anywhere, Anytime</li>
+            <li>Unparalleled Connectivity</li>
+            <li>Online & Mobile Edition</li>
+
+
+
+
+            </ul>
+
+
+
+
+
+            </div>
+            </div>
+
+
+
+
+
+
+        </article>
+
+
+    </section>
+
+	<!-- Section #2 / Background Only -->
+	<section id="second" class="storyTwo" data-speed="4" data-type="background">
+		<!--&lt;!&ndash;&lt;!&ndash;<article>&ndash;&gt;&ndash;&gt;-->
+			<!--&lt;!&ndash;&lt;!&ndash;<h2>Background Only</h2>&ndash;&gt;&ndash;&gt;-->
+		    	<!--&lt;!&ndash;&lt;!&ndash;<p>In this section we are sliding the background at a different speed to the rest of the page.</p>&ndash;&gt;&ndash;&gt;-->
+		    	<!--&lt;!&ndash;&lt;!&ndash;<p>As this text box is scrolling at the same speed as the page, and faster than the background, it creates this lovely parallax effect.</p>&ndash;&gt;&ndash;&gt;-->
+		    	<!--&lt;!&ndash;&lt;!&ndash;<p>You can find all the HTML, CSS and the all important JavaScript files over at <a href="https://github.com/richardshepherd/Parallax-Scrolling">GitHub</a> - so why don't you drop by for some hardcore forking action?</p>&ndash;&gt;&ndash;&gt;-->
+		    	<!--&lt;!&ndash;&lt;!&ndash;<p>Backgrounds for this article were taken from the May/June 2011 Smashing Magazine Desktop backgrounds.</p>	&ndash;&gt;&ndash;&gt;-->
+		    	<!--&lt;!&ndash;&lt;!&ndash;<p>Head back to <a href="http://coding.smashingmagazine.com/2011/07/12/behind-the-scenes-of-nike-better-world/">Smashing Magazine</a>, or hop on over to <a href="http://richardshepherd.com">RichardShepherd.com</a>.</p>		&ndash;&gt;&ndash;&gt;-->
+		<!--&lt;!&ndash;&lt;!&ndash;</article>&ndash;&gt;&ndash;&gt;-->
+	<!--&lt;!&ndash;</section>&ndash;&gt;-->
+	<!--&lt;!&ndash;&ndash;&gt;-->
+	<!--&lt;!&ndash;&lt;!&ndash; Section #3 / Photos &ndash;&gt;&ndash;&gt;-->
+	<!--&lt;!&ndash;<section id="third" class="story" data-speed="6" data-type="background" data-offsetY="0">&ndash;&gt;-->
+		<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<div class="photograph" data-type="sprite" data-offsetY="1250" data-Xposition="25%" data-speed="2"></div>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+    	<!--&lt;!&ndash;&lt;!&ndash;<article>&ndash;&gt;&ndash;&gt;-->
+	    	<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<div class="textbox">    	&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+		    	<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<p>The next step in your parallax scrolling adventure is to create some sprites!</p>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+		    	<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<p>I have cut out one of the photos in this background and use it as a sprite. It scrolls at a different speed to the background <i>and</i> the window, and it's this effect that's used so well on Nike Better World and other parallax sites..</p>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+		    	<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<p>Using too many sprites can slow down older computers, and you need to use some clever maths (and trial & error!) to work out their placement on the page.</p>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+		    <!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+    	<!--&lt;!&ndash;&lt;!&ndash;</article>&ndash;&gt;&ndash;&gt;-->
+
+
+
+        <!--&lt;!&ndash;&lt;!&ndash;<h1 class="offerTitle">What can <p class="ntTwo">CiiRUS</p> offer you?</h1>&ndash;&gt;&ndash;&gt;-->
+
+        <!--&lt;!&ndash;&lt;!&ndash;<p class="welcomeText">The complete reservation and property and property management software,&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;designed for the vacation rental industry.&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;Property managers and booking agents&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;and home owners do more business&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;using ciirus. Secure access from anywhere&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;includes, a deskttop application,web browser&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;and cellphone edition at no extra cost.&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;An optimized master website is included&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;and a personal website for every home owner&ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;</p>&ndash;&gt;&ndash;&gt;-->
+
+
+        <!--&lt;!&ndash;&lt;!&ndash;<div class="als-container" style="margin-left: -160px;margin-top: -30px;" id="demo3">&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;<span class="als-prev"><img src="images/thin_left_arrow_333.png" alt="prev" title="previous" /></span>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;<div class="als-viewport">&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;<ul class="als-wrapper">&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/arancio.png" alt="orange" title="orange" />orange</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/mela.png" alt="apple" title="apple" />apple</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/banana.png" alt="banana" title="banana" />banana</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/mirtillo.png" alt="blueberry" title="blueberry" />blueberry</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/anguria.png" alt="watermelon" title="watermelon" />watermelon</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/ciliegia.png" alt="cherry" title="cherry" />cherry</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/fragola.png" alt="strawberry" title="strawberry" />strawberry</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/avocado.png" alt="avocado" title="avocado" />avocado</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/pera.png" alt="pear" title="pear" />pear</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/ananas.png" alt="pineapple" title="pineapple" />pineapple</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/papaya.png" alt="papaya" title="papaya" />papaya</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/lampone.png" alt="raspberry" title="raspberry" />raspberry</li>&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;</ul>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;<span class="als-next"><img src="images/thin_right_arrow_333.png" alt="next" title="next" /></span>&ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;-->
+
+        <!--&lt;!&ndash;&lt;!&ndash;<h2 class="updateText">Checkout Our Latest Bookings</h2>&ndash;&gt;&ndash;&gt;-->
+
+
+        <!--&lt;!&ndash;&lt;!&ndash;<div class="als-containerTwo" id="demo4">&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<span class="als-prev"><img src="images/thin_left_arrow_333.png" alt="prev" title="previous" /></span>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;<div class="als-viewport"style="width: 309px;margin-left: -20px;">&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;<ul class="als-wrapperTwo">&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
+
+                <!--&lt;!&ndash;&lt;!&ndash;</ul>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<span class="als-next"><img src="images/thin_right_arrow_333.png" alt="next" title="next" /></span>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;-->
+
+
+        <div class='button4 button' style='display: none;'>button 4</div>
+
+    </section>
+
+
+    <section id="third" class="storyThree" data-speed="8" data-type="background">
+
+
+
+
+
+        </section>
+
+
+
+    <!-- Section #4 / HTML5 Video -->
+	<section id="fourth" class="storyFour" data-speed="8" data-type="background" data-offsetY="280">
+    	<!--<article>-->
+    		<!--&lt;!&ndash;<h2>HTML5 Video</h2>&ndash;&gt;-->
+	    	<!--&lt;!&ndash;<div class="textbox">    	&ndash;&gt;-->
+		    	<!--&lt;!&ndash;<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>&ndash;&gt;-->
+		    	<!--&lt;!&ndash;<p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>&ndash;&gt;-->
+		    	<!--&lt;!&ndash;<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. o.</p>&ndash;&gt;-->
+		    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    	<!--</article>-->
+		<!--<video controls width="640" width="480" data-type="video" data-offsetY="2400" data-speed="1.5">-->
+			<!--<source src="video/parallelparking.theora.ogv" type="video/ogg" />-->
+			<!--<source src="video/parallelparking.mp4" type="video/mp4" />-->
+			<!--<source src="video/parallelparking.webm" type="video/webm" />-->
+		<!--</video>-->
+
+
+
+
+
+    </section>
+
+
+
+
+	<!-- Section #5 / The End-->
+	<section id="theend" class="storyFive" data-speed="8" data-type="background" data-offsetY="100">
+		<div class="byebye" data-type="sprite" data-offsetY="-1600" data-Xposition="50%" data-speed="-2"></div>
+
+
+
+
+
+
+
+
+	</section>
+	
+  <!-- // End of #main -->
+
+
+
+
+
+
+        <!-- Our Javascript, starting with jQuery -->
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-2821890-9']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+
+
+<script type="text/javascript">
+    $("#demo3").als({
+        visible_items: 4,
+        scrolling_items: 2,
+        orientation: "Horizontal",
+        circular: "yes",
+        autoscroll: "yes",
+        interval: 4000
+    });
+
+</script>
+
+<script type="text/javascript">
+    $("#demo4").als({
+        visible_items: 3,
+        scrolling_items: 3,
+        orientation: "vertical",
+        circular: "yes",
+        autoscroll: "yes",
+        interval: 4000 ,
+        easing: "linear",
+        speed:  100,
+        start_from: 1
+    });
+
+</script>
+
+
+
+
+
+  <!--[if lt IE 7 ]>
+
+
+
+<script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg");
+  <![endif]-->
+
+
+
+
+</body>
+</html>
