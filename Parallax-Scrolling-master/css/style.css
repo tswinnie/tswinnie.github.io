@@ -100,9 +100,9 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 
     display: inline;
     width: 100px;
-    margin-right: 16px;
-    font-size: 16px;
-    color:#006eff !important;;
+    margin-right: 8px;
+    font-size: 14px;
+    color: #282828 !important;
 
 }
 
@@ -176,6 +176,39 @@ li:hover{
     padding-top: 10px;
     top:  10px;
 
+
+}
+
+
+.newNav{
+
+    width: 554px;
+    height: 46px;
+    background-color: #ecf0f1!important;
+    display: inline-block;
+    position: absolute;
+    color: white !important;
+    maring-left: 20%;
+    margin-left: 25%;
+    margin-top: -2px;
+    box-shadow: 1px 5px 8px -1px rgba(40,40,40,1);
+
+
+}
+
+
+
+
+.trialBox {
+
+    width: 145px;
+    height: 55px;
+    display: inline-block;
+    position: absolute;
+    padding-top: 10px;
+    background-image: url("../images/trialButton.png");
+    background-repeat: no-repeat;
+    margin-top: -2px;
 
 }
 a{
@@ -405,10 +438,12 @@ a{
 .navMenu{
 
     float: right;
-    width: 663px;
+    width: 530px;
     list-style-type: none;
-    margin-top: 80px;
+    /* margin-top: 6px; */
     font-size: 1.3em;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 .subHead{
