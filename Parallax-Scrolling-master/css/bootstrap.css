@@ -1979,6 +1979,9 @@ select[multiple].input-lg {
     text-align: right;
   }
 }
+
+
+
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;
   right: 15px;
@@ -5795,6 +5798,107 @@ td.visible-lg {
     display: none !important;
   }
 }
+
+@media (max-width: 1600px) {
+    .newNav{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1500px) {
+    .newNav {
+        position: relative;
+        top: -53px;
+        left: 151px;
+        box-shadow: none;
+    }
+}
+
+@media (min-width: 1620px) {
+    .newNav {
+        position: relative;
+        top: -53px;
+        left: 135px;
+        box-shadow: none;
+    }
+}
+
+
+@media (max-width: 1500px) {
+    .videoBtn {
+        margin-bottom: -66px;
+        margin-top: 20px;
+        margin-left: 45%;
+    }
+}
+
+
+@media (min-width: 1920px) {
+    .newNav {
+        position: relative;
+        top: -53px;
+        left: 160px;
+        box-shadow: none;
+    }
+}
+
+
+@media (max-width: 1049px) {
+    .signInBoxOne, .signInBoxTwo {
+        position: relative;
+        top: -60px;
+        left: 550px;
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    #header a.right {
+        left: auto;
+        right: 55px !important;
+        top: 17px;
+
+    }
+}
+
+@media (max-width: 1920px) {
+  .Title {
+      display: inline;
+      font-size: 4.5em;
+      color: #ecf0f1 !important;
+      font-weight: bold;
+      position: relative;
+      top: -26px;
+
+    }
+}
+
+@media (max-width: 1920px) {
+    .innerText {
+        margin: 0 auto;
+        display: inline;
+        position: relative;
+        top: -8px;
+
+    }
+}
+
+
+@media (max-width: 1920px) {
+    .videoBtn {
+        margin-bottom: -66px;
+        margin-top: 20px;
+        margin-left: 45%;
+    }
+}
+
+@media (max-width: 1920px) {
+    .boxOne,.boxTwo,.boxThree  {
+        position: relative;
+        top: -38px;
+    }
+}
+
 .visible-print,
 tr.visible-print,
 th.visible-print,
@@ -5824,3 +5928,17 @@ td.visible-print {
     display: none !important;
   }
 }
+
+
+
+@media (max-width: 1920px) {
+    .story, .storyOne  { height: 950px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+}
+
+@media (max-width: 1920px) {
+    .storyThree, .storyTwo,.storyFour,.storyFive  { height: 970px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+}
+
+
+
+
