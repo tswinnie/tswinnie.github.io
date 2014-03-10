@@ -180,6 +180,27 @@ li:hover{
 }
 
 
+.trybutton{
+
+
+
+
+    width: 270px;
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    color: white !important;
+    margin-left: 73%;
+    margin-top: -2px;
+    /*box-shadow: 1px 5px 8px -1px rgba(40,40,40,1);*/
+    background-image:url("../images/trybtn.png");
+    background-repeat:no-repeat;
+
+
+
+}
+
+
 .newNav{
 
     width: 554px;
@@ -576,6 +597,128 @@ a{
     margin-right: 35px;
 
 }
+
+.whatCiirus{
+
+    font-size: 3.5em;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    color: white;
+    display: inline;
+    font-style: italic;
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+    top: 100px !important;
+    position: relative;
+    left: 80px !important;
+
+
+}
+
+.ciirusContainer{
+
+    width: 1243px;
+    padding: 25px;
+    position: relative;
+    top: 200px;
+    margin-left: 12%;
+
+
+}
+
+.stats{
+    background-image: url("../images/stats.png");
+    width: 262px;
+    height: 141px;
+    background-repeat: no-repeat;
+    float: left;
+    line-height: 1.5;
+    /* padding: 118px; */
+    padding-right: 48px;
+    padding-top: 157px;
+    color: white;
+    display:inline-block;
+    font-size: 16px;
+
+
+
+
+}
+
+.calendar{
+
+    background-image: url("../images/calendar.png");
+    width: 262px;
+    height: 141px;
+    background-repeat: no-repeat;
+    float: left;
+    line-height: 1.5;
+    /* padding: 118px; */
+    padding-right: 48px;
+    padding-top: 157px;
+    color: white;
+    display:inline-block;
+    font-size: 16px;
+
+}
+
+.home{
+
+    background-image: url("../images/home.png");
+    width: 262px;
+    height: 141px;
+    background-repeat: no-repeat;
+    float: left;
+    line-height: 1.5;
+    /* padding: 118px; */
+    padding-right: 48px;
+    padding-top: 157px;
+    color: white;
+    display:inline-block;
+    font-size: 16px;
+
+
+}
+
+.group{
+
+    background-image: url("../images/group.png");
+    width: 262px;
+    height: 141px;
+    background-repeat: no-repeat;
+    float: left;
+    line-height: 1.5;
+    /* padding: 118px; */
+    padding-right: 48px;
+    padding-top: 157px;
+    color: white;
+    display:inline-block;
+    font-size: 16px;
+
+
+}
+
+
+.learn{
+
+    width: 134px;
+    height: 42px;
+    background-color: #ff8b21;
+    float: left;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 3;
+    position: relative;
+    left: -76px;
+    top: 43px;
+
+
+}
+
+
+
+
 
 
 

@@ -60,6 +60,31 @@
 
     </style>
 
+    <script type="text/javascript">
+
+        function hideText(){
+
+            $('.trybutton').hide();
+
+
+
+
+        }
+
+        function showText(){
+
+
+            $('.trybutton').fadeIn();
+
+
+
+
+
+        }
+
+
+    </script>
+
 
     <script type="text/javascript">
 
@@ -78,9 +103,11 @@
   //	The menu on the right
   $(function() {
 
+
   var $menu = $('nav#menu-right');
 
-  $menu.mmenu({
+
+      $menu.mmenu({
   position	: 'right',
   classes		: 'mm-light',
   dragOpen	: true,
@@ -93,10 +120,15 @@
   add			: true,
   update		: true
   //						title		: 'Contacts'
+
+
   }
+
   });
 
-  //	Click a menu-item
+
+
+      //	Click a menu-item
   var $confirm = $('#confirmation');
   $menu.find( 'li a' ).not( '.mm-subopen' ).not( '.mm-subclose' ).bind(
   'click.example',
@@ -116,7 +148,7 @@
 
 </head>
 
-<body>
+<body onscroll="showText()" >
 
 <header>
     <!--start of nav-->
@@ -124,11 +156,11 @@
         <a href="#"><h2 class="logo">Logo</h2></a>
         <h3 class="subHead">Vacation Rental Software</h3>
 
-        <div id="page">
+        <div id="page" onclick="hideText()">
         <div id="header">
             <!--<a href="#menu-left"></a>-->
             <!--This is a demo page-->
-            <a href="#menu-right" class="friends right"></a>
+            <a href="#menu-right" class="friends right" ></a>
         </div>
 
         <nav id="menu-right">
@@ -154,7 +186,8 @@
             <a href="#"><div class="newNav">
 
 
-                <ul class="navMenu">
+                <ul class="navMenu" >
+
                     <a href="#"><li>Home</li></a>
                     <a href="#"><li>Free Trial</li></a>
                     <a href="#"><li>Pricing</li></a>
@@ -176,6 +209,12 @@
             </div></a>
 
 
+            <!--try button-->
+
+            <div class="trybutton"></div>
+
+
+
             <!--sign in boxes-->
         <a href="#"><div class="signInBoxOne">Online Edition Sign In</div></a>
         <a href="#"><div class="signInBoxTwo">Customer Services</div></a>
@@ -192,7 +231,7 @@
   <div id="main" role="main">
 
 	<!-- Section #1 / Intro -->
-	<section id="first" class="story" data-speed="8" data-type="background">
+	<section id="first" class="story" data-speed="8" data-type="background" >
 		<article>
 
 
@@ -273,88 +312,33 @@
 
 	<!-- Section #2 / Background Only -->
 	<section id="second" class="storyTwo" data-speed="4" data-type="background">
-		<!--&lt;!&ndash;&lt;!&ndash;<article>&ndash;&gt;&ndash;&gt;-->
-			<!--&lt;!&ndash;&lt;!&ndash;<h2>Background Only</h2>&ndash;&gt;&ndash;&gt;-->
-		    	<!--&lt;!&ndash;&lt;!&ndash;<p>In this section we are sliding the background at a different speed to the rest of the page.</p>&ndash;&gt;&ndash;&gt;-->
-		    	<!--&lt;!&ndash;&lt;!&ndash;<p>As this text box is scrolling at the same speed as the page, and faster than the background, it creates this lovely parallax effect.</p>&ndash;&gt;&ndash;&gt;-->
-		    	<!--&lt;!&ndash;&lt;!&ndash;<p>You can find all the HTML, CSS and the all important JavaScript files over at <a href="https://github.com/richardshepherd/Parallax-Scrolling">GitHub</a> - so why don't you drop by for some hardcore forking action?</p>&ndash;&gt;&ndash;&gt;-->
-		    	<!--&lt;!&ndash;&lt;!&ndash;<p>Backgrounds for this article were taken from the May/June 2011 Smashing Magazine Desktop backgrounds.</p>	&ndash;&gt;&ndash;&gt;-->
-		    	<!--&lt;!&ndash;&lt;!&ndash;<p>Head back to <a href="http://coding.smashingmagazine.com/2011/07/12/behind-the-scenes-of-nike-better-world/">Smashing Magazine</a>, or hop on over to <a href="http://richardshepherd.com">RichardShepherd.com</a>.</p>		&ndash;&gt;&ndash;&gt;-->
-		<!--&lt;!&ndash;&lt;!&ndash;</article>&ndash;&gt;&ndash;&gt;-->
-	<!--&lt;!&ndash;</section>&ndash;&gt;-->
-	<!--&lt;!&ndash;&ndash;&gt;-->
-	<!--&lt;!&ndash;&lt;!&ndash; Section #3 / Photos &ndash;&gt;&ndash;&gt;-->
-	<!--&lt;!&ndash;<section id="third" class="story" data-speed="6" data-type="background" data-offsetY="0">&ndash;&gt;-->
-		<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<div class="photograph" data-type="sprite" data-offsetY="1250" data-Xposition="25%" data-speed="2"></div>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
-    	<!--&lt;!&ndash;&lt;!&ndash;<article>&ndash;&gt;&ndash;&gt;-->
-	    	<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<div class="textbox">    	&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
-		    	<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<p>The next step in your parallax scrolling adventure is to create some sprites!</p>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
-		    	<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<p>I have cut out one of the photos in this background and use it as a sprite. It scrolls at a different speed to the background <i>and</i> the window, and it's this effect that's used so well on Nike Better World and other parallax sites..</p>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
-		    	<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<p>Using too many sprites can slow down older computers, and you need to use some clever maths (and trial & error!) to work out their placement on the page.</p>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
-		    <!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
-    	<!--&lt;!&ndash;&lt;!&ndash;</article>&ndash;&gt;&ndash;&gt;-->
+	<!--beginning of what is ciirus-->
+
+        <h2 class="whatCiirus">So, What is CiiRUS?</h2>
+            <div class="ciirusContainer">
+
+                <div class="stats">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum tristique felis ut nisl scelerisque, non tempus metus dignissim.
+
+                </div>
+                <div class="calendar">orem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum tristique felis ut nisl scelerisque, non tempus metus dignissim.</div>
+                <div class="home">orem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum tristique felis ut nisl scelerisque, non tempus metus dignissim.</div>
+                <div class="group">orem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum tristique felis ut nisl scelerisque, non tempus metus dignissim.</div>
+                <a href="#"><div class="learn">Learn More</div></a>
 
 
 
-        <!--&lt;!&ndash;&lt;!&ndash;<h1 class="offerTitle">What can <p class="ntTwo">CiiRUS</p> offer you?</h1>&ndash;&gt;&ndash;&gt;-->
-
-        <!--&lt;!&ndash;&lt;!&ndash;<p class="welcomeText">The complete reservation and property and property management software,&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;designed for the vacation rental industry.&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;Property managers and booking agents&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;and home owners do more business&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;using ciirus. Secure access from anywhere&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;includes, a deskttop application,web browser&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;and cellphone edition at no extra cost.&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;An optimized master website is included&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;and a personal website for every home owner&ndash;&gt;&ndash;&gt;-->
-        <!--&lt;!&ndash;&lt;!&ndash;</p>&ndash;&gt;&ndash;&gt;-->
 
 
-        <!--&lt;!&ndash;&lt;!&ndash;<div class="als-container" style="margin-left: -160px;margin-top: -30px;" id="demo3">&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;<span class="als-prev"><img src="images/thin_left_arrow_333.png" alt="prev" title="previous" /></span>&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;<div class="als-viewport">&ndash;&gt;&ndash;&gt;-->
-                <!--&lt;!&ndash;&lt;!&ndash;<ul class="als-wrapper">&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/arancio.png" alt="orange" title="orange" />orange</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/mela.png" alt="apple" title="apple" />apple</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/banana.png" alt="banana" title="banana" />banana</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/mirtillo.png" alt="blueberry" title="blueberry" />blueberry</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/anguria.png" alt="watermelon" title="watermelon" />watermelon</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/ciliegia.png" alt="cherry" title="cherry" />cherry</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/fragola.png" alt="strawberry" title="strawberry" />strawberry</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/avocado.png" alt="avocado" title="avocado" />avocado</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/pera.png" alt="pear" title="pear" />pear</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/ananas.png" alt="pineapple" title="pineapple" />pineapple</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/papaya.png" alt="papaya" title="papaya" />papaya</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item"><img src="images/fruits/lampone.png" alt="raspberry" title="raspberry" />raspberry</li>&ndash;&gt;&ndash;&gt;-->
-                <!--&lt;!&ndash;&lt;!&ndash;</ul>&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;<span class="als-next"><img src="images/thin_right_arrow_333.png" alt="next" title="next" /></span>&ndash;&gt;&ndash;&gt;-->
-        <!--&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;-->
-
-        <!--&lt;!&ndash;&lt;!&ndash;<h2 class="updateText">Checkout Our Latest Bookings</h2>&ndash;&gt;&ndash;&gt;-->
 
 
-        <!--&lt;!&ndash;&lt;!&ndash;<div class="als-containerTwo" id="demo4">&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<span class="als-prev"><img src="images/thin_left_arrow_333.png" alt="prev" title="previous" /></span>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;<div class="als-viewport"style="width: 309px;margin-left: -20px;">&ndash;&gt;&ndash;&gt;-->
-                <!--&lt;!&ndash;&lt;!&ndash;<ul class="als-wrapperTwo">&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
 
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
-                    <!--&lt;!&ndash;&lt;!&ndash;<li class="als-item " style="margin-top: 25px!important;background-color: #ff8b21; width: 200px;height: 40px;font-size: 1.0em; color: white;height: 75px;font-style: italic; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>&ndash;&gt;&ndash;&gt;-->
-
-                <!--&lt;!&ndash;&lt;!&ndash;</ul>&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<span class="als-next"><img src="images/thin_right_arrow_333.png" alt="next" title="next" /></span>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
-        <!--&lt;!&ndash;&lt;!&ndash;</div>&ndash;&gt;&ndash;&gt;-->
+            </div>
 
 
-        <div class='button4 button' style='display: none;'>button 4</div>
 
     </section>
 
