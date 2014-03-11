@@ -613,6 +613,45 @@ a{
     left: 80px !important;
 
 
+
+}
+
+
+
+.whatCiiruslittle{
+    font-size: 1.9em;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    color: white;
+    display: inline;
+    font-style: italic;
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+    top: 157px !important;
+    position: relative;
+    left: -286px !important;
+
+
+}
+
+#startItclicking{
+    font-size: 1em;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    color: white;
+    display: inline;
+    font-style: italic;
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+    top: -1px !important;
+    position: relative;
+    left: -1px !important;
+    color: #ff8b21;
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+
+
 }
 
 .ciirusContainer{
@@ -621,8 +660,7 @@ a{
     padding: 25px;
     position: relative;
     top: 200px;
-    margin-left: 12%;
-
+    margin-left: 7% !important;
 
 }
 
@@ -659,6 +697,38 @@ a{
     color: white;
     display:inline-block;
     font-size: 16px;
+
+}
+
+.iconText{
+    width: 223px;
+    height: 141px;
+    line-height: 1.5;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    margin-left: -15%;
+
+
+
+
+}
+
+
+
+.iconTextTitle{
+    width: 223px;
+    height: 141px;
+    line-height: 1.5;
+    color: #ff8b21;
+    display: inline;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 13%;
+
+
+
 
 }
 
@@ -703,15 +773,93 @@ a{
 
     width: 134px;
     height: 42px;
-    background-color: #ff8b21;
+    /* background-color: #ff8b21; */
     float: left;
     color: white;
     display: inline-block;
     text-align: center;
     line-height: 3;
     position: relative;
-    left: -76px;
-    top: 43px;
+    left: 5px;
+    top: 54px;
+    border: 2.5px solid white;
+
+}
+
+
+.learn:hover{
+
+    background-color: #ff8b21;
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+
+
+
+
+}
+
+.more{
+
+    width: 93px;
+    height: 30px;
+    border: 1px solid #ff8b21;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5;
+    cursor: pointer;
+    position: relative;
+    top: -89px;
+    margin-left: 14%;
+
+
+}
+
+.more:hover{
+
+    background-color: #ff8b21;
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+
+
+
+
+}
+
+.nextOne{
+
+
+    display: inline;
+    color: white;
+    position: relative;
+    left: 159px;
+    top: -281px;
+    font-style: italic;
+    font-size: 1.9em;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.nextOne:hover{
+
+
+    color: #ff8b21;
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
 
 
 }

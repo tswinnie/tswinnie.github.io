@@ -5962,6 +5962,45 @@ td.visible-print {
 }
 
 
+@media (max-width: 1920px) {
+
+    .ciirusContainer{
+
+        width: 1243px;
+        padding: 25px;
+        position: relative;
+        top: 200px;
+        margin-left: 22%;
+
+
+    }
+
+
+    @media (max-width: 1600px) {
+        #second { background: url(../images/what-is-ciirusMac.png) 50% 0 no-repeat fixed; }
+        .storyTwo { height: 950px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+        .videoBtn {
+            margin-bottom: -66px;
+            margin-top: 20px;
+            margin-left: 43%;
+        }
+
+        .story { height: 1065px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+        .storyFour { height: 950px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+        #theend { background: url(../images/tryCiirusmac.png) 50% 0 no-repeat fixed; }
+        .storyFive { height: 950px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+
+
+
+
+    }
+
+}
+
+
 
 
 

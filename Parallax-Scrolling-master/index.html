@@ -60,30 +60,92 @@
 
     </style>
 
-    <script type="text/javascript">
+  <script type="text/javascript">
 
-        function hideText(){
+      function hideText(){
 
-            $('.trybutton').hide();
-
-
-
-
-        }
-
-        function showText(){
-
-
-            $('.trybutton').fadeIn();
+          $('.trybutton').hide();
 
 
 
 
+      }
 
-        }
+      function showText(){
 
 
-    </script>
+          $('.trybutton').fadeIn();
+
+
+
+
+
+      }
+
+
+      $(window).scroll(function(){
+
+          if($(window).scrollTop()>1055){
+
+
+              $('.ciirusContainer,.stats,.calendar,.home,.group').stop(true,true).fadeIn('slow');
+
+          }else{
+
+              $('.ciirusContainer,.stats,.calendar,.home,.group').stop(true,true).fadeOut();
+
+          }
+
+
+
+
+
+      });
+
+
+
+
+
+
+      window.onload = function hideContainer(){
+
+//            $(".stats, .calendar, .home, .group, .learn").hide();
+
+
+      }
+
+      function showOne(){
+
+          $(".ciirusContainer,.stats, .nextOne").fadeIn();
+
+      }
+
+      function showCalendar(){
+
+
+          $(".ciirusContainer,.calendar, .nextOne").fadeIn();
+
+
+      }
+
+      function showHome(){
+
+
+          $(".ciirusContainer,.home, .nextOne").fadeIn();
+
+
+      }
+
+      function showGroup(){
+
+
+          $(".ciirusContainer,.group, .nextOne, .learn").fadeIn();
+
+
+      }
+
+
+  </script>
 
 
     <script type="text/javascript">
@@ -315,28 +377,30 @@
 	<!--beginning of what is ciirus-->
 
         <h2 class="whatCiirus">So, What is CiiRUS?</h2>
-            <div class="ciirusContainer">
+        <h2 class="whatCiiruslittle">to find out just start <a onclick="showOne()" id="startItclicking">clicking!</a></h2>
 
-                <div class="stats">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum tristique felis ut nisl scelerisque, non tempus metus dignissim.
+        <div class="ciirusContainer">
 
-                </div>
-                <div class="calendar">orem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum tristique felis ut nisl scelerisque, non tempus metus dignissim.</div>
-                <div class="home">orem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum tristique felis ut nisl scelerisque, non tempus metus dignissim.</div>
-                <div class="group">orem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum tristique felis ut nisl scelerisque, non tempus metus dignissim.</div>
-                <a href="#"><div class="learn">Learn More</div></a>
-
-
-
-
-
-
-
+            <div class="stats"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum tristique felis ut nisl.</p><p class="nextOne" onclick="showCalendar()" >Next</p></p><div class="more">More</div>
 
             </div>
+            <div class="calendar"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum tristique felis ut nisl.</p><p class="nextOne" onclick="showHome()">More?</p></p><div class="more">More</div></div>
+            <div class="home"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum tristique felis ut nisl.</p><p class="nextOne" onclick="showGroup()">Almost</p></p><div class="more">More</div></div>
+            <div class="group"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum tristique felis ut nisl.</p><p class="nextOne">finally!</p></p><div class="more">More</div></div>
+            <a href="#"><div class="learn">Learn More</div></a>
+
+
+
+
+
+
+
+
+        </div>
 
 
 
