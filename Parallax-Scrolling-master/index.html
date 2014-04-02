@@ -6,6 +6,8 @@
 
   <title></title>
 
+
+
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -15,21 +17,31 @@
     <link type="text/css" rel="stylesheet" href="css/demo.css" />
     <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
     <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css" />
+  <link rel="stylesheet" type="text/css" href="css/flat_filled_styles.css"><!--SVG Animation Styles-->
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
 
 
 
 
-    <script src='js/jquery.js'></script>
+
+
+  <script src='js/jquery.js'></script>
     <script src="js/jquery.als-1.3.min.js"></script>
 
     <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/jquery.lettering-0.6.1.min.js"></script>
+
+  <script src="js/jquery.lettering-0.6.1.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js"></script>
     <script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+  <script src="js/jquery.pageslide.min.js"></script>
 
 
-    <style type="text/css">
+
+
+
+  <style type="text/css">
         .mm-menu li.img a
         {
             font-size: 16px;
@@ -60,92 +72,104 @@
 
     </style>
 
-  <script type="text/javascript">
+  <!--<script type="text/javascript">-->
 
-      function hideText(){
+      <!--function hideText(){-->
 
-          $('.trybutton').hide();
-
-
-
-
-      }
-
-      function showText(){
-
-
-          $('.trybutton').fadeIn();
+          <!--$('.trybutton').hide();-->
 
 
 
 
+      <!--}-->
 
-      }
-
-
-      $(window).scroll(function(){
-
-          if($(window).scrollTop()>1055){
+      <!--function showText(){-->
 
 
-              $('.ciirusContainer,.stats,.calendar,.home,.group').stop(true,true).fadeIn('slow');
-
-          }else{
-
-              $('.ciirusContainer,.stats,.calendar,.home,.group').stop(true,true).fadeOut();
-
-          }
+          <!--$('.trybutton').fadeIn();-->
 
 
 
 
 
-      });
+      <!--}-->
+
+
+      <!--$(window).scroll(function(){-->
+
+          <!--if($(window).scrollTop()>1065){-->
+
+
+              <!--$('.ciirusContainer').fadeIn('1000', function(){-->
+
+
+                  <!--$('.stats').fadeIn('800', function(){-->
+
+                      <!--$('.calendar').fadeIn('600', function(){-->
+
+
+
+                              <!--$('.home').fadeIn('200', function(){-->
+
+                                  <!--$('.group').fadeIn('400', function(){-->
+
+                                      <!--$('.learn').fadeIn('400', function(){-->
 
 
 
 
 
 
-      window.onload = function hideContainer(){
 
-//            $(".stats, .calendar, .home, .group, .learn").hide();
-
-
-      }
-
-      function showOne(){
-
-          $(".ciirusContainer,.stats, .nextOne").fadeIn();
-
-      }
-
-      function showCalendar(){
+                                      <!--});-->
 
 
-          $(".ciirusContainer,.calendar, .nextOne").fadeIn();
+                          <!--});-->
 
 
-      }
-
-      function showHome(){
+                      <!--});-->
 
 
-          $(".ciirusContainer,.home, .nextOne").fadeIn();
+                  <!--});-->
+
+              <!--});-->
 
 
-      }
-
-      function showGroup(){
+              <!--});-->
 
 
-          $(".ciirusContainer,.group, .nextOne, .learn").fadeIn();
+
+              <!--} else{-->
+
+              <!--$('.ciirusContainer,.stats,.calendar,.home,.group').fadeOut();-->
+
+          <!--}-->
 
 
-      }
 
 
-  </script>
+
+
+
+
+
+      <!--});-->
+
+
+<!--</script>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <script type="text/javascript">
@@ -202,7 +226,10 @@
   }
   );
   });
+
+
   </script>
+
 
 
 
@@ -210,7 +237,7 @@
 
 </head>
 
-<body onscroll="showText()" >
+<body>
 
 <header>
     <!--start of nav-->
@@ -235,6 +262,8 @@
                 <li><a href="colors.html">CiiRUS</a></li>
                 <li class="Selected"><a href="advanced.html">Our Customers</a></li>
                 <li><a href="onepage.html">Contact Us</a></li>
+                <li><a href="onepage.html" class="close">close menu</a></li>
+
             </ul>
             </nav>
 
@@ -373,25 +402,27 @@
     </section>
 
 	<!-- Section #2 / Background Only -->
-	<section id="second" class="storyTwo" data-speed="4" data-type="background">
+	<section id="second" class="storyTwo" data-speed="50%" data-type="background" data-offsetY="1300">
 	<!--beginning of what is ciirus-->
 
-        <h2 class="whatCiirus">So, What is CiiRUS?</h2>
+        <h2 class="whatCiirus">The main question you're asking yourself is, what is CiiRUS?</h2>
+        <h3 class=" slidetwoContent">Vanuit ‘s-Hertogenbosch houd ik me al een aantal jaren bezig met alles wat met web en print te maken heeft. Van huisstijl ontwerp tot aan webdesign en development.</h3>
+
         <h2 class="whatCiiruslittle">to find out just start <a onclick="showOne()" id="startItclicking">clicking!</a></h2>
 
         <div class="ciirusContainer">
 
             <div class="stats"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum tristique felis ut nisl.</p><p class="nextOne" onclick="showCalendar()" >Next</p></p><div class="more">More</div>
+                Vestibulum tristique felis ut nisl.</p><!--<p class="nextOne" onclick="showCalendar()" >Next</p></p><a href="_secondary.html"div class="more" style="color: white !important; text-decoration: none;">More</a>-->
 
             </div>
             <div class="calendar"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum tristique felis ut nisl.</p><p class="nextOne" onclick="showHome()">More?</p></p><div class="more">More</div></div>
+                Vestibulum tristique felis ut nisl.</p><!--<p class="nextOne" onclick="showHome()">More?</p></p><a href="_secondary.html"div class="more" style="color: white !important; text-decoration: none;">More</a>--></div>
             <div class="home"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum tristique felis ut nisl.</p><p class="nextOne" onclick="showGroup()">Almost</p></p><div class="more">More</div></div>
-            <div class="group"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum tristique felis ut nisl.</p><p class="nextOne">finally!</p></p><div class="more">More</div></div>
-            <a href="#"><div class="learn">Learn More</div></a>
+                Vestibulum tristique felis ut nisl.</p><!--<p class="nextOne" onclick="showGroup()">Almost</p></p><a href="_secondary.html"div class="more" style="color: white !important; text-decoration: none;">More</a>--></div>
+            <!--<div class="group"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.-->
+                <!--Vestibulum tristique felis ut nisl.</p>&lt;!&ndash;<p class="nextOne">finally!</p></p><a href="_secondary.html"div class="more" style="color: white !important; text-decoration: none;">More</a>&ndash;&gt;</div><br/>-->
+            <a href="_secondary.html"div class="learn" style="color: white !important; text-decoration: none;">Learn More</a>
 
 
 
@@ -412,29 +443,108 @@
 
 
 
+<div class="titleContainer">
+        <h1 class="slidetwoTitle">I bet after all of that you are wondering,</h1><br/>
+        <h1 class="slidetwoSub"> what does CiiRUS have to offer me?</h1><br/>
 
-        </section>
+    <h3 class=" slidetwoContent">Vanuit ‘s-Hertogenbosch houd ik me al een aantal jaren bezig met alles wat met web en print te maken heeft. Van huisstijl ontwerp tot aan webdesign en development.</h3>
+</div>
 
 
 
-    <!-- Section #4 / HTML5 Video -->
+
+
+        <span class="svg-icon flat-filled" id="filled-clock" style="position: relative; top: 455px; left: 35px; z-index: 9;">
+
+
+<h5 class="clockTitle">Real-Time Quoting Engine</h5>
+
+                    <p class="clockText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor urna, nec vulputate tempor. In hac habitasse platea </p>
+
+
+
+
+        </span>
+
+
+
+        <span class="svg-icon flat-filled" id="filled-home" style="position :relative; top: 455px; left: 474px; z-index: 9;">
+
+                            <h5 class="homeTitle">Home Management Services</h5>
+                                 <p class="homeText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor urna, nec vulputate tempor. In hac habitasse platea </p>
+
+
+
+        </span>
+        <span class="svg-icon flat-filled" id="filled-paper" style="position :relative; top: 206px; left: 375px; z-index: 9;">
+
+                            <h5 class="accountTitle">Intergrated Accounting</h5>
+                                <p class="accountText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor urna, nec vulputate tempor. In hac habitasse platea </p>
+
+
+
+
+        </span>
+        <span class="svg-icon flat-filled" id="filled-screen" style="position: relative; top: 204px; left: -273px; z-index: 9;">
+                <h5 class="iconTitle">Web Design & Development</h5>
+                    <p class="iconWebText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor urna, nec vulputate tempor. In hac habitasse platea </p>
+
+
+
+
+
+        </span>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
 	<section id="fourth" class="storyFour" data-speed="8" data-type="background" data-offsetY="280">
-    	<!--<article>-->
-    		<!--&lt;!&ndash;<h2>HTML5 Video</h2>&ndash;&gt;-->
-	    	<!--&lt;!&ndash;<div class="textbox">    	&ndash;&gt;-->
-		    	<!--&lt;!&ndash;<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>&ndash;&gt;-->
-		    	<!--&lt;!&ndash;<p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>&ndash;&gt;-->
-		    	<!--&lt;!&ndash;<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. o.</p>&ndash;&gt;-->
-		    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-    	<!--</article>-->
-		<!--<video controls width="640" width="480" data-type="video" data-offsetY="2400" data-speed="1.5">-->
-			<!--<source src="video/parallelparking.theora.ogv" type="video/ogg" />-->
-			<!--<source src="video/parallelparking.mp4" type="video/mp4" />-->
-			<!--<source src="video/parallelparking.webm" type="video/webm" />-->
-		<!--</video>-->
+
+        <div class="workCited">
+            <h1 class="slidetwoSub" style="margin-left: -209px;"> Checkout some of our responsive high impact websites</h1><br/>
 
 
 
+            <a href="http://paulneedham.ciirus.com/" target="_blank"><div class="workBoxOne"></div>
+            <div class="overlayOne"></div></a>
+
+            <a href="http://www.jeevesfloridarentals.com/" target="_blank"><div class="workBoxTwo"></div>
+            <div class="overlayTwo"></div></a>
+
+
+
+                <a href="http://www.loveflorida.com/" target="_blank"><div class="workBoxThree"></div>
+            <div class="overlayThree"></div></a>
+
+
+                    <a href="http://www.gulfcoastbeachgetaways.com/" target="_blank"><div class="workBoxFour"></div>
+            <div class="overlayFour"></div></a>
+
+
+                        <a href="http://www.fidelityvh.com/" target="_blank"><div class="workBoxFive"></div>
+            <div class="overlayFive"></div></a>
+
+
+
+                            <a href="http://www.disneyvacationhomes.com/" target="_blank"><div class="workBoxSix"></div>
+            <div class="overlaySix"></div></a>
+
+            <h1 class="slidetwoSubWork" style="margin-left: -209px;"> CiiRUS has many partners that we work with,</h1><br/>
+            <h1 class="slidetwoSubWork" style="margin-left: -147px;"> click below to see who we partner with.</h1>
+
+            <a href="partners.html" class="pw" style="text-decoration: none"><div class="partners"><p class="partnerText">view partners</p></div></a>
+
+
+
+        </div>
 
 
     </section>
@@ -458,6 +568,7 @@
   <!-- // End of #main -->
 
 
+  </div>
 
 
 
@@ -474,19 +585,19 @@
 
 
 
-    <script type="text/javascript">
+    <!--<script type="text/javascript">-->
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-2821890-9']);
-        _gaq.push(['_trackPageview']);
+        <!--var _gaq = _gaq || [];-->
+        <!--_gaq.push(['_setAccount', 'UA-2821890-9']);-->
+        <!--_gaq.push(['_trackPageview']);-->
 
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+        <!--(function() {-->
+            <!--var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;-->
+            <!--ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';-->
+            <!--var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);-->
+        <!--})();-->
 
-    </script>
+    <!--</script>-->
 
 
 <script type="text/javascript">
@@ -520,15 +631,32 @@
 
 
 
+
+
   <!--[if lt IE 7 ]>
 
 
 
 <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix("img, .png_bg");
-  <![endif]-->
+    <script>DD_belatedPNG.fix("img, .png_bg");</script>
+
+<![endif]-->
 
 
+<script src="js/svg_inject_flat_icons_filled.js"></script><!--Inject SVG and Toggle CSS Styles-->
+
+
+
+<script src="js/jquery.pageslide.min.js"></script>
+<script>
+    /* Default pageslide, moves to the right */
+    $(".learn").pageslide();
+
+    /* Slide to the left, and make it model (you'll have to call $.pageslide.close() to close) */
+    $(".pw").pageslide();
+</script>
+<script src="js/main.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.js"></script>
 
 
 </body>
