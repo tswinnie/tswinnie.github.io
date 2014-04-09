@@ -993,6 +993,32 @@ a{
 
 }
 
+
+
+.slidetwoSubWorkFour{
+
+    color: #3F4D5E;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    margin: 0;
+    padding: 0 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    display: inline;
+    padding-left: 21%;
+    position: relative;
+    top: 291px;
+    left: 218px;
+
+
+
+}
+
 /*.titleContainer{*/
 
 /*width: 980px;*/
@@ -1018,6 +1044,28 @@ a{
     position: relative;
     top: 109px;
     left: 388px;
+
+
+}
+
+
+.slidetwoContentFour{
+    color: #ecf0f1;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 28px auto 0;
+    max-width: 640px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 72px;
+    left: 413px;
 
 
 }
@@ -1323,7 +1371,7 @@ a{
     background-image: url("../images/overlayOne.png");
     background-repeat: no-repeat;
     position: absolute;
-    top: 383px;
+    top: 283px;
     left: 114px;
 
 
@@ -1466,12 +1514,50 @@ a .partners:hover{
     transition: all 0.3s ease-out;
 }
 
-a .partnerText:hover{
 
-    color: #27ae60;
-    list-style: none;
-    text-decoration: none !important;
+.getStarted{
 
+    margin: 0 auto;
+    border: 2px solid #666;
+    width: 191px;
+    height: 51px;
+    position: relative;
+    top: 88px;
+    /* left: 5px;
+    }
+
+    .getStartedText{
+
+        display: inline;
+        /* margin: 0 auto; */
+    /* text-align: center; */
+    padding: 17px;
+    line-height: 2;
+    font-size: 18px;
+    left: 5px;
+
+    background-color: #27ae60;
+
+}
+
+.getStartedText{
+
+    text-decoration: none;
+    color: white;
+    padding: -1px;
+    /* margin: 0 auto; */
+    /* display: block; */
+    font-size: 24px;
+    top: -16px;
+    position: relative;
+    left: 14px;
+    cursor:pointer;
+}
+
+
+p .getStartedText:hover{
+    text-decoration: none;
+    color: #ecf0f1;
 
 
     -moz-transition: all 0.3s ease-in;
@@ -1493,6 +1579,50 @@ a .partnerText:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+a .getStarted:hover{
+
+    list-style: none;
+    text-decoration: none !important;
+    background-color: #2ecc71;
+
+
+
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+
+    -moz-transition: all 0.3s ease-out;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-out;
+    /* Opera */
+    -o-transition: all 0.3s ease-out;
+    /* Standard */
+    transition: all 0.3s ease-out;
+}
+
+a:hover{
+
+    text-decoration: none;
+
+}
+
+
+
 .close{
 
     position: relative;
@@ -1506,6 +1636,149 @@ a .partnerText:hover{
 
 
 
+.mac{
+
+    position: relative;
+    top: 62px;
+    display: block;
+    width: 1000px;
+    height: 489px;
+    background-image: url("../images/mac.png");
+    /* left: 20px; */
+    margin: 0 auto;
+    /*margin-top: -46px;*/
+
+
+}
+
+#phone{
+    margin: 0 auto;
+    display: block;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 100px;
+    width: 385px;
+    height: 48px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #E67E22;
+    font-weight: 300;
+    float: left;
+    margin-left: 91px;
+
+
+
+
+}
+
+#name{
+    margin: 0 auto;
+    display: block;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 100px;
+    width: 385px;
+    height: 48px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #E67E22;
+    font-weight: 300;
+    float: left;
+    margin-left: 91px;
+
+
+
+
+}
+
+#email{
+    margin: 0 auto;
+    display: block;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 100px;
+    width: 385px;
+    height: 48px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #E67E22;
+    font-weight: 300;
+    float: left;
+    margin-left: 46px;
+
+
+
+
+}
+
+#country{
+    margin: 0 auto;
+    display: block;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 100px;
+    width: 385px;
+    height: 48px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #E67E22;
+    font-weight: 300;
+    float: left;
+    margin-left: 46px;
+
+}
+
+
+
+
+
+#submit{
+
+    margin: 0 auto;
+    display: block;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 120px;
+    width: 385px;
+    height: 48px;
+    border: none;
+    font-size: 31px;
+    font-weight: 300;
+    float: left;
+    /* left: 29%; */
+    left: 21%;
+    background-color: #2980b9;
+    color: white;
+
+
+}
+
+
+#submit:hover{
+    text-decoration: none;
+    background-color: #3498db;
+
+
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+
+    -moz-transition: all 0.3s ease-out;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-out;
+    /* Opera */
+    -o-transition: all 0.3s ease-out;
+    /* Standard */
+    transition: all 0.3s ease-out;
+}
 
 
 
@@ -1514,5 +1787,127 @@ a .partnerText:hover{
 
 
 
+.partnermacText{
 
 
+    color: #3F4D5E;
+    font-size: 37px;
+    font-weight: 300;
+    /* line-height: 52px; */
+    margin: 0;
+    /* padding: 0 40px; */
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    display: block;
+    /* padding-left: 21%; */
+    position: relative;
+    /* top: 94px; */
+    left: -217px;
+    /* margin-left: -126px; */
+    width: 951px;
+
+
+
+
+}
+
+::-webkit-input-placeholder {
+    color: #bdc3c7;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: red;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: red;
+}
+
+:-ms-input-placeholder {
+    color: red;
+}
+
+
+
+.reviewSide{
+    width: 320px;
+    height: 510px;
+    background-color: #2c3e50;
+    margin-top: -266px;
+    position: relative;
+    margin-left: 10px;
+
+
+
+}
+
+
+
+.reviewOne{
+
+    width: 300px;
+    height: 235px;
+    background-color: #34495e;
+    margin-top: -502px;
+    position: relative;
+    margin-left: 19px;
+
+
+}
+
+.reviewTwo{
+
+    width: 300px;
+    height: 200px;
+    background-color: #34495e;
+    position: relative;
+    margin-left: 19px;
+    margin-top: 4px;
+
+
+}
+
+.back{
+
+    display: inline;
+    position: relative;
+    top: 144px;
+    left: 94px;
+    /* width: 268px; */
+    float: left;
+    color: white;
+    cursor: pointer;
+}
+
+.iphone{
+
+
+    margin-top: -229px;
+    float: right;
+    margin-right: -34px;
+}
+
+.ipad{
+
+
+    margin-top: -355px;
+    float: right;
+}
+
+
+footer{
+
+    width: 100%;
+    height: 65px;
+    background-color: #282828;
+    text-align: center;
+    color: white;
+    line-height: 4.5;
+}

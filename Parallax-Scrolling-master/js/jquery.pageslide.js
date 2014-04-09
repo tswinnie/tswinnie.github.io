@@ -217,14 +217,14 @@
 ;(function($){
     // Convenience vars for accessing elements
     var $body = $('body'),
-        $pageslide = $('#pageslide');
+        $pageslideTwo = $('#pageslide');
 
     var _sliding = false,   // Mutex to assist closing only once
         _lastCaller;        // Used to keep track of last element to trigger pageslide
 
     // If the pageslide element doesn't exist, create it
-    if( $pageslide.length == 0 ) {
-        $pageslide = $('<div />').attr( 'id', 'pageslide' )
+    if( $pageslideTwp.length == 0 ) {
+        $pageslideTwo = $('<div />').attr( 'id', 'pageslide' )
             .css( 'display', 'none' )
             .appendTo( $('body') );
     }
@@ -357,17 +357,17 @@
 
     // Close the pageslide
     $.pageslideTwo.close = function( callback ) {
-        var $pageslide = $('#pageslideTwo'),
-            slideWidth = $pageslide.outerWidth( true ),
-            speed = $pageslide.data( 'speed' ),
+        var $pageslideTwo = $('#pageslideTwo'),
+            slideWidth = $pageslideTwo.outerWidth( true ),
+            speed = $pageslideTwo.data( 'speed' ),
             bodyAnimateIn = {},
             slideAnimateIn = {}
 
         // If the slide isn't open, just ignore the call
-        if( $pageslide.is(':hidden') || _sliding ) return;
+        if( $pageslideTwo.is(':hidden') || _sliding ) return;
         _sliding = true;
 
-        switch( $pageslide.data( 'direction' ) ) {
+        switch( $pageslideTwo.data( 'direction' ) ) {
             case 'left':
                 bodyAnimateIn['margin-left'] = '+=' + slideWidth;
                 slideAnimateIn['right'] = '-=' + slideWidth;
@@ -378,9 +378,9 @@
                 break;
         }
 
-        $pageslide.animate(slideAnimateIn, speed);
+        $pageslideTwo.animate(slideAnimateIn, speed);
         $body.animate(bodyAnimateIn, speed, function() {
-            $pageslide.hide();
+            $pageslideTwo.hide();
             _sliding = false;
             if( typeof callback != 'undefined' ) callback();
         });
@@ -389,7 +389,7 @@
     /* Events */
 
     // Don't let clicks to the pageslide close the window
-    $pageslide.click(function(e) {
+    $pageslideTwo.click(function(e) {
         e.stopPropagation();
     });
 
@@ -399,7 +399,7 @@
         if( e.type == "keyup" && e.keyCode != 27) return;
 
         // Make sure it's visible, and we're not modal
-        if( $pageslide.is( ':visible' ) && !$pageslide.data( 'modal' ) ) {
+        if( $pageslideTwo.is( ':visible' ) && !$pageslideTwo.data( 'modal' ) ) {
             $.pageslideTwo.close();
         }
     });

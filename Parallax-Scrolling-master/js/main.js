@@ -16,7 +16,7 @@ $(".overlaySix").css("opacity","0");
 
 
 
-    $(".workBoxOne").mouseover( function(){
+    $(".overlayOne").mouseover( function(){
 
 //        $(".overlayOne").fadeIn(300);
 //        $(".overlayOne").css("opacity", "1");
@@ -26,7 +26,7 @@ $(".overlaySix").css("opacity","0");
 
 
 
-        $('.overlayOne').animate({ opacity: 0.92,top: 283, duration: "300"})
+        $('.overlayOne').animate({ opacity: 0.92, duration: "300"})
 
 
 
@@ -39,7 +39,7 @@ $(".overlaySix").css("opacity","0");
 
     });
 
-$(".workBoxTwo").mouseover( function(){
+$(".overlayTwo").mouseover( function(){
 
 //        $(".overlayOne").fadeIn(300);
 //        $(".overlayOne").css("opacity", "1");
@@ -49,7 +49,7 @@ $(".workBoxTwo").mouseover( function(){
 
 
 
-    $('.overlayTwo').animate({ opacity: 0.92,top: 283, duration: "300"})
+    $('.overlayTwo').animate({ opacity: 0.92, duration: "300"})
 
 
 
@@ -62,7 +62,7 @@ $(".workBoxTwo").mouseover( function(){
 
 });
 
-$(".workBoxThree").mouseover( function(){
+$(".overlayThree").mouseover( function(){
 
 //        $(".overlayOne").fadeIn(300);
 //        $(".overlayOne").css("opacity", "1");
@@ -72,7 +72,7 @@ $(".workBoxThree").mouseover( function(){
 
 
 
-    $('.overlayThree').animate({ opacity: 0.92,top: 283, duration: "300"})
+    $('.overlayThree').animate({ opacity: 0.92, duration: "300"})
 
 
 
@@ -85,7 +85,7 @@ $(".workBoxThree").mouseover( function(){
 
 });
 
-$(".workBoxFour").mouseover( function(){
+$(".overlayFour").mouseover( function(){
 
 //        $(".overlayOne").fadeIn(300);
 //        $(".overlayOne").css("opacity", "1");
@@ -95,7 +95,7 @@ $(".workBoxFour").mouseover( function(){
 
 
 
-    $('.overlayFour').animate({ opacity: 0.92,top: 573, duration: "300"})
+    $('.overlayFour').animate({ opacity: 0.92, duration: "300"})
 
 
 
@@ -108,7 +108,7 @@ $(".workBoxFour").mouseover( function(){
 
 });
 
-$(".workBoxFive").mouseover( function(){
+$(".overlayFive").mouseover( function(){
 
 //        $(".overlayOne").fadeIn(300);
 //        $(".overlayOne").css("opacity", "1");
@@ -118,7 +118,7 @@ $(".workBoxFive").mouseover( function(){
 
 
 
-    $('.overlayFive').animate({ opacity: 0.92,top: 573, duration: "300"})
+    $('.overlayFive').animate({ opacity: 0.92,duration: "300"})
 
 
 
@@ -131,7 +131,7 @@ $(".workBoxFive").mouseover( function(){
 
 });
 
-$(".workBoxSix").mouseover( function(){
+$(".overlaySix").mouseover( function(){
 
 //        $(".overlayOne").fadeIn(300);
 //        $(".overlayOne").css("opacity", "1");
@@ -140,7 +140,7 @@ $(".workBoxSix").mouseover( function(){
 
 
 
-    $('.overlaySix').animate({ opacity: 0.92,top: 573, duration: "300"})
+    $('.overlaySix').animate({ opacity: 0.92, duration: "300"})
 
 
 
@@ -163,7 +163,7 @@ $(".overlayOne").mouseout( function(){
 
 
 
-    $('.overlayOne').animate({top: 563, opacity: 0, duration: "6000"});
+    $('.overlayOne').animate({opacity: 0, duration: "6000"});
 
 
 
@@ -173,7 +173,7 @@ $(".overlayTwo").mouseout( function(){
 
 
 
-    $('.overlayTwo').animate({top: 563, opacity: 0, duration: "6000"});
+    $('.overlayTwo').animate({ opacity: 0, duration: "6000"});
 
 
 
@@ -183,7 +183,7 @@ $(".overlayThree").mouseout( function(){
 
 
 
-    $('.overlayThree').animate({top: 563, opacity: 0, duration: "6000"});
+    $('.overlayThree').animate({opacity: 0, duration: "6000"});
 
 
 
@@ -193,7 +193,7 @@ $(".overlayFour").mouseout( function(){
 
 
 
-    $('.overlayFour').animate({top: 267, opacity: 0, duration: "6000"});
+    $('.overlayFour').animate({ opacity: 0, duration: "6000"});
 
 
 
@@ -203,7 +203,7 @@ $(".overlayFive").mouseout( function(){
 
 
 
-    $('.overlayFive').animate({top: 267, opacity: 0, duration: "6000"});
+    $('.overlayFive').animate({ opacity: 0, duration: "6000"});
 
 
 
@@ -213,7 +213,7 @@ $(".overlaySix").mouseout( function(){
 
 
 
-    $('.overlaySix').animate({top: 267, opacity: 0, duration: "6000"});
+    $('.overlaySix').animate({ opacity: 0, duration: "6000"});
 
 
 
@@ -297,3 +297,56 @@ $("section").click(function(){
 
 
 
+
+$(".mac").hide();
+
+$(".getStarted").click(function(){
+
+    $(".slidetwoSubWorkFour").hide();
+    $(".slidetwoContentFour").hide();
+    $(".reviewSide").hide();
+    $(".reviewOne").hide();
+
+    $(".reviewTwo").hide();
+    $(".getStarted").hide();
+    $(".iphone").hide();
+    $(".ipad").hide();
+
+    $(".mac").fadeIn().animate({top: 17, duration: "6000"});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+$(".back").click(function(){
+
+
+
+    $(".mac").fadeOut().animate({top: 45, duration: "6000"});
+
+    $(".slidetwoSubWorkFour").fadeIn();
+    $(".slidetwoContentFour").fadeIn();
+    $(".reviewSide").fadeIn();
+    $(".reviewOne").fadeIn();
+
+    $(".reviewTwo").fadeIn();
+    $(".getStarted").fadeIn();
+    $(".iphone").fadeIn();
+    $(".ipad").fadeIn();
+
+
+
+
+
+});
