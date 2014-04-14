@@ -350,3 +350,145 @@ $(".back").click(function(){
 
 
 });
+
+//$(".slideOneFeature").hide();
+
+$(".slideTwoFeature").hide();
+$(".slideThreeFeature").hide();
+$(".slideFourFeature").hide();
+$(".slideFiveFeature").hide();
+
+$("#easy").click(function(){
+
+    $(".slideOneFeature").hide();
+
+    $(".slideThreeFeature").hide();
+    $(".slideFourFeature").hide();
+    $(".slideFiveFeature").hide();
+
+
+    $(".slideTwoFeature").fadeIn(100).animate({top: 45, duration: "6000"});
+
+//
+//    $(".slidetwoSubWorkFour").fadeIn();
+//    $(".slidetwoContentFour").fadeIn();
+//    $(".reviewSide").fadeIn();
+//    $(".reviewOne").fadeIn();
+//
+//    $(".reviewTwo").fadeIn();
+//    $(".getStarted").fadeIn();
+//    $(".iphone").fadeIn();
+//    $(".ipad").fadeIn();
+
+
+
+
+
+});
+$("#intergrated").click(function(){
+
+
+    $(".slideOneFeature").hide();
+
+    $(".slideTwoFeature").hide();
+    $(".slideFourFeature").hide();
+    $(".slideFiveFeature").hide();
+
+
+    $(".slideThreeFeature").fadeIn().animate({top: 45, duration: "6000"});
+
+//
+//    $(".slidetwoSubWorkFour").fadeIn();
+//    $(".slidetwoContentFour").fadeIn();
+//    $(".reviewSide").fadeIn();
+//    $(".reviewOne").fadeIn();
+//
+//    $(".reviewTwo").fadeIn();
+//    $(".getStarted").fadeIn();
+//    $(".iphone").fadeIn();
+//    $(".ipad").fadeIn();
+
+
+
+
+
+});
+
+$("#homeF").click(function(){
+
+
+    $(".slideOneFeature").hide();
+
+    $(".slideTwoFeature").hide();
+    $(".slideThreeFeature").hide();
+
+    $(".slideFiveFeature").hide();
+    $(".slideFourFeature").fadeIn().animate({top: 45, duration: "6000"});
+
+//
+//    $(".slidetwoSubWorkFour").fadeIn();
+//    $(".slidetwoContentFour").fadeIn();
+//    $(".reviewSide").fadeIn();
+//    $(".reviewOne").fadeIn();
+//
+//    $(".reviewTwo").fadeIn();
+//    $(".getStarted").fadeIn();
+//    $(".iphone").fadeIn();
+//    $(".ipad").fadeIn();
+
+
+
+
+
+});
+
+$("#secure").click(function(){
+
+    $(".slideOneFeature").hide();
+
+    $(".slideTwoFeature").hide();
+    $(".slideThreeFeature").hide();
+    $(".slideFourFeature").hide();
+    $(".slideFiveFeature").fadeIn().animate({top: 45, duration: "6000"});
+
+//
+//    $(".slidetwoSubWorkFour").fadeIn();
+//    $(".slidetwoContentFour").fadeIn();
+//    $(".reviewSide").fadeIn();
+//    $(".reviewOne").fadeIn();
+//
+//    $(".reviewTwo").fadeIn();
+//    $(".getStarted").fadeIn();
+//    $(".iphone").fadeIn();
+//    $(".ipad").fadeIn();
+
+
+
+
+
+});
+
+$("#reservation").click(function(){
+
+    $(".slideTwoFeature").hide();
+    $(".slideThreeFeature").hide();
+    $(".slideFourFeature").hide();
+    $(".slideFiveFeature").hide();
+    $(".slideOneFeature").fadeIn().animate({top: 45, duration: "6000"});
+
+//
+//    $(".slidetwoSubWorkFour").fadeIn();
+//    $(".slidetwoContentFour").fadeIn();
+//    $(".reviewSide").fadeIn();
+//    $(".reviewOne").fadeIn();
+//
+//    $(".reviewTwo").fadeIn();
+//    $(".getStarted").fadeIn();
+//    $(".iphone").fadeIn();
+//    $(".ipad").fadeIn();
+
+
+
+
+
+});
