@@ -5834,12 +5834,159 @@ td.visible-lg {
 
 
 @media (min-width: 1920px) {
-    .newNav {
-        position: relative;
-        top: -53px;
-        left: 160px;
-        box-shadow: none;
-    }
+    /*.newNav {*/
+        /*position: relative;*/
+        /*top: -53px;*/
+        /*left: 160px;*/
+        /*box-shadow: none;*/
+        /*display: none;*/
+
+    /*}*/
+
+    /*.whatCiirus {*/
+        /* font-size: 3.5em; */
+        /* font-family: "Helvetica Neue"; */
+        /* font-weight: 100; */
+        /* color: white; */
+        /* display: inline; */
+        /* font-style: italic; */
+        /* margin-top: 10px; */
+        /* padding-top: 10px; */
+        /* top: 13px !important; */
+        /* position: relative; */
+        /* left: 83px !important; */
+        /* text-align: center; */
+        /*margin-left: 35%;*/
+        /*color: #ecf0f1;*/
+        /*font-size: 40px;*/
+        /*font-weight: 300;*/
+        /*line-height: 52px;*/
+        /*margin: 0;*/
+        /*padding: 0 40px;*/
+        /*text-align: center;*/
+        /*font-family: 'Lato', sans-serif;*/
+        /*-webkit-margin-before: 0.67em;*/
+        /*-webkit-margin-after: 0.67em;*/
+        /*-webkit-margin-start: 0px;*/
+        /*-webkit-margin-end: 0px;*/
+        /*display: block;*/
+        /* padding-left: 37%; */
+        /* margin-top: 19px; */
+        /* padding-top: 24px; */
+        /*position: relative;*/
+        /* left: 183px; */
+        /*top: 50px;*/
+        /*margin: 0 auto;*/
+        /*left: 0px;*/
+    /*}*/
+
+
+
+    /*.ciirusContainer {*/
+        /*width: 1243px;*/
+        /*padding: 25px;*/
+        /*position: relative;*/
+        /*top: 200px;*/
+        /*margin-left: 22% !important;*/
+    /*}*/
+
+
+
+    /*.slidetwoSub {*/
+        /*color: #3F4D5E;*/
+        /*font-size: 40px;*/
+        /*font-weight: 300;*/
+        /*line-height: 52px;*/
+        /*margin: 0;*/
+        /*padding: 0 40px;*/
+        /*text-align: center;*/
+        /*font-family: 'Lato', sans-serif;*/
+        /*-webkit-margin-before: 0.67em;*/
+        /*-webkit-margin-after: 0.67em;*/
+        /*-webkit-margin-start: 0px;*/
+        /*-webkit-margin-end: 0px;*/
+        /*display: block;*/
+        /* padding-left: 21%; */
+        /*position: relative;*/
+        /*top: 94px;*/
+        /*left: 0;*/
+    /*}*/
+
+    /*.slidetwoContent {*/
+        /*color: #ecf0f1;*/
+        /*font-size: 22px;*/
+        /*font-weight: 300;*/
+        /*line-height: 32px;*/
+        /*margin: 28px auto 0;*/
+        /*max-width: 640px;*/
+        /*-webkit-margin-before: 1em;*/
+        /*-webkit-margin-after: 1em;*/
+        /*-webkit-margin-start: 0px;*/
+        /*-webkit-margin-end: 0px;*/
+        /*font-family: 'Lato', sans-serif;*/
+        /*text-align: center;*/
+        /*display: block;*/
+        /*position: relative;*/
+        /*top: 56px;*/
+        /*left: 624px;*/
+    /*}*/
+
+
+    /*.slidetwoTitle {*/
+        /*color: #ecf0f1;*/
+        /*font-size: 40px;*/
+        /*font-weight: 300;*/
+        /*line-height: 52px;*/
+        /*margin: 0;*/
+        /*padding: 0 40px;*/
+        /*text-align: center;*/
+        /*font-family: 'Lato', sans-serif;*/
+        /*-webkit-margin-before: 0.67em;*/
+        /*-webkit-margin-after: 0.67em;*/
+        /*-webkit-margin-start: 0px;*/
+        /*-webkit-margin-end: 0px;*/
+        /*display: inline;*/
+        /*padding-left: 33%;*/
+        /* margin-top: 19px; */
+        /* padding-top: 24px; */
+        /*top: 109px;*/
+        /*position: relative;*/
+        /*left: 0;*/
+    /*}*/
+    /*.slidetwoContentFour {*/
+        /*color: #ecf0f1;*/
+        /*font-size: 22px;*/
+        /*font-weight: 300;*/
+        /*line-height: 32px;*/
+        /*margin: 28px auto 0;*/
+        /*max-width: 640px;*/
+        /*-webkit-margin-before: 1em;*/
+        /*-webkit-margin-after: 1em;*/
+        /*-webkit-margin-start: 0px;*/
+        /*-webkit-margin-end: 0px;*/
+        /*font-family: 'Lato', sans-serif;*/
+        /*text-align: center;*/
+        /*display: block;*/
+        /*position: relative;*/
+        /*top: 72px;*/
+        /*left: 670px;*/
+        /* text-align: center; */
+    /*}*/
+
+
+    /*.storyFive {*/
+        /*height: 650px;*/
+        /*padding: 0;*/
+        /*margin: 0;*/
+        /*width: 100%;*/
+        /*max-width: 1920px;*/
+        /*position: relative;*/
+        /*margin: 0 auto;*/
+        /*height: 547px !important;*/
+    /*}*/
+
+
+
 }
 
 
@@ -5936,12 +6083,23 @@ td.visible-print {
 }
 
 @media (max-width: 1920px) {
-    .storyThree, .storyTwo,.storyFour,.storyFive  { height: 970px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+    .storyThree, .storyTwo,.storyFour  { height: 970px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
 }
 
 @media (max-width: 1600px) {
-    #second { background: url(../images/what-is-ciirusMac.png) 50% 0 no-repeat fixed; }
-    .storyTwo { height: 950px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+    #second {
+        background: url(../images/what-is-ciirusMac.png) 50% 0 no-repeat fixed;
+    }
+
+    .storyTwo {
+        height: 950px !important;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+        margin: 0 auto;
+    }
 
     .videoBtn {
         margin-bottom: -66px;
@@ -5949,11 +6107,262 @@ td.visible-print {
         margin-left: 43%;
     }
 
-    .story { height: 1065px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-    .storyFour { height: 950px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+    .story {
+        height: 1065px !important;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+        margin: 0 auto;
+    }
 
-    #theend { background: url(../images/tryCiirusmac.png) 50% 0 no-repeat fixed; }
-    .storyFive { height: 950px !important; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+    .storyFour {
+        height: 950px !important;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #theend {
+        background: url(../images/tryCiirusmac.png) 50% 0 no-repeat fixed;
+    }
+
+
+    .slidetwoContent {
+        color: #ecf0f1;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        margin: 28px auto 0;
+        max-width: 640px;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 56px;
+        /* left: 624px; */
+        /* margin: 0 auto; */
+        /* margin: 0 auto !important; */
+        /* text-align: center !important; */
+        /* display: block !important; */
+        /* margin: 0 auto !important; */
+        /* display: block !important; */
+        /* text-align: center !important; */
+        /* display: block !important; */
+        /* margin-left: 48%; */
+        /* margin: 0 auto; */
+        /* display: block !important; */
+        /* margin-left: 48px; */
+        left: 32%;
+    }
+
+
+    .slidetwoTitle {
+        color: #ecf0f1;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        margin: 0;
+        padding: 0 40px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: inline;
+        padding-left: 25%;
+        /* margin-top: 19px; */
+        /* padding-top: 24px; */
+        top: 109px;
+        position: relative;
+        left: 0;
+    }
+
+}
+
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+
+    .newNav {
+        position: relative;
+        top: -53px;
+        left: 160px;
+        box-shadow: none;
+        display: none;
+
+    }
+
+    .whatCiirus {
+        /* font-size: 3.5em; */
+        /* font-family: "Helvetica Neue"; */
+        /* font-weight: 100; */
+        /* color: white; */
+        /* display: inline; */
+        /* font-style: italic; */
+        /* margin-top: 10px; */
+        /* padding-top: 10px; */
+        /* top: 13px !important; */
+        /* position: relative; */
+        /* left: 83px !important; */
+        /* text-align: center; */
+        /* margin-left: 35%; */
+        color: #ecf0f1;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        margin: 0;
+        /* padding: 0 40px; */
+        /* text-align: center; */
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: inline-block;
+        /* padding-left: 37%; */
+        /* margin-top: 19px; */
+        /* padding-top: 24px; */
+        position: relative;
+        /* left: 183px; */
+        top: 50px;
+        margin: 0 auto;
+        /* left: 0px; */
+        /* margin: 0 auto; */
+        display: block;
+        /* display: inline-block !important; */
+        left: 0px !important;
+    }
+
+
+
+    .ciirusContainer {
+        width: 1243px;
+        padding: 25px;
+        position: relative;
+        top: 200px;
+        margin-left: 22% !important;
+    }
+
+
+
+    .slidetwoSub {
+        color: #3F4D5E;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        margin: 0;
+        padding: 0 40px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: block;
+        /* padding-left: 21%; */
+        position: relative;
+        top: 94px;
+        left: 0;
+    }
+
+    .slidetwoContent {
+        color: #ecf0f1;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        margin: 28px auto 0;
+        max-width: 640px;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 56px;
+        /* left: 624px; */
+        /* margin: 0 auto; */
+        /* margin: 0 auto !important; */
+        /* text-align: center !important; */
+        /* display: block !important; */
+        /* margin: 0 auto !important; */
+        /* display: block !important; */
+        /* text-align: center !important; */
+        /* display: block !important; */
+        /* margin-left: 48%; */
+        /* margin: 0 auto; */
+        /* display: block !important; */
+        /* margin-left: 48px; */
+        left: 32%;
+    }
+
+    .slidetwoTitle {
+        color: #ecf0f1;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        margin: 0;
+        padding: 0 40px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: inline;
+        padding-left: 33%;
+        /* margin-top: 19px; */
+        /* padding-top: 24px; */
+        top: 109px;
+        position: relative;
+        left: 0;
+    }
+    .slidetwoContentFour {
+        color: #ecf0f1;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        margin: 28px auto 0;
+        max-width: 640px;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 72px;
+        left: 670px;
+        /* text-align: center; */
+    }
+
+
+    .storyFive {
+        height: 650px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+        margin: 0 auto;
+        height: 547px !important;
+    }
+
+
+
 
 
 
@@ -5962,19 +6371,470 @@ td.visible-print {
 }
 
 
-@media (max-width: 1920px) {
 
-    .ciirusContainer{
 
-        width: 1243px;
-        padding: 25px;
+
+@media only screen
+and (min-width : 1224px) {
+
+
+    .newNav {
         position: relative;
-        top: 139px;
-        margin-left: 22%;
-
+        top: -53px;
+        left: 160px;
+        box-shadow: none;
+        display: none;
 
     }
 
+    .whatCiirus {
+        /* font-size: 3.5em; */
+        /* font-family: "Helvetica Neue"; */
+        /* font-weight: 100; */
+        /* color: white; */
+        /* display: inline; */
+        /* font-style: italic; */
+        /* margin-top: 10px; */
+        /* padding-top: 10px; */
+        /* top: 13px !important; */
+        /* position: relative; */
+        /* left: 83px !important; */
+        /* text-align: center; */
+        /* margin-left: 35%; */
+        color: #ecf0f1;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        /* padding: 0 40px; */
+        /* text-align: center; */
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: inline-block;
+        /* padding-left: 37%; */
+        /* margin-top: 19px; */
+        /* padding-top: 24px; */
+        position: relative;
+        /* left: 183px; */
+        top: 50px;
+        margin: 0 auto;
+        /* left: 0px; */
+        /* margin: 0 auto; */
+        display: block;
+        left: 0px !important;
+
+    }
+    .ciirusContainer {
+        width: 1243px;
+        padding: 25px;
+        position: relative;
+        top: 200px;
+        margin-left: 9%;
+        margin-left: 0px !important;
+        margin: 0 auto !important;
+        /* margin-right: -46px; */
+        /* left: 10px !important; */
+        /* margin-left: 108px !important; */
+        /* position: relative; */
+        /* position: relative !important; */
+        /* left: 20px !important; */
+        /* clear: both; */
+        /* float: right; */
+        width: 1056px !important;
+    }
+
+
+    .slidetwoSub {
+        color: #3F4D5E;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        margin: 0;
+        padding: 0 40px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: block;
+        /* padding-left: 21%; */
+        position: relative;
+        top: 94px;
+        left: 0;
+    }
+
+    .slidetwoContent {
+        color: #ecf0f1;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        margin: 28px auto 0;
+        max-width: 640px;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        top: 56px;
+        /* left: 624px; */
+        /* margin: 0 auto; */
+        /* margin-left: -8% !important; */
+
+        margin-left: -7% !important;
+    }
+
+
+    .slidetwoTitle {
+        color: #ecf0f1;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        margin: 0;
+        padding: 0 40px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: inline;
+        padding-left: 25%;
+        /* margin-top: 19px; */
+        /* padding-top: 24px; */
+        top: 109px;
+        position: relative;
+        left: 0;
+    }
+    .slidetwoContentFour {
+        color: #ecf0f1;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        margin: 28px auto 0;
+        max-width: 640px;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 72px;
+        left: 670px;
+        /* text-align: center; */
+    }
+
+
+    .storyFive {
+        height: 650px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+        margin: 0 auto;
+        height: 547px !important;
+    }
+
+
+
+    .learn {
+        width: 174px;
+        height: 47px;
+        /* background-color: #ff8b21; */
+        /* float: left; */
+        color: white;
+        display: inline-block;
+        text-align: center;
+        line-height: 3;
+        position: relative;
+        top: 328px;
+        left: -615px;
+        border: 2.5px solid white;
+        clear: both;
+        /* margin: 0 auto; */
+    }
+
+
+
+}
+
+
+
+@media only screen
+and (min-width : 1700px) {
+
+
+    .newNav {
+        position: relative;
+        top: -53px;
+        left: 160px;
+        box-shadow: none;
+        display: none;
+
+    }
+
+    .whatCiirus {
+        /* font-size: 3.5em; */
+        /* font-family: "Helvetica Neue"; */
+        /* font-weight: 100; */
+        /* color: white; */
+        /* display: inline; */
+        /* font-style: italic; */
+        /* margin-top: 10px; */
+        /* padding-top: 10px; */
+        /* top: 13px !important; */
+        /* position: relative; */
+        /* left: 83px !important; */
+        /* text-align: center; */
+        /* margin-left: 35%; */
+        color: #ecf0f1;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        /* padding: 0 40px; */
+        /* text-align: center; */
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: inline-block;
+        /* padding-left: 37%; */
+        /* margin-top: 19px; */
+        /* padding-top: 24px; */
+        position: relative;
+        /* left: 183px; */
+        top: 50px;
+        margin: 0 auto;
+        /* left: 0px; */
+        /* margin: 0 auto; */
+        display: block;
+        left: 0px !important;
+    }
+
+    .ciirusContainer {
+        width: 1056px ;
+        padding: 25px;
+        position: relative;
+        top: 200px;
+        /* margin-left: 0px !important; */
+        margin: 0 auto;
+        /* display: block; */
+        /* margin-left: 12%; */
+        /* margin: 0 auto; */
+        /*left: 5% !important;*/
+    }
+
+
+    .slidetwoSub {
+        color: #3F4D5E;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        margin: 0;
+        padding: 0 40px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: block;
+        /* padding-left: 21%; */
+        position: relative;
+        top: 94px;
+        left: 0;
+    }
+
+    .slidetwoContent {
+        color: #ecf0f1;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        margin: 28px auto 0;
+        max-width: 640px;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        top: 56px;
+        /* left: 624px; */
+        /* margin: 0 auto; */
+        /* margin-left: 26%; */
+        /* margin: 0 auto; */
+        left: 33% !important;
+    }
+
+    .slidetwoTitle {
+        color: #ecf0f1;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        margin: 0;
+        padding: 0 40px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: inline;
+        padding-left: 33%;
+        /* margin-top: 19px; */
+        /* padding-top: 24px; */
+        top: 109px;
+        position: relative;
+        left: -39px;
+    }
+    .slidetwoContentFour {
+        color: #ecf0f1;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        margin: 28px auto 0;
+        max-width: 640px;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 72px;
+        left: 670px;
+        /* text-align: center; */
+    }
+
+
+    .storyFive {
+        height: 650px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+        margin: 0 auto;
+        height: 547px !important;
+    }
+
+
+
+    .learn {
+        width: 174px;
+        height: 47px;
+        /* background-color: #ff8b21; */
+        /* float: left; */
+        color: white;
+        display: inline-block;
+        text-align: center;
+        line-height: 3;
+        position: relative;
+        top: 328px;
+        left: -615px;
+        border: 2.5px solid white;
+        clear: both;
+        /* margin: 0 auto; */
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1920px) {
+
+    .ciirusContainer {
+        width: 1056px ;
+        padding: 25px;
+        position: relative;
+        top: 200px;
+        /* margin-left: 0px !important; */
+        margin: 0 auto;
+        /* display: block; */
+        /* margin-left: 12%; */
+        /* margin: 0 auto; */
+        /*left: -55px;*/
+        left: 0px !important;
+    }
+
+    .slidetwoContent {
+        color: #ecf0f1;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        margin: 28px auto 0;
+        max-width: 640px;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        top: 56px;
+        /* left: 624px; */
+        /* margin: 0 auto; */
+        /* margin-left: 26%; */
+        /* margin: 0 auto; */
+        left: 42% !important;
+        margin-left: -211px !important;
+
+    }
+
+    .reviewSide {
+        width: 320px;
+        height: 510px;
+        background-color: #2c3e50;
+        margin-top: -126px;
+        position: relative;
+        margin-left: 10px;
+    }
+
+
+    .slidetwoSubWorkFour {
+        color: #3F4D5E;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 52px;
+        margin: 0;
+        padding: 0 40px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        display: inline;
+        padding-left: 21%;
+        position: relative;
+        top: 26px !important;
+        left: 75px;
+    }
+
+
+
+
+}
 
     @media (max-width: 1600px) {
         #second { background: url(../images/what-is-ciirusMac.png) 50% 0 no-repeat fixed; }
@@ -6004,9 +6864,37 @@ td.visible-print {
 
 
 
+        .slidetwoTitle {
+            color: #ecf0f1;
+            font-size: 40px;
+            font-weight: 300;
+            line-height: 52px;
+            margin: 0;
+            padding: 0 40px;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            -webkit-margin-before: 0.67em;
+            -webkit-margin-after: 0.67em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            display: inline;
+            /* margin-top: 19px; */
+            /* padding-top: 24px; */
+            top: 109px;
+            position: relative;
+            margin-left: 26% !important;
+        }
+
+
+
+
+
+
+
+
     }
 
-}
+
 
 
 
