@@ -1,0 +1,630 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>New CiiRUS</title>
+
+
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styleOne.css" type="text/css">
+    <link rel="author" href="https://plus.google.com/107766061849006545830"/>
+
+    <link type="text/css" rel="stylesheet" href="css/demo.css" />
+    <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css" />
+  <link rel="stylesheet" type="text/css" href="css/flat_filled_styles.css"><!--SVG Animation Styles-->
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+  <script src='js/jquery.js'></script>
+    <script src="js/jquery.als-1.3.min.js"></script>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+
+  <script src="js/jquery.lettering-0.6.1.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+  <script src="js/jquery.pageslide.min.js"></script>
+
+
+
+
+
+  <style type="text/css">
+        .mm-menu li.img a
+        {
+            font-size: 16px;
+        }
+        .mm-menu li.img a img
+        {
+            float: left;
+            margin: -5px 10px -5px 0;
+        }
+        .mm-menu li.img a small
+        {
+            font-size: 12px;
+        }
+
+
+
+    </style>
+
+
+    <style type="text/css">
+
+
+        .mm-ismenu.mm-light {
+            background: #f3f3f3;
+            color: rgba(0, 0, 0, 0.6);
+            margin-top: 68px;
+        }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+
+
+
+
+
+
+        //	The menu on the left
+  $(function() {
+  $('nav#menu-left').mmenu();
+  });
+
+
+  //	The menu on the right
+  $(function() {
+
+
+  var $menu = $('nav#menu-right');
+
+
+      $menu.mmenu({
+  position	: 'right',
+  classes		: 'mm-light',
+  dragOpen	: true,
+  counters	: true,
+  searchfield	: true,
+  labels		: {
+  fixed		: !$.mmenu.support.touch
+  },
+  header		: {
+  add			: true,
+  update		: true
+  //						title		: 'Contacts'
+
+
+  }
+
+  });
+
+
+
+      //	Click a menu-item
+  var $confirm = $('#confirmation');
+  $menu.find( 'li a' ).not( '.mm-subopen' ).not( '.mm-subclose' ).bind(
+  'click.example',
+  function( e )
+  {
+  e.preventDefault();
+  $confirm.show().text( 'You clicked "' + $.trim( $(this).text() ) + '"' );
+  $('#menu-right').trigger( 'close' );
+  }
+  );
+  });
+
+
+  </script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+<header>
+    <!--start of nav-->
+    <div class="menu">
+        <a href="#"><h2 class="logo">Logo</h2></a>
+        <h3 class="subHead">Vacation Rental Software</h3>
+
+        <div id="page" onclick="hideText()">
+        <div id="header">
+            <!--<a href="#menu-left"></a>-->
+            <!--This is a demo page-->
+            <a href="#menu-right" class="friends right" ></a>
+        </div>
+
+        <nav id="menu-right">
+            <ul>
+                <li>
+                <li><a href="index.html">Home</a></li>
+                <!--<li><a href="">Free Trial</a></li>-->
+                <li><a href="features.html">Features</a></li>
+                <!--<li><a href="photos.html">Pricing</a></li>-->
+                <li><a href="colors.html">The Team</a></li>
+                <!--<li class="Selected"><a href="advanced.html">Our Customers</a></li>-->
+                <li><a href="onepage.html">Contact Us</a></li>
+                <li><a href="onepage.html" class="close">close menu</a></li>
+
+            </ul>
+            </nav>
+
+
+            <!--free trial button-->
+
+
+            <a href="#"><div class="trialBox"></div></a>
+
+
+            <a href="#"><div class="newNav">
+
+
+                <ul class="navMenu" >
+
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Free Trial</li></a>
+                    <a href="#"><li>Pricing</li></a>
+                    <a href="#"><li>CiiRUS</li></a>
+                    <a href="#"><li>The Team</li></a>
+                    <a href="#"><li>Our Customers</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+
+
+
+
+                </ul>
+
+
+
+
+
+
+            </div></a>
+
+
+            <!--try button-->
+
+            <div class="trybutton"></div>
+
+
+
+            <!--sign in boxes-->
+        <a href="#"><div class="signInBoxOne">Online Edition Sign In</div></a>
+        <a href="#"><div class="signInBoxTwo">Customer Services</div></a>
+
+
+
+
+    </div>
+        </div>
+
+
+</header>
+
+  <div id="main" role="main">
+
+	<!-- Section #1 / Intro -->
+	<section id="first" class="story" data-speed="8" data-type="background" >
+		<article>
+
+
+
+            <div class="innerTextOne"><p class="Title">The Industry Leader For Vacation Rental Software</p></div>
+
+
+            <div class="innerText"><p class="nt">3</p><p class="rt">Things you will love about</p><p class="nt">CiiRUS</p>   <a href="#"><div class="videoBtn"><p class="videoText">Watch Video</p></a></div>
+
+
+            <div class="boxContaier">
+
+            <div class="boxOne"> <div class="iconImg"></div>
+
+            <ul class="boxText">
+
+
+            <li>Integrated Booking Engine</li>
+            <li>Owner Accounting</li>
+            <li>Real-time Job Tracking</li>
+            <li>Advanced Reporting</li>
+            <li>Multi-User/Location Access</li>
+
+
+
+            </ul>
+
+
+
+            </div>
+            <div class="boxTwo"><div class="iconImgTwo"></div>
+            <ul class="boxText">
+
+
+            <li>Simple Efficient & Fast</li>
+            <li>Easy Data Management</li>
+            <li>Our Support Team Supports</li>
+            <li>Auto Data Backup</li>
+
+
+
+            </ul>
+
+
+
+            </div>
+            <div class="boxThree"> <div class="iconImgThree"></div>
+
+
+            <ul class="boxText">
+
+
+            <li>Access Anywhere, Anytime</li>
+            <li>Unparalleled Connectivity</li>
+            <li>Online & Mobile Edition</li>
+
+
+
+
+            </ul>
+
+
+
+
+
+            </div>
+            </div>
+
+
+
+
+
+
+        </article>
+
+
+    </section>
+
+	<!-- Section #2 / Background Only -->
+	<section id="second" class="storyTwo" data-speed="50%" data-type="background" data-offsetY="1300">
+	<!--beginning of what is ciirus-->
+
+        <h2 class="whatCiirus">The main question you're asking yourself is, what is CiiRUS?</h2>
+        <h3 class=" slidetwoContent">Vanuit ‘s-Hertogenbosch houd ik me al een aantal jaren bezig met alles wat met web en print te maken heeft. Van huisstijl ontwerp tot aan webdesign en development.</h3>
+
+        <h2 class="whatCiiruslittle">to find out just start <a onclick="showOne()" id="startItclicking">clicking!</a></h2>
+
+        <div class="ciirusContainer">
+
+            <div class="stats"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum tristique felis ut nisl.</p><!--<p class="nextOne" onclick="showCalendar()" >Next</p></p><a href="_secondary.html"div class="more" style="color: white !important; text-decoration: none;">More</a>-->
+
+            </div>
+            <div class="calendar"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum tristique felis ut nisl.</p><!--<p class="nextOne" onclick="showHome()">More?</p></p><a href="_secondary.html"div class="more" style="color: white !important; text-decoration: none;">More</a>--></div>
+            <div class="home"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum tristique felis ut nisl.</p><!--<p class="nextOne" onclick="showGroup()">Almost</p></p><a href="_secondary.html"div class="more" style="color: white !important; text-decoration: none;">More</a>--></div>
+            <!--<div class="group"><h3 class="iconTextTitle">Feature Title</h3><p class="iconText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.-->
+                <!--Vestibulum tristique felis ut nisl.</p>&lt;!&ndash;<p class="nextOne">finally!</p></p><a href="_secondary.html"div class="more" style="color: white !important; text-decoration: none;">More</a>&ndash;&gt;</div><br/>-->
+            <a href="_secondary.html"div class="learn" style="color: white !important; text-decoration: none;">Learn More</a>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <section id="third" class="storyThree" data-speed="8" data-type="background">
+
+
+
+
+<div class="titleContainer">
+        <h1 class="slidetwoTitle">I bet after all of that you are wondering,</h1><br/>
+        <h1 class="slidetwoSub"> what does CiiRUS have to offer me?</h1><br/>
+
+    <h3 class=" slidetwoContent">Vanuit ‘s-Hertogenbosch houd ik me al een aantal jaren bezig met alles wat met web en print te maken heeft. Van huisstijl ontwerp tot aan webdesign en development.</h3>
+</div>
+        <div class="slidethreeContainer">
+
+
+<div class="boxslideTwo">
+<!--<div class="slidethreeContainer">-->
+
+
+
+                    <h5 class="clockTitle">Real-Time Quoting Engine</h5>
+
+                    <p class="clockText"><span class="svg-icon flat-filled" id="filled-clock" style="float:left; margin: 14px; position: relative; top: -27px;">  </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor urna, nec vulputate tempor. In hac habitasse platea </p>
+
+
+</div>
+
+
+
+            <div class="boxslideTwo" style="margin-top: 61px;">
+            <!--<div class="slidethreeContainer">-->
+
+
+
+            <h5 class="clockTitle">Real-Time Quoting Engine</h5>
+
+            <p class="clockText"><span class="svg-icon flat-filled" id="filled-home" style="float:left; margin: 14px; position: relative; top: -27px;">  </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor urna, nec vulputate tempor. In hac habitasse platea </p>
+
+
+        </div>
+
+
+            <div class="boxslideTwo" style="margin-top: -461px; margin-left: 530px;">
+            <!--<div class="slidethreeContainer">-->
+
+
+
+            <h5 class="clockTitle">Real-Time Quoting Engine</h5>
+
+            <p class="clockText"><span class="svg-icon flat-filled" id="filled-paper" style="float:left; margin: 14px; position: relative; top: -27px;">  </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor urna, nec vulputate tempor. In hac habitasse platea </p>
+
+
+        </div>
+
+
+            <div class="boxslideTwo" style="margin-top: 61px; margin-left: 530px;">
+                <!--<div class="slidethreeContainer">-->
+
+
+
+                <h5 class="clockTitle">Real-Time Quoting Engine</h5>
+
+                <p class="clockText"><span class="svg-icon flat-filled" id="filled-screen" style="float:left; margin: 14px; position: relative; top: -27px;">  </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor urna, nec vulputate tempor. In hac habitasse platea </p>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+    </section>
+
+
+
+	<section id="fourth" class="storyFour" data-speed="8" data-type="background" data-offsetY="280">
+
+        <div class="workCited">
+            <h1 class="slidetwoSub" > Checkout some of our responsive high impact websites</h1><br/>
+
+<div class="workContainer">
+
+            <a href="http://paulneedham.ciirus.com/" target="_blank"><div class="workBoxOne">
+            <div class="overlayOne"></div></div></a>
+
+            <a href="http://www.jeevesfloridarentals.com/" target="_blank"><div class="workBoxTwo">
+            <div class="overlayTwo"></div></div></a>
+
+
+
+                <a href="http://www.loveflorida.com/" target="_blank"><div class="workBoxThree">
+            <div class="overlayThree"></div></div></a>
+
+
+                    <a href="http://www.gulfcoastbeachgetaways.com/" target="_blank"><div class="workBoxFour">
+            <div class="overlayFour"></div></div></a>
+
+
+                        <a href="http://www.fidelityvh.com/" target="_blank"><div class="workBoxFive">
+            <div class="overlayFive"></div></div></a>
+
+
+
+                            <a href="http://www.disneyvacati7onhomes.com/" target="_blank"><div class="workBoxSix">
+            <div class="overlaySix"></div></div></a>
+<div class="partnersContainer">
+            <h1 class="slidetwoSubWork" style="margin-left: -209px; margin-top: -20px;"> CiiRUS has many partners that we work with,</h1><br/>
+            <h1 class="slidetwoSubWork" style="margin-left: -147px;"> click below to see who we partner with.</h1>
+
+            <a href="_secondaryTwo.html" class="pw" style="text-decoration: none"><div class="partners"><p class="partnerText">view partners</p></div></a> </div>
+    </div>
+
+</div>
+
+
+
+
+    </section>
+
+
+
+
+	<!-- Section #5 / The End-->
+	<section id="theend" class="storyFive"  >
+		<!--<div class="byebye" data-type="sprite" data-offsetY="-1600" data-Xposition="50%" data-speed="-2"></div>-->
+
+
+
+        <h1 class="slidetwoSubWorkFour" style="position: relative; top: 69px"> CiiRUS has many partners that we work with,</h1><br/>
+
+        <h1 class="slidetwoSubWorkFour" style="margin-left: 52px; position: relative; top: 69px"> click below to see who we partner with.</h1>
+
+        <!--<h3 class=" slidetwoContentFour">Vanuit ‘s-Hertogenbosch houd ik me al een aantal jaren bezig met alles wat met web en print te maken heeft. Van huisstijl ontwerp tot aan webdesign en development.</h3>-->
+
+
+<div class="getStarted"><p class="getStartedText">Get Started</p></div>
+
+
+<div class="reviewSide"></div>
+
+        <div class="reviewOne">
+            <img src="images/jobs.png" alt="image of guest reviews" class="imgoneReview">
+            <p style="font-weight: 200; color:white; text-align: center; padding: 10px;">ciirus is awesome! Everyone should be using this software</p>
+               <p style="font-weight: 100; color:#e67e22; text-align: center;position:relative; top: -16px; font-style: italic" >-Steve Jobs-</p>
+        </div>
+        <div class="reviewTwo">
+
+            <img src="images/gates.png" alt="image of guest reviews" class="imgoneReview">
+            <p style="font-weight: 200; color:white; text-align: center; padding: 10px;">I approve this software ciirus is remarkable!</p>
+            <p style="font-weight: 100; color:#e67e22; text-align: center;position:relative; top: -16px; font-style: italic" >-Bill Gates-</p>
+
+
+        </div>
+
+        <img src="images/ipad.png" alt="image of iphone" class="ipad"/>
+
+
+        <img src="images/iphone.png" alt="image of iphone" class="iphone"/>
+
+
+
+        <div class="mac">
+
+
+    <form name="input" action="demo_form_action.asp" method="get" style="position: relative; top: 175px;">
+
+
+
+
+         <input type="text"  placeholder="name" id="name">
+
+         <input type="text"  placeholder="email" id="email">
+        <input type="text"  placeholder="phone" id="phone">
+        <input type="text"  placeholder="country" id="country">
+
+<p class="back">Back to reviews</p>
+
+        <input type="submit" value="Submit" id="submit">
+    </form>
+
+
+    <h2 class="partnermacText">Fill out the form below to get started</h2>
+
+
+
+</div>
+
+
+
+
+	</section>
+	
+  <!-- // End of #main -->
+  </div>
+<footer>
+
+
+
+    <img src="images/footerLogo.png" alt="ciirus logo"/>
+
+    Powered by CiiRUS</footer>
+
+
+
+
+
+
+
+<script type="text/javascript">
+    $("#demo3").als({
+        visible_items: 4,
+        scrolling_items: 2,
+        orientation: "Horizontal",
+        circular: "yes",
+        autoscroll: "yes",
+        interval: 4000
+    });
+
+</script>
+
+<script type="text/javascript">
+    $("#demo4").als({
+        visible_items: 3,
+        scrolling_items: 3,
+        orientation: "vertical",
+        circular: "yes",
+        autoscroll: "yes",
+        interval: 4000 ,
+        easing: "linear",
+        speed:  100,
+        start_from: 1
+    });
+
+</script>
+
+
+
+
+
+
+
+  <!--[if lt IE 7 ]>
+
+
+
+<script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg");</script>
+
+<![endif]-->
+
+
+<script src="js/svg_inject_flat_icons_filled.js"></script><!--Inject SVG and Toggle CSS Styles-->
+
+
+
+<script src="js/jquery.pageslide.min.js"></script>
+<script>
+    /* Default pageslide, moves to the right */
+    $(".learn").pageslide();
+
+    /* Slide to the left, and make it model (you'll have to call $.pageslide.close() to close) */
+    $(".pw").pageslide();
+</script>
+<script src="js/main.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.js"></script>
+
+
+</body>
+</html>

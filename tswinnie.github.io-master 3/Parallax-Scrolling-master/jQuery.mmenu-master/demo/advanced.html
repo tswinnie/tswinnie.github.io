@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+		<meta name="author" content="www.frebsite.nl" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+		<title>jQuery.mmenu - Examples</title>
+
+		<link type="text/css" rel="stylesheet" href="demo.css" />
+		<link type="text/css" rel="stylesheet" href="../src/css/jquery.mmenu.all.css" />
+		<style type="text/css">
+			.mm-menu li.img a
+			{
+				font-size: 16px;
+			}
+			.mm-menu li.img a img
+			{
+				float: left;
+				margin: -5px 10px -5px 0;
+			}
+			.mm-menu li.img a small
+			{
+				font-size: 12px;
+			}
+		</style>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js"></script>
+		<script type="text/javascript" src="../src/js/jquery.mmenu.min.all.js"></script>
+		<script type="text/javascript">
+
+			//	The menu on the left
+			$(function() {
+				$('nav#menu-left').mmenu();
+			});
+
+
+			//	The menu on the right
+			$(function() {
+
+				var $menu = $('nav#menu-right');
+
+				$menu.mmenu({
+					position	: 'right',
+					classes		: 'mm-light',
+					dragOpen	: true,
+					counters	: true,
+					searchfield	: true,
+					labels		: {
+						fixed		: !$.mmenu.support.touch
+					},
+					header		: {
+						add			: true,
+						update		: true
+//						title		: 'Contacts'
+					}
+				});
+
+				//	Click a menu-item
+				var $confirm = $('#confirmation');
+				$menu.find( 'li a' ).not( '.mm-subopen' ).not( '.mm-subclose' ).bind(
+					'click.example',
+					function( e )
+					{
+						e.preventDefault();
+						$confirm.show().text( 'You clicked "' + $.trim( $(this).text() ) + '"' );
+						$('#menu-right').trigger( 'close' );
+					}
+				);
+			});
+		</script>
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<!--<a href="#menu-left"></a>-->
+				<!--This is a demo page-->
+				<a href="#menu-right" class="friends right"></a>
+			</div>
+
+			<!--<nav id="menu-left">-->
+				<!--<ul>-->
+					<!--<li><a href="index.html">Introduction</a></li>-->
+					<!--<li><a href="horizontal-submenus.html">Horizontal submenus example</a></li>-->
+					<!--<li><a href="vertical-submenus.html">Vertical submenus example</a></li>-->
+					<!--<li><a href="photos.html">Photos in sliding panels</a></li>-->
+					<!--<li><a href="positions.html">Positioning the menu</a></li>-->
+					<!--<li><a href="colors.html">Coloring the menu</a></li>-->
+					<!--<li class="Selected"><a href="advanced.html">Advanced example</a></li>-->
+					<!--<li><a href="onepage.html">One page scrolling example</a></li>-->
+					<!--<li><a href="jqmobile/index.html">jQuery Mobile example</a></li>-->
+				<!--</ul>-->
+			<!--</nav>-->
+			<nav id="menu-right">
+				<ul>
+					<li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="horizontal-submenus.html">Free Trial</a></li>
+                        <li><a href="vertical-submenus.html">The Team</a></li>
+                        <li><a href="photos.html">Pricing</a></li>
+                        <li><a href="colors.html">CiiRUS</a></li>
+                        <li class="Selected"><a href="advanced.html">Our Customers</a></li>
+                        <li><a href="onepage.html">Contact Us</a></li>
+                </ul>
+            </nav>
+		</div>
+	</body>
+</html>

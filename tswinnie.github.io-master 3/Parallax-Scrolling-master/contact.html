@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styleOne.css" type="text/css">
+    <link rel="author" href="https://plus.google.com/107766061849006545830"/>
+
+    <link type="text/css" rel="stylesheet" href="css/demo.css" />
+    <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css" />
+    <link rel="stylesheet" type="text/css" href="css/flat_filled_styles.css"><!--SVG Animation Styles-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+    <script src='js/jquery.js'></script>
+    <script src="js/jquery.als-1.3.min.js"></script>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+
+    <script src="js/jquery.lettering-0.6.1.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+    <script src="js/jquery.pageslide.min.js"></script>
+
+
+    <style type="text/css">
+        .mm-menu li.img a
+        {
+            font-size: 16px;
+        }
+        .mm-menu li.img a img
+        {
+            float: left;
+            margin: -5px 10px -5px 0;
+        }
+        .mm-menu li.img a small
+        {
+            font-size: 12px;
+        }
+
+
+
+    </style>
+
+
+    <style type="text/css">
+
+
+        .mm-ismenu.mm-light {
+            background: #f3f3f3;
+            color: rgba(0, 0, 0, 0.6);
+            margin-top: 68px;
+        }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+
+
+
+
+
+
+        //	The menu on the left
+        $(function() {
+            $('nav#menu-left').mmenu();
+        });
+
+
+        //	The menu on the right
+        $(function() {
+
+
+            var $menu = $('nav#menu-right');
+
+
+            $menu.mmenu({
+                position	: 'right',
+                classes		: 'mm-light',
+                dragOpen	: true,
+                counters	: true,
+                searchfield	: true,
+                labels		: {
+                    fixed		: !$.mmenu.support.touch
+                },
+                header		: {
+                    add			: true,
+                    update		: true
+                    //						title		: 'Contacts'
+
+
+                }
+
+            });
+
+
+
+            //	Click a menu-item
+            var $confirm = $('#confirmation');
+            $menu.find( 'li a' ).not( '.mm-subopen' ).not( '.mm-subclose' ).bind(
+                    'click.example',
+                    function( e )
+                    {
+                        e.preventDefault();
+                        $confirm.show().text( 'You clicked "' + $.trim( $(this).text() ) + '"' );
+                        $('#menu-right').trigger( 'close' );
+                    }
+            );
+        });
+
+
+    </script>
+
+
+
+</head>
+<body style="background-color: #bdc3c7;">
+
+
+
+
+<!--nav-->
+<header>
+    <!--start of nav-->
+    <div class="menu">
+        <a href="#"><h2 class="logo">Logo</h2></a>
+        <h3 class="subHead">Vacation Rental Software</h3>
+
+        <div id="page" onclick="hideText()">
+            <div id="header">
+                <!--<a href="#menu-left"></a>-->
+                <!--This is a demo page-->
+                <a href="#menu-right" class="friends right" ></a>
+            </div>
+
+            <nav id="menu-right">
+                <ul>
+                    <li>
+                    <li><a href="index.html">Home</a></li>
+                    <!--<li><a href="">Free Trial</a></li>-->
+                    <li><a href="features.html">Features</a></li>
+                    <!--<li><a href="photos.html">Pricing</a></li>-->
+                    <li><a href="colors.html">The Team</a></li>
+                    <!--<li class="Selected"><a href="advanced.html">Our Customers</a></li>-->
+                    <li><a href="onepage.html">Contact Us</a></li>
+                    <li><a href="onepage.html" class="close">close menu</a></li>
+
+                </ul>
+            </nav>
+
+
+            <!--free trial button-->
+
+
+            <!--<a href="#"><div class="trialBox"></div></a>-->
+
+
+            <a href="#"><div class="newNav">
+
+
+                <ul class="navMenu" >
+
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Free Trial</li></a>
+                    <a href="#"><li>Pricing</li></a>
+                    <a href="#"><li>CiiRUS</li></a>
+                    <a href="#"><li>The Team</li></a>
+                    <a href="#"><li>Our Customers</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+
+
+
+
+                </ul>
+
+
+
+
+
+
+            </div></a>
+
+
+            <!--try button-->
+
+            <div class="trybutton"></div>
+
+
+
+            <!--sign in boxes-->
+            <a href="#"><div class="signInBoxOne">Online Edition Sign In</div></a>
+            <a href="#"><div class="signInBoxTwo">Customer Services</div></a>
+
+
+
+
+
+        </div>
+    </div>
+
+
+</header>
+
+<!--contact info-->
+
+<div class="contactData">
+
+    <!--inner contact details-->
+
+    <h1 class="slidetwoTitle" style="color:#666;">Contact Us - Support Options</h1><br/>
+
+    <div class="contactContainer">
+
+        <h3 style="text-align: center; font-weight: 300; color: #666;">Contact Information</h3>
+        <p style="text-align: center; font-weight: 300; color: #666; ">CiiRUS, inc</p>
+        <p style="text-align: center; font-weight: 300; color: #666; ">1012 Emmett St</p>
+        <p style="text-align: center; font-weight: 300; color: #666;">Kissimmee FL, 34741</p>
+
+
+
+
+    </div>
+
+    <div class="supportContainer">
+    <div class="supportBox">
+        <h3 style="text-align: center; font-weight: 300; color: #666;">Online User Guide</h3>
+        <p style="text-align: center; font-weight: 300; color: #666; ">Have questions about the software? Look here to learn about editing features, settings, and how to get the most from Ciirus Property Manager.</p>
+
+        <a href="#"><h3 style="text-align: center; font-weight: 300; color: #2980b9; font-size: 14px">View product documentation</h3></a>
+
+
+    </div>
+    <div class="supportBox">
+        <h3 style="text-align: center; font-weight: 300; color: #666;">Technical Support</h3>
+        <p style="text-align: center; font-weight: 300; color: #666; ">If you have a question regarding the Property Manager software and require technical support submit a ticket from the support center help desk and select Product Support from the category list. A member of the Ciirus team will contact you.</p>
+
+        <a href="#"><h3 style="text-align: center; font-weight: 300; color: #2980b9; font-size: 14px">Contact CiiRUS support</h3></a>
+
+
+
+
+    </div>
+    <div class="supportBox">
+
+        <h3 style="text-align: center; font-weight: 300; color: #666;">Sales and Billing</h3>
+        <p style="text-align: center; font-weight: 300; color: #666; ">If you have a question regarding sales or billing, contact customer care using the support center help desk and select Sales and Billing from the category list. A member of the Ciirus team will contact you.</p>
+
+        <a href="#"><h3 style="text-align: center; font-weight: 300; color: #2980b9; font-size: 14px">Contact sales and billing</h3></a>
+
+
+
+    </div>
+        </div>
+
+
+
+
+</div>
+
+<footer style="margin-top: 184px;">
+
+
+
+    <img src="images/footerLogo.png" alt="ciirus logo"/>
+
+    Powered by CiiRUS
+
+</footer>
+
+
+
+
+
+
+<script type="text/javascript">
+    $("#demo3").als({
+        visible_items: 4,
+        scrolling_items: 2,
+        orientation: "Horizontal",
+        circular: "yes",
+        autoscroll: "yes",
+        interval: 4000
+    });
+
+</script>
+
+<script type="text/javascript">
+    $("#demo4").als({
+        visible_items: 3,
+        scrolling_items: 3,
+        orientation: "vertical",
+        circular: "yes",
+        autoscroll: "yes",
+        interval: 4000 ,
+        easing: "linear",
+        speed:  100,
+        start_from: 1
+    });
+
+</script>
+
+
+
+
+
+
+
+<!--[if lt IE 7 ]>
+
+
+
+<script src="js/libs/dd_belatedpng.js"></script>
+<script>DD_belatedPNG.fix("img, .png_bg");</script>
+
+<![endif]-->
+
+
+<script src="js/svg_inject_flat_icons_filled.js"></script><!--Inject SVG and Toggle CSS Styles-->
+
+
+
+<script src="js/jquery.pageslide.min.js"></script>
+<script>
+    /* Default pageslide, moves to the right */
+    $(".learn").pageslide();
+
+    /* Slide to the left, and make it model (you'll have to call $.pageslide.close() to close) */
+    $(".pw").pageslide();
+</script>
+<script src="js/main.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.js"></script>
+
+
+
+</body>
+</html>
