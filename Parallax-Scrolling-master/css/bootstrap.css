@@ -7321,6 +7321,13 @@ and (min-width : 1700px) {
     }
 
 
+
+
+    html {
+        overflow-x: hidden;
+        /* overflow: hidden; */
+    }
+
 }
 
 
