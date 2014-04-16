@@ -968,6 +968,30 @@ a{
 
 }
 
+.slidetwoSubFour{
+
+    color: #3F4D5E;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    margin: 0;
+    padding: 0 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    display: inline;
+    padding-left: 21%;
+    position: relative;
+    top: 94px;
+    left: 107px;
+
+
+
+}
+
 
 .slidetwoSubWork{
 
@@ -1028,6 +1052,27 @@ a{
 
 
 .slidetwoContent{
+    color: #ecf0f1;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 28px auto 0;
+    max-width: 640px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 109px;
+    left: 388px;
+
+
+}
+
+.slidetwoContentThree{
     color: #ecf0f1;
     font-size: 22px;
     font-weight: 300;
