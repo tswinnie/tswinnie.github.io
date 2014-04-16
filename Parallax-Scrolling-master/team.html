@@ -158,13 +158,13 @@
             <nav id="menu-right">
                 <ul>
                     <li>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" id="home">Home</a></li>
                     <!--<li><a href="">Free Trial</a></li>-->
-                    <li><a href="features.html">Features</a></li>
+                    <li><a href="features.html" id="features">Features</a></li>
                     <!--<li><a href="photos.html">Pricing</a></li>-->
-                    <li><a href="colors.html">The Team</a></li>
+                    <li><a href="colors.html" id="team">The Team</a></li>
                     <!--<li class="Selected"><a href="advanced.html">Our Customers</a></li>-->
-                    <li><a href="onepage.html">Contact Us</a></li>
+                    <li><a href="onepage.html" id="contact">Contact Us</a></li>
                     <li><a href="onepage.html" class="close">close menu</a></li>
 
                 </ul>
@@ -345,6 +345,30 @@
 
 
 
+<!--[if lt IE 7 ]>
+
+
+
+<script src="js/libs/dd_belatedpng.js"></script>
+<script>DD_belatedPNG.fix("img, .png_bg");</script>
+
+<![endif]-->
+
+
+<script src="js/svg_inject_flat_icons_filled.js"></script><!--Inject SVG and Toggle CSS Styles-->
+
+
+
+<script src="js/jquery.pageslide.min.js"></script>
+<script>
+    /* Default pageslide, moves to the right */
+    $(".learn").pageslide();
+
+    /* Slide to the left, and make it model (you'll have to call $.pageslide.close() to close) */
+    $(".pw").pageslide();
+</script>
+<script src="js/main.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.js"></script>
 
 
 

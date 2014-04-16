@@ -492,3 +492,22 @@ $("#reservation").click(function(){
 
 
 });
+
+
+
+
+$('#home').click(function(){
+    window.location.href='index.html';
+});
+
+$('#features').click(function(){
+    window.location.href='features.html';
+});
+
+$('#team').click(function(){
+    window.location.href='team.html';
+});
+
+$('#contact').click(function(){
+    window.location.href='contact.html';
+});
