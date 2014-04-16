@@ -6187,6 +6187,12 @@ td.visible-print {
         left: 0;
     }
 
+    html {
+        overflow-x: hidden;
+        /* overflow: hidden; */
+        margin-right: -36px !important;
+    }
+
 }
 
 
@@ -6361,6 +6367,11 @@ and (min-width : 1824px) {
         height: 547px !important;
     }
 
+    html {
+        overflow-x: hidden;
+        /* overflow: hidden; */
+        margin-right: -36px !important;
+    }
 
 
 
@@ -6562,6 +6573,12 @@ and (min-width : 1224px) {
         /* margin: 0 auto; */
     }
 
+    html {
+        overflow-x: hidden;
+        /* overflow: hidden; */
+        margin-right: -36px !important;
+    }
+
 
 
 
@@ -6752,6 +6769,12 @@ and (min-width : 1700px) {
         /* margin: 0 auto; */
     }
 
+    html {
+        overflow-x: hidden;
+        /* overflow: hidden; */
+        margin-right: -36px !important;
+    }
+
 
 
 }
@@ -6849,6 +6872,12 @@ and (min-width : 1700px) {
         margin-right: 89px;
     }
 
+    html {
+        overflow-x: hidden;
+        /* overflow: hidden; */
+        margin-right: -36px !important;
+    }
+
 
 
 
@@ -6905,6 +6934,12 @@ and (min-width : 1700px) {
         }
 
 
+        html {
+            overflow-x: hidden;
+            /* overflow: hidden; */
+            margin-right: -36px !important;
+        }
+
 
 
 
@@ -6920,7 +6955,19 @@ and (min-width : 1700px) {
 
 
 
-
+    .getStarted {
+        margin: 0 auto;
+        border: 2px solid #666;
+        width: 191px;
+        height: 51px;
+        position: relative;
+        top: 46px;
+        padding: 17px;
+        line-height: 2;
+        font-size: 18px;
+        left: 5px;
+        background-color: #27ae60;
+    }
 
     .slidetwoSub {
         color: #282828;
@@ -7173,20 +7220,7 @@ and (min-width : 1700px) {
 
 
 
-    .getStarted {
-        margin: 0 auto;
-        border: 2px solid #666;
-        width: 191px;
-        height: 51px;
-        position: relative;
-        top: 46px;
-        text-align: center;
-        padding: 17px;
-        line-height: 2;
-        font-size: 18px;
-        left: 5px;
-        background-color: #27ae60;
-    }
+
 
     .slidetwoSubWorkFour {
         color: #3F4D5E;
@@ -7326,6 +7360,7 @@ and (min-width : 1700px) {
     html {
         overflow-x: hidden;
         /* overflow: hidden; */
+        margin-right: -36px !important;
     }
 
 }
