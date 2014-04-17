@@ -1921,14 +1921,14 @@ a:hover{
 }
 
 
-.featureBox{
-
-    width:150px;
-    height: 700px;
-    float:left;
-    background-color: #ecf0f1;
-
-
+.featureBox {
+    width: 1215px;
+    height: 900px;
+    background-color: #bdc3c7;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    position: relative;
+    top: 133px;
 }
 
 .slideOneFeature{
@@ -2290,6 +2290,538 @@ margin: 0 auto;
     margin-top: -10px;
 }
 
+.fBox{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.fBoxTwo{
+
+
+    width: 550px;
+    height: 558px;
+    background-color: #2A2A2A;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxThree{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxFour {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+    margin-top: -270px;
+    clear: left;
+    margin-left: 15px;
+}
+
+.fBoxFive {
+    width: 300px;
+    height: 270px;
+    background-color: #2A2A2A;
+    float: right;
+    margin-top: -271px;
+    margin-right: 20px;
+}
+
+.clear{
+
+
+    clear:both;
+    margin: 100px;
+}
+
+.fBox_Two{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.fBoxTwo_Two{
+
+
+    width: 550px;
+    height: 558px;
+    background-color: #2A2A2A;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxThree_Two{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxFour_Two {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+    margin-top: -270px;
+    clear: left;
+    margin-left: 15px;
+}
+
+.fBoxFive_Two {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: right;
+    margin-top: -271px;
+    margin-right: 20px;
+}
+
+
+.fBox_Three{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.fBoxTwo_Three{
+
+
+    width: 550px;
+    height: 558px;
+    background-color: #2A2A2A;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxThree_Three{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxFour_Three {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+    margin-top: -270px;
+    clear: left;
+    margin-left: 15px;
+}
+
+.fBoxFive_Three {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: right;
+    margin-top: -271px;
+    margin-right: 20px;
+}
+
+
+.fBox_Four{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.fBoxTwo_Four{
+
+
+    width: 550px;
+    height: 558px;
+    background-color: #2A2A2A;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxThree_Four{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxFour_Four {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+    margin-top: -270px;
+    clear: left;
+    margin-left: 15px;
+}
+
+.fBoxFive_Four {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: right;
+    margin-top: -271px;
+    margin-right: 20px;
+}
+
+
+
+.fBox_Five{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.fBoxTwo_Five{
+
+
+    width: 550px;
+    height: 558px;
+    background-color: #2A2A2A;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxThree_Five{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxFour_Five {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+    margin-top: -270px;
+    clear: left;
+    margin-left: 15px;
+}
+
+.fBoxFive_Five {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: right;
+    margin-top: -271px;
+    margin-right: 20px;
+}
+
+
+.fBox_Six{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.fBoxTwo_Six{
+
+
+    width: 550px;
+    height: 558px;
+    background-color: #2A2A2A;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxThree_Six{
+
+
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.fBoxFour_Six {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 15px;
+    margin-top: -270px;
+    clear: left;
+    margin-left: 15px;
+}
+
+.fBoxFive_Six {
+    width: 300px;
+    height: 270px;
+    background-color: #2980b9;
+    float: right;
+    margin-top: -271px;
+    margin-right: 20px;
+}
+
+
+
+.fBoxTitle {
+    font-size: 4em;
+    font-weight: 100;
+    font-family: lato;
+    padding: 40px;
+    line-height: 70px;
+    color: #ecf0f1;
+}
+
+.fBoxTitleSub {
+    font-size: 4em;
+    font-weight: 100;
+    font-family: lato;
+    padding: 40px;
+    line-height: 70px;
+    /* top: -10px; */
+    margin-top: -42px;
+    color: #e67e22;
+}
+
+.fBoxTitleSubSmall {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: lato;
+    padding: 40px;
+    line-height: 38px;
+    /* top: -10px; */
+    margin-top: -34px;
+    color: #ecf0f1;
+}
+
+
+.fBoxText {
+    font-family: lato;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -50px;
+    line-height: 1.4;
+    color: #ecf0f1;
+}
+
+/*.pContainer{*/
+
+    /*width: 980px;*/
+    /*margin: 0 auto;*/
+
+/*}*/
+
+
+.pOne{
+
+    width: 450px;
+    height: 560px;
+    background-color: #2A2A2A;
+    float:left;
+    margin-right: 10px;
+    margin-left: 65px;
+
+
+
+
+
+
+}
+
+.pTwo{
+
+    width: 280px;
+    height: 270px;
+    background-color: #2A2A2A;
+    float:left;
+    margin-right: 10px;
+    margin-left: 5px;
+
+
+
+
+
+}
+
+.pThree{
+
+    width: 280px;
+    height: 270px;
+    background-color: #2A2A2A;
+    float:left;
+    margin-right: 10px;
+    margin-left: 5px;
+
+
+
+
+
+
+}
+
+.pFour{
+
+    width: 280px;
+    height: 270px;
+    background-color: #2A2A2A;
+    float:left;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 20px
+
+
+
+
+
+
+}
+
+
+.pFive{
+
+    width: 280px;
+    height: 270px;
+    background-color: #2A2A2A;
+    float:left;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 20px
+
+
+
+
+
+
+}
+
+.contactOne {
+    width: 400px;
+    height: 550px;
+    background-color: #2980b9;
+    float: left;
+    margin-right: 10px;
+    margin-left: 65px;
+}
+
+.contactTwo {
+    width: 667px;
+    height: 250px;
+    background-color: #ecf0f1;
+    float: left;
+    /* margin-left: 0px; */
+}
+
+.contactThree {
+    width: 216px;
+    height: 280px;
+    background-color: #ecf0f1;
+    float: left;
+    margin-right: 10px;
+    /* margin-left: 1px; */
+    margin-top: 20px;
+}
+
+.contactFour {
+    width: 216px;
+    height: 280px;
+    background-color: #ecf0f1;
+    float: left;
+    margin-right: 10px;
+    /* margin-left: 1px; */
+    margin-top: 20px;
+}
+
+.contactFive {
+    width: 216px;
+    height: 280px;
+    background-color: #ecf0f1;
+    float: left;
+    margin-right: 10px;
+    /* margin-left: 1px; */
+    margin-top: 20px;
+}
+
+
+.contactText{
+
+
+    font-family: lato;
+    font-size: 17px;
+    padding: 15px;
+    font-weight: 200;
+    color: #ecf0f1;
+    line-height: 1.7;
+
+
+
+}
 
 
 footer{

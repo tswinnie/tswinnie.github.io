@@ -511,3 +511,24 @@ $('#team').click(function(){
 $('#contact').click(function(){
     window.location.href='contact.html';
 });
+
+
+
+
+
+
+$('.flip').click(function(){
+    $(this).find('.card').addClass('flipped').mouseleave(function(){
+        $(this).removeClass('flipped');
+    });
+    return false;
+});
+
+
+
+
+
+
+
+
+
