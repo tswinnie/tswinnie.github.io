@@ -7328,6 +7328,253 @@ and (min-width : 1700px) {
         /* overflow: hidden; */
     }
 
+
+
+
+    .featureBox {
+        width: 900px;
+        height: 900px;
+        background-color: #bdc3c7;
+        margin: 0 auto;
+        /* margin-top: 20px; */
+        position: relative;
+        top: 133px;
+    }
+
+
+    .featureBox_Two {
+        width: 900px;
+        height: 900px;
+        background-color: #bdc3c7;
+        margin: 0 auto;
+        /* margin-top: 20px; */
+        position: relative;
+        top: 133px;
+    }
+
+    .fBoxFour {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-top: -549px;
+        clear: left;
+        margin-left: 15px;
+    }
+
+    .fBoxThree {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .fBoxFive {
+        width: 300px;
+        height: 270px;
+        background-color: #2A2A2A;
+        float: right;
+        margin-top: -263px;
+        margin-right: 20px;
+    }
+
+
+    .fBoxFour_Two {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-top: -549px;
+        clear: left;
+        margin-left: 15px;
+    }
+
+    .fBoxThree_Two {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .fBoxFive_Two {
+        width: 300px;
+        height: 270px;
+        background-color: #2A2A2A;
+        float: right;
+        margin-top: -263px;
+        margin-right: 20px;
+    }
+
+    .fBoxFour_Three {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-top: -549px;
+        clear: left;
+        margin-left: 15px;
+    }
+
+    .fBoxThree_Three {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .fBoxFive_Three {
+        width: 300px;
+        height: 270px;
+        background-color: #2A2A2A;
+        float: right;
+        margin-top: -263px;
+        margin-right: 20px;
+    }
+
+    .fBoxFour_Four {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-top: -549px;
+        clear: left;
+        margin-left: 15px;
+    }
+
+    .fBoxThree_Four {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .fBoxFive_Four {
+        width: 300px;
+        height: 270px;
+        background-color: #2A2A2A;
+        float: right;
+        margin-top: -263px;
+        margin-right: 20px;
+    }
+
+    .fBoxFour_Five {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-top: -549px;
+        clear: left;
+        margin-left: 15px;
+    }
+
+    .fBoxThree_Five {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .fBoxFive_Five {
+        width: 300px;
+        height: 270px;
+        background-color: #2A2A2A;
+        float: right;
+        margin-top: -263px;
+        margin-right: 20px;
+    }
+
+    .fBoxFour_Six {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-top: -549px;
+        clear: left;
+        margin-left: 15px;
+    }
+
+    .fBoxThree_Six {
+        width: 300px;
+        height: 270px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .fBoxFive_Six {
+        width: 300px;
+        height: 270px;
+        background-color: #2A2A2A;
+        float: right;
+        margin-top: -263px;
+        margin-right: 20px;
+    }
+
+    .pOne {
+        width: 450px;
+        height: 540px;
+        background-color: #2A2A2A;
+        float: left;
+        margin-right: 10px;
+        margin-left: 65px;
+    }
+
+    .pFour {
+        width: 280px;
+        height: 270px;
+        background-color: #2A2A2A;
+        float: left;
+        margin-right: 10px;
+        margin-left: 65px;
+        margin-top: 20px;
+    }
+
+
+    .contactOne {
+        width: 667px;
+        height: 550px;
+        background-color: #2980b9;
+        float: left;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    .featureBox_Two {
+        width: 600px;
+        height: 900px;
+        background-color: #bdc3c7;
+        margin: 0 auto;
+        /* margin-top: 20px; */
+        position: relative;
+        top: 133px;
+    }
+    .contactFive {
+        width: 216px;
+        height: 280px;
+        background-color: #ecf0f1;
+        float: left;
+        margin-right: 10px;
+        /* margin-left: 1px; */
+        margin-top: 20px;
+        clear: both;
+        margin-bottom: 280px;
+        top: -300px;
+        position: relative;
+        left: 452px;
+    }
+
+
 }
 
 

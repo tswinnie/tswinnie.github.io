@@ -574,5 +574,66 @@
 
 </footer>
 
+
+
+
+<script type="text/javascript">
+    $("#demo3").als({
+        visible_items: 4,
+        scrolling_items: 2,
+        orientation: "Horizontal",
+        circular: "yes",
+        autoscroll: "yes",
+        interval: 4000
+    });
+
+</script>
+
+<script type="text/javascript">
+    $("#demo4").als({
+        visible_items: 3,
+        scrolling_items: 3,
+        orientation: "vertical",
+        circular: "yes",
+        autoscroll: "yes",
+        interval: 4000 ,
+        easing: "linear",
+        speed:  100,
+        start_from: 1
+    });
+
+</script>
+
+
+
+
+
+
+
+<!--[if lt IE 7 ]>
+
+
+
+<script src="js/libs/dd_belatedpng.js"></script>
+<script>DD_belatedPNG.fix("img, .png_bg");</script>
+
+<![endif]-->
+
+
+<script src="js/svg_inject_flat_icons_filled.js"></script><!--Inject SVG and Toggle CSS Styles-->
+
+
+
+<script src="js/jquery.pageslide.min.js"></script>
+<script>
+    /* Default pageslide, moves to the right */
+    $(".learn").pageslide();
+
+    /* Slide to the left, and make it model (you'll have to call $.pageslide.close() to close) */
+    $(".pw").pageslide();
+</script>
+<script src="js/main.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.js"></script>
+
 </body>
 </html>
