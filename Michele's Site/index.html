@@ -411,6 +411,46 @@
 </script>
 
 
+<script type="text/javascript">
+
+    $(document).on('touchmove', function(event){
+        //preventing the easing on iOS devices
+        event.preventDefault();
+        var e = event.originalEvent;
+        touchEndY = e.touches[0].pageY;
+        touchEndX = e.touches[0].pageX;
+        setPositionOnMove(touchEndX,touchEndY);
+    });
+
+    $("body").on("pointerup", function(event){
+        //preventing the easing on iOS devices
+        event.preventDefault();
+        var e = event.originalEvent;
+        touchEndY = e.pageY;
+        touchEndX = e.pageX;
+        setPositionOnMove(touchEndX,touchEndY);
+    });
+
+    $(document).on('touchstart', function(event){
+        if(options.autoScrolling){
+            var e = event.originalEvent;
+            touchStartY = e.touches[0].pageY;
+            touchStartX = e.touches[0].pageX;
+        }
+    });
+
+    $("body").on('pointerdown', function(event){
+        if(options.autoScrolling){
+            var e = event.originalEvent;
+            touchStartY = e.pageY;
+            touchStartX = e.pageX;
+        }
+    });
+
+
+</script>
+
+
 
 </body>
 </html>
