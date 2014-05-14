@@ -5834,7 +5834,7 @@ button.close {
     .boxTwo {
         width: 685px;
         float: right;
-        margin-top: -350px;
+        margin-top: -331px;
     }
 
     .drawer {
@@ -5854,8 +5854,9 @@ button.close {
         color: #8a0707;
         text-align: center;
         width: 39%;
-        margin-top: 20px;
+        margin-top: 26px;
         margin: 0 auto;
+        border-color: #8a0707 !important;
     }
 }
 .visible-print {
