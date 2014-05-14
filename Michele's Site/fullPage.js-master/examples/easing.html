@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Easing effect - fullPage.js</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage demo easing effect." />
+	<meta name="keywords"  content="fullpage,jquery,demo,easing,effect,jqueui" />
+	<meta name="Resource-type" content="Document" />
+
+
+
+    <link rel="stylesheet" href="../../css/myStyle.css"/>
+
+    <link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	
+	<script type="text/javascript" src="../jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				menu: '#menu',
+				easing: 'easeOutBack'	
+			});
+			
+		});
+	</script>
+
+    <script type="text/javascript" src="../../js/jquery.slidedrawer.min.js"></script>
+    <script>
+        $(function(){
+            $('.drawer').slideDrawer({
+                showDrawer: false,
+                // slideTimeout: true,
+                slideSpeed: 250,
+                slideTimeoutCount: 6000
+            });
+        });
+    </script>
+
+
+    <style type="text/css">
+
+        #submitComment{
+
+
+
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+
+<div id="fullpage">
+	<div class="section " id="firstPage">
+		<h1>fullPage.js</h1>
+		<p>Configure the easing jQuery UI effect!</p>
+		<img src="imgs/fullPage.png" alt="fullPage" />
+	</div>
+	<div class="section" id="section1" id="secondPage">
+		<div class="intro">
+			<img src="imgs/1.png" alt="Cool" />
+			<h1>easeOutBack</h1>
+			<p>This example is working with `easeOutBack` effect instead of the default</p>
+			<p>You can see more about them <a href="http://jqueryui.com/resources/demos/effect/easing.html" target="_blank">here</a></p>
+		</div>
+	</div>
+	<div class="section" id="section2" id="3rdPage">
+		<div class="intro">
+			<h1>Cool uh?</h1>
+			<p>Choose the best easing effect for your site!</p>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="section" id="section4" id="4thpage">
+        <div class="intro">
+            <h1>Cool uh?</h1>
+            <p>Choose the best easing effect for your site!</p>
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class="section" id="section5" id="lastPage">
+        <div class="intro">
+            <h1>Cool uh?</h1>
+            <p>Choose the best easing effect for your site!</p>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <!--<div class="section" id="section6" id="commentPage">-->
+        <!--&lt;!&ndash; Begin Comments JavaScript Code &ndash;&gt;<script type="text/javascript" async>function ajaxpath_536eeb56f2f88(url){return window.location.href == '' ? url : url.replace('&s=','&s=' + escape(window.location.href));}(function(){document.write('<div id="fcs_div"><a title="free comment script" href="http://www.freecommentscript.com">&nbsp;&nbsp;<b>Free HTML User Comments</b>...</a></div>');fcs_536eeb56f2f88=document.createElement('script');fcs_536eeb56f2f88.type="text/javascript";fcs_536eeb56f2f88.src=ajaxpath_536eeb56f2f88("http://www.freecommentscript.com/GetComments.php?p=536eeb56f2f88&s=&Width=510&FontColor=282828&BackgroundColor=FFFFFF&FontSize=14&Size=10#!536eeb56f2f88");setTimeout("document.getElementById('fcs_div').appendChild(fcs_536eeb56f2f88)",1);})();</script><noscript><div><a href="http://www.freecommentscript.com" title="free html user comment box">Free Comment Script</a></div></noscript>&lt;!&ndash; End Comments JavaScript Code &ndash;&gt;-->
+
+        <!--<div class="intro">-->
+            <!--<h1>Cool uh?</h1>-->
+
+
+        <!--</div>-->
+
+
+
+
+    <!--</div>-->
+
+
+
+
+
+
+</div>
+
+
+
+
+<section class="drawer" style="height: 221px;">
+    <!-- <div> -->
+    <header class="clickme">Menu</header>
+
+    <!-- </div> -->
+    <div class="drawer-content">
+
+
+
+        <div class="drawer-items">
+
+            <ul>
+                <li>
+                    <a href="#firstPage">
+                        <div class="title" class="active">Page 1</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#secondPage">
+                        <div class="title">Page 2</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#3rdPage">
+                        <div class="title">Page 3</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#4thpage">
+                        <div class="title">Page 4</div>
+
+                    </a>
+                </li>
+            </ul>
+
+            <!--logo-->
+
+            <img src="../../images/MicheleLogo.png" style="display:block; clear:both; position: relative; top: -88px; margin-left: -164px; max-width: 368px;"/>
+
+<a href="#"><img src="../../images/twitter.png" style="float:right; width: 82px; height: 80px; margin-top: -182px;"/></a>
+           <a href="#"> <img src="../../images/facebook.png" style="float:right; width: 82px; height: 80px; margin-top: -182px; margin-right: 80px;"/></a>
+            <a href="../../comment.html"><div id="submitComment" style="border: 3px solid gray; float:right; width: 173px; height: 48px; margin-top: -105px; margin-right: -7px;text-align: center;font-size: 18px; line-height: 2.6;color: #8A0707">Post A Comment</div></a>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>
