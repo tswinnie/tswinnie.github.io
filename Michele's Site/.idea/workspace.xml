@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2762063" vertical-offset="6134" max-vertical-offset="6930">
-              <caret line="420" column="39" selection-start-line="420" selection-start-column="39" selection-end-line="420" selection-end-column="39" />
+            <state vertical-scroll-proportion="-3.620253" vertical-offset="6134" max-vertical-offset="6930">
+              <caret line="428" column="28" selection-start-line="428" selection-start-column="28" selection-end-line="428" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="83425" max-vertical-offset="88455">
-              <caret line="5845" column="19" selection-start-line="5845" selection-start-column="19" selection-end-line="5845" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.30882353" vertical-offset="87420" max-vertical-offset="88455">
+              <caret line="5842" column="6" selection-start-line="5833" selection-start-column="0" selection-end-line="5865" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -159,8 +159,8 @@
         <option value="$PROJECT_DIR$/css/jquery.fullPage.css" />
         <option value="$PROJECT_DIR$/css/examples.css" />
         <option value="$PROJECT_DIR$/comment.html" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
       </list>
     </option>
   </component>
@@ -364,7 +364,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="790" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="790" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -556,18 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="83425" max-vertical-offset="88455">
-          <caret line="5845" column="19" selection-start-line="5845" selection-start-column="19" selection-end-line="5845" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2762063" vertical-offset="6134" max-vertical-offset="6930">
-          <caret line="420" column="39" selection-start-line="420" selection-start-column="39" selection-end-line="420" selection-end-column="39" />
+        <state vertical-scroll-proportion="-3.620253" vertical-offset="6134" max-vertical-offset="6930">
+          <caret line="428" column="28" selection-start-line="428" selection-start-column="28" selection-end-line="428" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -602,6 +594,14 @@
             <element signature="n#style#0;n#img#0;n#li#0;n#a#2;n#ul#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1400042216000" expanded="true" signature="1090:1144" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30882353" vertical-offset="87420" max-vertical-offset="88455">
+          <caret line="5842" column="6" selection-start-line="5833" selection-start-column="0" selection-end-line="5865" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

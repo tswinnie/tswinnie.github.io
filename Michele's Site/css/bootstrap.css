@@ -5831,39 +5831,39 @@ button.close {
   }
 }
 @media (min-width: 1200px) {
-    .boxTwo {
-        width: 685px;
-        float: right;
-        margin-top: -411px;
-    }
+    /*.boxTwo {*/
+        /*width: 685px;*/
+        /*float: right;*/
+        /*margin-top: -411px;*/
+    /*}*/
 
-    .drawer {
-        bottom: 0px;
-        height: 140px;
-        overflow: hidden;
-        position: absolute;
-        width: 100%;
-        z-index: 5;
-        height: 48px !important;
-    }
+    /*.drawer {*/
+        /*bottom: 0px;*/
+        /*height: 140px;*/
+        /*overflow: hidden;*/
+        /*position: absolute;*/
+        /*width: 100%;*/
+        /*z-index: 5;*/
+        /*height: 48px !important;*/
+    /*}*/
 
-    hr.style-eight {
-        padding: 0;
-        border: none;
-        border-top: medium double #333;
-        color: #8a0707;
-        text-align: center;
-        width: 39%;
-        margin-top: 26px;
-        margin: 0 auto;
-        border-color: #8a0707 !important;
-    }
+    /*hr.style-eight {*/
+        /*padding: 0;*/
+        /*border: none;*/
+        /*border-top: medium double #333;*/
+        /*color: #8a0707;*/
+        /*text-align: center;*/
+        /*width: 39%;*/
+        /*margin-top: 26px;*/
+        /*margin: 0 auto;*/
+        /*border-color: #8a0707 !important;*/
+    /*}*/
 
-    p {
+    /*p {*/
 
 
-        width: 500px !important;
-    }
+        /*width: 500px !important;*/
+    /*}*/
 }
 .visible-print {
   display: none !important;
