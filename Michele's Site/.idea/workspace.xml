@@ -79,8 +79,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25" vertical-offset="87370" max-vertical-offset="88365">
-              <caret line="5836" column="24" selection-start-line="5836" selection-start-column="24" selection-end-line="5836" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.86764705" vertical-offset="87370" max-vertical-offset="88455">
+              <caret line="5864" column="32" selection-start-line="5864" selection-start-column="32" selection-end-line="5864" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -599,8 +599,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25" vertical-offset="87370" max-vertical-offset="88365">
-          <caret line="5836" column="24" selection-start-line="5836" selection-start-column="24" selection-end-line="5836" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.86764705" vertical-offset="87370" max-vertical-offset="88455">
+          <caret line="5864" column="32" selection-start-line="5864" selection-start-column="32" selection-end-line="5864" selection-end-column="32" />
           <folding />
         </state>
       </provider>

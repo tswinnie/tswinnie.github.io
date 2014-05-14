@@ -5858,6 +5858,12 @@ button.close {
         margin: 0 auto;
         border-color: #8a0707 !important;
     }
+
+    p {
+
+
+        width: 600px !important;
+    }
 }
 .visible-print {
   display: none !important;
