@@ -5836,6 +5836,27 @@ button.close {
         float: right;
         margin-top: -350px;
     }
+
+    .drawer {
+        bottom: 0px;
+        height: 140px;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+        height: 48px !important;
+    }
+
+    hr.style-eight {
+        padding: 0;
+        border: none;
+        border-top: medium double #333;
+        color: #8a0707;
+        text-align: center;
+        width: 39%;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
 }
 .visible-print {
   display: none !important;
