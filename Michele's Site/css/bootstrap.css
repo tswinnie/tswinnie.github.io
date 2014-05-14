@@ -5751,15 +5751,29 @@ button.close {
         font-size: 1.7em;
         font-family: 'Crimson Text', serif;
         text-align: center;
-        margin-top: 162px !important;
+        margin-top: 192px !important;
+        margin-bottom: -23px !important;
     }
 
     .boxTwo {
         width: 685px;
         float: left;
         /* margin: 0 auto; */
-        margin-right: 13%;
+        margin-right: 16%;
         margin-top: 20px;
+    }
+
+
+    .section {
+        margin-top: -30px;
+        margin-bottom: 30px;
+        /*overflow-y: scroll !important;*/
+    }
+
+
+    p{
+
+        font-size: 14px !important;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {

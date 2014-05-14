@@ -23,13 +23,17 @@ html, body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    /*margin-bottom: 100px;*/
 }
 .slide {
     float: left;
+    overflow-y: scroll;
+
 }
 .slide, .slidesContainer {
-    height: 100%;
+    /*height: 100%;*/
     display: block;
+
 }
 .slides {
     height: 100%;
