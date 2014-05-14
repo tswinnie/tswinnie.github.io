@@ -5831,9 +5831,11 @@ button.close {
   }
 }
 @media (min-width: 1200px) {
-  .hidden-lg {
-    display: none !important;
-  }
+    .boxTwo {
+        width: 685px;
+        float: right;
+        margin-top: -350px;
+    }
 }
 .visible-print {
   display: none !important;
