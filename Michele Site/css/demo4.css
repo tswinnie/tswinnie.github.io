@@ -638,7 +638,7 @@
         left: 0;
         display: none;
         background: #212121;
-        overflow-y: scroll;
+        overflow: scroll;
     }
 
     .firstText {
