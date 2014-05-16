@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js demo-4">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Dark Knights Chasing Horses</title>
+		<meta name="keywords" content="" />
+
+        <meta name="author" content="" />
+        <meta name="description" content="Romantic novel" />
+        <meta name="keywords"  content="story, love, adventure, knights, kings,heart,novel,hope,chasing,dark,horses" />
+        <!--<link rel="stylesheet" href="css/slidebars.min.css">-->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="css/jquery.sidr.dark.css" />
+
+
+        <!--<link rel="shortcut icon" href="../favicon.ico">-->
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+		<!-- custom demo style -->
+
+
+        <link rel="stylesheet" type="text/css" href="css/demo4.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+
+
+
+
+
+
+        <!--<script src="js/jquery.lettering-0.6.1.min.js"></script>-->
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+        <!--<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js"></script>-->
+        <!--<script src="js/jquery.pageslide.min.js"></script>-->
+
+<style>
+
+
+    .bb-item {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        background: #212121;
+    }
+
+
+
+</style>
+
+
+
+
+
+        <link type="text/css" rel="stylesheet" href="css/demo.css" />
+        <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+
+        <!-- for the one page -->
+        <style type="text/css">
+            #intro,
+            #first,
+            #second,
+            #third
+            {
+                height: 400px;
+            }
+            #intro
+            {
+                padding-top: 40px;
+            }
+            #first,
+            #second,
+            #third
+            {
+                border-top: 1px solid #ccc;
+                padding-top: 60px;
+            }
+        </style>
+
+        <!-- for the fixed header -->
+        <style type="text/css">
+            #header,
+            #footer
+            {
+                position: fixed;
+                width: 100%;
+
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                -o-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+
+
+            hr.style-eight {
+                padding: 0;
+                border: none;
+                border-top: medium double #ccc;
+                color: #8a0707;
+                text-align: center;
+                width: 39%;
+                margin-top: 20px;
+            }
+            hr.style-eight:after {
+                content: "§";
+                display: inline-block;
+                position: relative;
+                top: -0.7em;
+                font-size: 1.5em;
+                padding: 0 0.25em;
+                background: transparent;
+                border-color: #ecf0f1;
+            }
+
+
+        </style>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mmenu.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                var $menu = $('#menu'),
+                        $html = $('html, body');
+
+                $menu.mmenu();
+                $menu.find( 'li > a' ).on(
+                        'click',
+                        function()
+                        {
+                            var href = $(this).attr( 'href' );
+
+                            //	if the clicked link is linked to an anchor, scroll the page to that anchor
+                            if ( href.slice( 0, 1 ) == '#' )
+                            {
+                                $menu.one(
+                                        'closed.mm',
+                                        function()
+                                        {
+                                            setTimeout(
+                                                    function()
+                                                    {
+                                                        $html.animate({
+                                                            scrollTop: $( href ).offset().top
+                                                        });
+                                                    }, 10
+                                            );
+                                        }
+                                );
+                            }
+                        }
+                );
+            });
+        </script>
+
+
+        <script src="js/jquerypp.custom.js"></script>
+        <script src="js/jquery.bookblock.js"></script>
+
+
+
+
+	</head>
+	<body>
+
+
+
+
+
+    <header style="width: 100%; height: 133px; background-color: #ecf0f1;position: fixed; z-index: 999999; border-bottom: 1px solid white;">
+
+        <nav id="menu" style="margin-top: 134px;">
+            <ul>
+                <li style="text-align: center; color:#8a0707; font-size: 22px;"><a href="index.html">The Queen</a></li>
+                <li><a href="comment.html " id="pgOne">Leave a comment</a></li>
+                <li><a href="#" >Facebook</a></li>
+                <li><a href="#" id="pgThree">Twitter</a></li>
+                <!--<li><a href="positions.html" id="pgFour">Page 4</a></li>-->
+                <!--<li><a href="colors.html" id="pgFive">Page 5</a></li>-->
+                <!--<li><a href="advanced.html" id="pgSix">Page 6</a></li>-->
+                <!--<!--<li class="Selected">-->
+                    <!--<!--<a href="onepage.html">One page scrolling example</a>-->
+                    <!--<ul>-->
+                        <!--<li><a href="#content">Introduction</a></li>-->
+                        <!--<li><a href="#first">First section</a></li>-->
+                        <!--<li><a href="#second">Second section</a></li>-->
+                        <!--<li><a href="#third">Third section</a></li>-->
+                    <!--</ul>-->
+                <!--<!--</li>-->
+                <!--<li><a href="jqmobile/index.html">jQuery Mobile example</a></li>-->
+            </ul>
+        </nav>
+
+
+
+
+        <a href="#menu"> <img src="images/Menu.png" alt="Menu Button"  style="float:left; margin-top: 22px;cursor:pointer;"/></a>
+
+
+        <img src="images/MicheleLogo.png"  id="home" style="margin: 0 auto; display: block; margin-top: 6px; cursor:pointer;"/>
+
+
+
+
+
+
+
+
+    </header>
+
+
+
+
+		<div class="container">
+
+
+
+			<div class="bb-custom-wrapper">
+				
+				<div id="bb-bookblock" class="bb-bookblock">
+					<div class="bb-item">
+						<div class="bb-custom-firstpage">
+<h1 style="color:#8a0707;">Name of Book</h1>
+                            <b>by author</b>
+
+                            <hr class="style-eight" />
+
+                            <p style=" color: #bdc3c7; margin: 0 auto; text-align: left; font-size: 18px; line-height: 1.6; width: 600px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+
+
+
+
+                        </div>
+						<div class="bb-custom-side" id="pageONE">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+					</div>
+                    <div id="secondPG"></div>
+					<div class="bb-item" >
+						<div class="bb-custom-side"  >
+                            <p style=" color: #bdc3c7;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+						<div class="bb-custom-side">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+					</div>
+					<div class="bb-item">
+						<div class="bb-custom-side">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+						<div class="bb-custom-side">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+					</div>
+					<div class="bb-item">
+						<div class="bb-custom-side">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+						<div class="bb-custom-side">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+					</div>
+					<div class="bb-item">
+						<div class="bb-custom-side">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+						<div class="bb-custom-side">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+					</div>
+				</div>
+
+				<nav>
+					<!--<a id="bb-nav-first" href="#" class="bb-custom-icon bb-custom-icon-first">First page</a>-->
+					<a id="bb-nav-prev" href="#" class="bb-custom-icon bb-custom-icon-arrow-left">Previous</a>
+					<a id="bb-nav-next" href="#" class="bb-custom-icon bb-custom-icon-arrow-right">Next</a>
+					<!--<a id="bb-nav-last" href="#" class="bb-custom-icon bb-custom-icon-last">Last page</a>-->
+				</nav>
+
+			</div>
+
+            <!-- /container -->
+        </div>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+
+
+
+    <script>
+			var Page = (function() {
+
+				var config = {
+						$bookBlock : $( '#bb-bookblock' ),
+						$navNext : $( '#bb-nav-next' ),
+						$navPrev : $( '#bb-nav-prev' ),
+						$navFirst : $( '#bb-nav-first' ),
+						$navLast : $( '#bb-nav-last' ),
+//                        $navNext : $( '#pageTWO' )
+
+                        },
+					init = function() {
+						config.$bookBlock.bookblock( {
+							speed : 1000,
+							shadowSides : 0.8,
+							shadowFlip : 0.4,
+                            orientation : 'horizontal',
+                            easing      : 'ease-in-out'
+
+						} );
+						initEvents();
+					},
+					initEvents = function() {
+
+						var $slides = config.$bookBlock.children();
+
+						// add navigation events
+						config.$navNext.on( 'click touchstart', function() {
+							config.$bookBlock.bookblock( 'next' );
+							return false;
+						} );
+
+						config.$navPrev.on( 'click touchstart', function() {
+							config.$bookBlock.bookblock( 'prev' );
+							return false;
+						} );
+
+						config.$navFirst.on( 'click touchstart', function() {
+							config.$bookBlock.bookblock( 'first' );
+							return false;
+						} );
+
+						config.$navLast.on( 'click touchstart', function() {
+							config.$bookBlock.bookblock( 'last' );
+							return false;
+						} );
+
+						// add swipe events
+						$slides.on( {
+							'swipeleft' : function( event ) {
+								config.$bookBlock.bookblock( 'next' );
+								return false;
+							},
+							'swiperight' : function( event ) {
+								config.$bookBlock.bookblock( 'prev' );
+								return false;
+							}
+						} );
+
+						// add keyboard events
+						$( document ).keydown( function(e) {
+							var keyCode = e.keyCode || e.which,
+								arrow = {
+									left : 37,
+									up : 38,
+									right : 39,
+									down : 40
+								};
+
+							switch (keyCode) {
+								case arrow.left:
+									config.$bookBlock.bookblock( 'prev' );
+									break;
+								case arrow.right:
+									config.$bookBlock.bookblock( 'next' );
+									break;
+							}
+						} );
+					};
+
+					return { init : init };
+
+			})();
+		</script>
+		<script>
+				Page.init();
+		</script>
+
+    <!--<script>-->
+
+
+
+        <!--$('#pageTWO').click(function(){-->
+            <!--window.location='#secondPG';-->
+        <!--})-->
+    <!--</script>-->
+
+
+    </body>
+</html>
