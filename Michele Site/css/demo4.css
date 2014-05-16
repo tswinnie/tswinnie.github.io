@@ -638,7 +638,6 @@
         left: 0;
         display: none;
         background: #212121;
-        overflow: scroll;
     }
 
     .firstText {
@@ -757,5 +756,20 @@
         text-align: center;
         margin-top: -614px;
         left: 80px;
+    }
+
+    .mm-page, .mm-fixed-top, .mm-fixed-bottom, .mm-menu.mm-horizontal > .mm-panel {
+        -webkit-transition: none 0.4s ease;
+        -moz-transition: none 0.4s ease;
+        -ms-transition: none 0.4s ease;
+        -o-transition: none 0.4s ease;
+        transition: none 0.4s ease;
+        -webkit-transition-property: top, right, bottom, left, border;
+        -moz-transition-property: top, right, bottom, left, border;
+        -ms-transition-property: top, right, bottom, left, border;
+        -o-transition-property: top, right, bottom, left, border;
+        transition-property: top, right, bottom, left, border;
+        overflow: scroll;
+        background-color: #212121;
     }
 }
