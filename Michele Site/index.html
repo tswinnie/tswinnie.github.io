@@ -19,7 +19,9 @@
         <!--<link rel="shortcut icon" href="../favicon.ico">-->
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
-		<!-- custom demo style -->
+
+
+        <!-- custom demo style -->
 
 
         <link rel="stylesheet" type="text/css" href="css/demo4.css" />
@@ -47,6 +49,31 @@
         left: 0;
         display: none;
         background: #212121;
+    }
+
+
+    .bb-custom-side {
+        width: 600px;
+        float: left;
+        /* height: 100%; */
+        /* overflow: hidden; */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -webkit-align-items: center;
+        align-items: left;
+        text-align: left;
     }
 
 
@@ -120,6 +147,22 @@
             }
 
 
+            .firstText {
+                font-size: 1.3em;
+                height: auto !important;
+                line-height: 1.5;
+                color: #bdc3c7;
+                text-align: left;
+                width: 578px;
+                /* padding: 5%; */
+                /* margin-top: 3px; */
+                padding-left: 13%;
+            }
+            /*body{*/
+
+                /*font-family: 'Crimson Text', serif !important;*/
+            /*}*/
+
         </style>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -162,11 +205,13 @@
 
         <script src="js/jquerypp.custom.js"></script>
         <script src="js/jquery.bookblock.js"></script>
+        <script src="js/jqueryEasing.js"></script>
 
 
 
 
-	</head>
+
+    </head>
 	<body>
 
 
@@ -177,7 +222,7 @@
 
         <nav id="menu" style="margin-top: 134px;">
             <ul>
-                <li style="text-align: center; color:#8a0707; font-size: 22px;"><a href="index.html">The Queen</a></li>
+                <li style="text-align: center; color:#8a0707; font-size: 1.6em; margin-right: 81px; "><a href="index.html" >The Queen</a></li>
                 <li><a href="comment.html " id="pgOne">Leave a comment</a></li>
                 <li><a href="#" >Facebook</a></li>
                 <li><a href="#" id="pgThree">Twitter</a></li>
@@ -203,7 +248,7 @@
         <a href="#menu"> <img src="images/Menu.png" alt="Menu Button"  style="float:left; margin-top: 22px;cursor:pointer;"/></a>
 
 
-        <img src="images/MicheleLogo.png"  id="home" style="margin: 0 auto; display: block; margin-top: 6px; cursor:pointer;"/>
+        <img src="images/MicheleLogo.png" class="mobileLogo"  id="home" style="margin: 0 auto; margin-left: 25%; margin-top: 6px; cursor:pointer;"/>
 
 
 
@@ -231,47 +276,47 @@
 
                             <hr class="style-eight" />
 
-                            <p style=" color: #bdc3c7; margin: 0 auto; text-align: left; font-size: 18px; line-height: 1.6; width: 600px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+                            <p  class="firstText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
 
 
 
 
                         </div>
 						<div class="bb-custom-side" id="pageONE">
-                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula.Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
 						</div>
 					</div>
                     <div id="secondPG"></div>
 					<div class="bb-item" >
 						<div class="bb-custom-side"  >
-                            <p style=" color: #bdc3c7;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula.Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
 						</div>
 						<div class="bb-custom-side">
-                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
-						</div>
-					</div>
-					<div class="bb-item">
-						<div class="bb-custom-side">
-                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
-						</div>
-						<div class="bb-custom-side">
-                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula.Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
 						</div>
 					</div>
 					<div class="bb-item">
 						<div class="bb-custom-side">
-                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula.Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
 						</div>
 						<div class="bb-custom-side">
-                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula.Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
 						</div>
 					</div>
 					<div class="bb-item">
 						<div class="bb-custom-side">
-                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula.Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
 						</div>
 						<div class="bb-custom-side">
-                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna. Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula. Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula.Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+					</div>
+					<div class="bb-item">
+						<div class="bb-custom-side">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula.Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
+						</div>
+						<div class="bb-custom-side">
+                            <p style=" color: #bdc3c7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mattis nibh, vitae ullamcorper enim. Nulla ornare porta elit, ac porta purus tempor eu. Phasellus faucibus malesuada neque, sed congue dui. Phasellus et metus ullamcorper, tempor lectus sed, vestibulum magna.<br/><br/> Pellentesque imperdiet, diam eu semper feugiat, lorem mi faucibus ipsum, vitae varius dolor ante at nisl. Aenean hendrerit nisl non posuere convallis. Vivamus sed dolor venenatis, semper justo a, egestas ligula.Vestibulum purus ipsum, feugiat vitae arcu nec, consequat convallis dolor.</p>
 						</div>
 					</div>
 				</div>
@@ -306,8 +351,8 @@
 					init = function() {
 						config.$bookBlock.bookblock( {
 							speed : 1000,
-							shadowSides : 0.8,
-							shadowFlip : 0.4,
+							shadowSides : 1.5,
+							shadowFlip : 0.8,
                             orientation : 'horizontal',
                             easing      : 'ease-in-out'
 

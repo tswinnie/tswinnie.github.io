@@ -165,3 +165,57 @@
 	}
 }
 
+
+@media screen and (max-width: 1024px){
+
+
+    .firstText {
+        font-size: 1.2em  !important;
+        height: auto !important;
+        line-height: 1.5;
+        color: #bdc3c7;
+        text-align: left;
+        width: 481px !important;
+        /* padding: 5%; */
+        /* margin-top: 3px; */
+        padding-left: 4% !important;
+    }
+
+    .bb-custom-side p {
+        font-size: 1.2em !important;
+        font-weight: 300;
+        line-height: 1.7;
+        margin-top: 167px !important;
+    }
+
+    .bb-custom-side {
+        width: 495px !important;
+        float: left;
+        /* height: 100%; */
+        /* overflow: hidden; */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -webkit-align-items: center;
+        align-items: left;
+        text-align: left;
+    }
+
+    .mobileLogo{
+
+        margin-left: 16% !important;
+    }
+
+}
+
