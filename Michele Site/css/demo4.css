@@ -1293,6 +1293,11 @@ and (max-width : 400px) {
         /* margin-bottom: 10px; */
     }
 
+    .newBox {
+        position: relative;
+        top: -125px;
+    }
+
 
 
 
