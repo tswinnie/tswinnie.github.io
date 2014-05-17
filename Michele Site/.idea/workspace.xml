@@ -96,20 +96,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo4.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="demo4.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/demo4.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="16520" max-vertical-offset="17355">
-              <caret line="1144" column="5" selection-start-line="1144" selection-start-column="5" selection-end-line="1144" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.73134327" vertical-offset="16700" max-vertical-offset="17535">
+              <caret line="1146" column="14" selection-start-line="1146" selection-start-column="14" selection-end-line="1146" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4028436" vertical-offset="3930" max-vertical-offset="6660">
+            <state vertical-scroll-proportion="-10.625" vertical-offset="3930" max-vertical-offset="6660">
               <caret line="279" column="51" selection-start-line="279" selection-start-column="51" selection-end-line="279" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -149,8 +149,8 @@
         <option value="$PROJECT_DIR$/index4.html" />
         <option value="$PROJECT_DIR$/js/jqueryEasing.js" />
         <option value="$PROJECT_DIR$/comment.html" />
-        <option value="$PROJECT_DIR$/css/demo4.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/demo4.css" />
       </list>
     </option>
   </component>
@@ -280,7 +280,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="22" width="1378" height="790" extended-state="0" />
+    <frame x="56" y="22" width="1378" height="790" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -547,22 +547,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/demo4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16520" max-vertical-offset="17355">
-          <caret line="1144" column="5" selection-start-line="1144" selection-start-column="5" selection-end-line="1144" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4028436" vertical-offset="3930" max-vertical-offset="6660">
+        <state vertical-scroll-proportion="-10.625" vertical-offset="3930" max-vertical-offset="6660">
           <caret line="279" column="51" selection-start-line="279" selection-start-column="51" selection-end-line="279" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73134327" vertical-offset="16700" max-vertical-offset="17535">
+          <caret line="1146" column="14" selection-start-line="1146" selection-start-column="14" selection-end-line="1146" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
