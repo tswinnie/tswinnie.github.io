@@ -99,8 +99,8 @@
       <file leaf-file-name="iphone.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iphone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23219815" vertical-offset="0" max-vertical-offset="646">
-              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="646">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -290,7 +290,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="22" width="1378" height="790" extended-state="0" />
+    <frame x="56" y="22" width="1378" height="790" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -596,8 +596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iphone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23219815" vertical-offset="0" max-vertical-offset="646">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="646">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
