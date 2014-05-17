@@ -1228,7 +1228,7 @@ and (max-width : 400px) {
     }
 
     .bb-custom-side {
-        /*width: 425px !important;*/
+        width: 397px !important;
         /*float: left;*/
         /*height: 100%;*/
         /*overflow: hidden;*/
