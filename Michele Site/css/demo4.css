@@ -1203,19 +1203,14 @@ and (max-width : 400px) {
         margin-left: 105px;
     }
 
-    .firstText {
-        font-size: 1.3em !important;
-        height: auto !important;
-        line-height: 1.5;
-        color: #bdc3c7;
-        text-align: left;
-        width: 400px !important;
-        /* padding: 5%; */
-        /* margin-top: 3px; */
-        padding-left: 4% !important;
-        /* margin-bottom: 10px; */
+    .bb-custom-firstpage {
+        text-align: center;
+        padding-top: 21%;
+        width: 5%;
+        float: left;
+        height: 100%;
+        margin-bottom: -61px;
     }
-
 
 
 
