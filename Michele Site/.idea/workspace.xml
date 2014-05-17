@@ -66,16 +66,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4050" max-vertical-offset="5040">
-              <caret line="288" column="1" selection-start-line="288" selection-start-column="1" selection-end-line="288" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bookblock.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bookblock.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,12 +86,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo4.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="demo4.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/demo4.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48507464" vertical-offset="18995" max-vertical-offset="19860">
+            <state vertical-scroll-proportion="0.0" vertical-offset="18995" max-vertical-offset="19860">
               <caret line="1288" column="31" selection-start-line="1288" selection-start-column="31" selection-end-line="1288" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iphone.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iphone.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41795665" vertical-offset="0" max-vertical-offset="646">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,6 +159,7 @@
         <option value="$PROJECT_DIR$/comment.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/demo4.css" />
+        <option value="$PROJECT_DIR$/iphone.html" />
       </list>
     </option>
   </component>
@@ -231,6 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -286,7 +290,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="22" width="1378" height="790" extended-state="0" />
+    <frame x="56" y="22" width="1378" height="790" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -584,9 +588,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/demo4.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48507464" vertical-offset="18995" max-vertical-offset="19860">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18995" max-vertical-offset="19860">
           <caret line="1288" column="31" selection-start-line="1288" selection-start-column="31" selection-end-line="1288" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iphone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41795665" vertical-offset="0" max-vertical-offset="646">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
