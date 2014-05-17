@@ -1169,6 +1169,28 @@ and (max-width : 400px) {
         /* margin-top: 100px; */
         top: -12px;
     }
+    hr.style-eight {
+        padding: 0;
+        border: none;
+        border-top: medium double #ccc;
+        color: #8a0707;
+        text-align: center;
+        width: 64% !important;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .authorName {
+        text-align: center;
+        width: 323px;
+        display: block;
+        /* margin-left: 32px; */
+    }
+
+    body{
+
+        overflow: hidden;
+    }
 
 
 
