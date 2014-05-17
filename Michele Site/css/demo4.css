@@ -1260,7 +1260,7 @@ and (max-width : 400px) {
         text-align: left;
         margin: 0 auto;
         width: 338px !important;
-        margin-left: 10%;
+        margin-left: 4%;
     }
 
     .newNEW {
@@ -1277,7 +1277,7 @@ and (max-width : 400px) {
         float: left;
         height: 100%;
         /* margin-bottom: -61px; */
-        margin-left: 11%;
+        margin-left: 5%;
     }
 
     .firstText {
