@@ -1210,7 +1210,6 @@ and (max-width : 400px) {
         float: left;
         height: 100%;
         /*margin-bottom: -61px;*/
-        font-size: .8em !important;
     }
 
     .newBox{
@@ -1219,9 +1218,11 @@ and (max-width : 400px) {
         top: -137px;
 
     }
-    p{
-
+    .bb-custom-side p {
         font-size: 1.6em !important;
+        font-weight: 300;
+        line-height: 1.6;
+        margin-top: 167px !important;
     }
 
 
