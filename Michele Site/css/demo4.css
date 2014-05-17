@@ -1226,8 +1226,13 @@ and (max-width : 400px) {
         /* margin-top: 125px !important; */
         margin-left: -8px;
         margin-bottom: 10px;
+
+    }
+
+    .newNew{
         position: relative;
         top: -70px;
+
     }
 
 
