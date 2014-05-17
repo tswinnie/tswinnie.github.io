@@ -1218,6 +1218,10 @@ and (max-width : 400px) {
         top: -137px;
 
     }
+    p{
+
+        font-size: 1.6em !important;
+    }
 
 
 
