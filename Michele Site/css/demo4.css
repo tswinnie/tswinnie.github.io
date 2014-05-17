@@ -1209,14 +1209,14 @@ and (max-width : 400px) {
         width: 5%;
         float: left;
         height: 100%;
-        margin-bottom: -61px;
+        /*margin-bottom: -61px;*/
     }
 
     .newBox{
 
         position: relative;
         top: -137px;
-    
+
     }
 
 
