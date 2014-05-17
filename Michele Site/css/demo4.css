@@ -1201,6 +1201,7 @@ and (max-width : 400px) {
         width: 64% !important;
         margin-top: 20px;
         margin-left: 105px;
+        display: none;
     }
 
     .bb-custom-firstpage {
@@ -1222,9 +1223,11 @@ and (max-width : 400px) {
         font-size: 1.6em !important;
         font-weight: 300;
         line-height: 1.6;
-        margin-top: 125px !important;
+        /* margin-top: 125px !important; */
         margin-left: -8px;
         margin-bottom: 10px;
+        position: relative;
+        top: -100px;
     }
 
 
