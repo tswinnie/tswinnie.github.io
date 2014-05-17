@@ -1216,7 +1216,7 @@ and (max-width : 400px) {
     .newBox{
 
         position: relative;
-        top: -100px;
+        top: -50px;
 
     }
     .bb-custom-side p {
