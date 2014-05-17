@@ -1297,6 +1297,17 @@ and (max-width : 400px) {
         position: relative;
         top: -125px;
     }
+    .bb-custom-side p {
+        font-size: 1.5em !important;
+        font-weight: 300;
+        line-height: 1.6;
+        /* margin-top: 125px !important; */
+        margin-left: -8px;
+        margin-bottom: 10px;
+        margin-top: -22px;
+        position: relative;
+        top: -70px;
+    }
 
 
 
