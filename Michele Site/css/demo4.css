@@ -1128,3 +1128,24 @@ and (max-width : 768px) {
 
 }
 
+@media only screen
+and (max-width : 400px) {
+
+    .firstText {
+        font-size: 1.3em !important;
+        height: auto !important;
+        line-height: 1.5;
+        color: #bdc3c7;
+        text-align: left;
+        width: 326px !important;
+        /* padding: 5%; */
+        /* margin-top: 3px; */
+        padding-left: 4% !important;
+        /* margin-bottom: 10px; */
+    }
+
+
+
+
+}
+
