@@ -1210,6 +1210,7 @@ and (max-width : 400px) {
         float: left;
         height: 100%;
         /*margin-bottom: -61px;*/
+        font-size: .8em !important;
     }
 
     .newBox{
