@@ -1156,32 +1156,7 @@ and (max-width : 400px) {
         margin-top: 47px;
     }
 
-    .bb-custom-side {
-        width: 307px !important;
-        float: left;
-        height: 100%;
-        overflow: hidden;
-        display: -webkit-box;
-        display: -moz-box;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-direction: row;
-        flex-direction: row;
-        -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-box-pack: center;
-        -moz-box-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -moz-box-align: center;
-        -webkit-align-items: center;
-        align-items: left;
-        text-align: left;
-        font-size: 12px !important;
-        margin-left: -24px;
-        margin-bottom: 85px;
-    }
+
 
 
 
