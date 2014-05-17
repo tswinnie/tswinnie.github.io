@@ -1219,12 +1219,12 @@ and (max-width : 400px) {
 
     }
 
-    /*.bb-custom-side p {*/
-        /*font-size: 1.6em !important;*/
-        /*font-weight: 300;*/
-        /*line-height: 1.6;*/
-        /*margin-top: 167px !important;*/
-    /*}*/
+    .bb-custom-side p {
+        font-size: 1.6em !important;
+        font-weight: 300;
+        line-height: 1.6;
+        margin-top: 167px !important;
+    }
 
     .bb-custom-side {
         width: 425px !important;
@@ -1250,7 +1250,7 @@ and (max-width : 400px) {
         text-align: left;
         font-size: 10px !important;
         margin-left: -20px;
-        margin-top: -85px;
+        /*margin-top: -85px;*/
     }
 
 
