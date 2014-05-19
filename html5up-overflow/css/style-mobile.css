@@ -297,7 +297,7 @@
 
 
 img {
-    max-width: 380px !important;
+    max-width: 100% !important;
     height: auto;
     width: auto\9;
     margin-top: -192px;
