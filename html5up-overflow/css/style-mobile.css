@@ -297,13 +297,20 @@
 
 
 img {
-    max-width: 100% !important;
+
+max-width: 119% !important;
     height: auto;
     width: auto\9;
     margin-top: -192px;
     margin-bottom: -25%;
     /* width: 100%; */
     margin-left: -32px;
+    /* padding: 3em 2em 3em 2em; */
+    background-size: auto 150%;
+
+
+
+
 }
 
 .box.style1.right .innerLeft {
