@@ -298,7 +298,7 @@
 
 img {
 
-max-width: 119% !important;
+max-width: 121% !important;
     height: auto;
     width: auto\9;
     margin-top: -192px;
@@ -330,5 +330,5 @@ p{
 .container {
     max-width: none!important;
     min-width: 0!important;
-    width: 98%!important;
+    width: 99%!important;
 }
