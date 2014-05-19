@@ -321,3 +321,8 @@ max-width: 125% !important;
     line-height: 1.6 !important;
     padding-bottom: 18px !important;
 }
+
+p{
+    margin-bottom: 1em;
+    padding-right: 2%;
+}
