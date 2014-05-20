@@ -395,3 +395,8 @@ img {
     height: 568px;
     /*margin-right: -34px;*/
 }
+
+#header header {
+    padding-left: 2em;
+    padding-right: 0em;
+}
