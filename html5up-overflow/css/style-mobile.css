@@ -317,32 +317,32 @@ max-width: 124% !important;
 
 
 
-.button {
-    padding: 0.75em 0 0.75em 0;
-    width: 100%;
-    max-width: 320px;
-    postion: relative;
-    top: -94px;
-}
+/*.button {*/
+    /*padding: 0.75em 0 0.75em 0;*/
+    /*width: 100%;*/
+    /*max-width: 320px;*/
+    /*postion: relative;*/
+    /*top: -94px;*/
+/*}*/
 
 
-#header footer:after {
-    bottom: -4.5em;
-    left: 50%;
-    height: 12.5em;
-}
+/*#header footer:after {*/
+    /*bottom: -4.5em;*/
+    /*left: 50%;*/
+    /*height: 12.5em;*/
+/*}*/
 
-#header footer:before {
-    width: 45px;
-    height: 33px;
-    bottom: -2.25em;
-    margin-left: -22.5px;
-    margin-bottom: -16.5px;
-    background-size: 45px 33px;
+/*#header footer:before {*/
+    /*width: 45px;*/
+    /*height: 33px;*/
+    /*bottom: -2.25em;*/
+    /*margin-left: -22.5px;*/
+    /*margin-bottom: -16.5px;*/
+    /*background-size: 45px 33px;*/
     /* margin-top: -24px; */
     /* position: relative; */
-    top: -30px;
-}
+    /*top: -30px;*/
+/*}*/
 
 .box.style1.right .innerLeft {
     margin-right: 25%;
@@ -366,15 +366,15 @@ p{
 
 #mb {
     /* max-width: 120.7% !important; */
-    height: auto;
+    /*height: auto;*/
     width: auto\9;
     margin-top: -95px;
     margin-bottom: -25%;
     /* width: 100%; */
     margin-left: -32px;
     /* padding: 3em 2em 3em 2em; */
-    background-size: auto 150%;
-    background-image: url("../images/Michele-Backgroundmobile.png");
-    height: 568px;
-    width: 121%;
+    /*background-size: auto 150%;*/
+    background-image: url("../images/mobileMainBackground.png");
+    height: auto;
+    width: 400px;
 }
