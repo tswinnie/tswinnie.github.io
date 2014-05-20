@@ -38,8 +38,8 @@
       <file leaf-file-name="style-mobile.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style-mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8917749" vertical-offset="5772" max-vertical-offset="6480">
-              <caret line="426" column="1" selection-start-line="426" selection-start-column="1" selection-end-line="426" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.54545456" vertical-offset="5772" max-vertical-offset="6465">
+              <caret line="410" column="0" selection-start-line="410" selection-start-column="0" selection-end-line="425" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -348,8 +348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style-mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8917749" vertical-offset="5772" max-vertical-offset="6480">
-          <caret line="426" column="1" selection-start-line="426" selection-start-column="1" selection-end-line="426" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.54545456" vertical-offset="5772" max-vertical-offset="6465">
+          <caret line="410" column="0" selection-start-line="410" selection-start-column="0" selection-end-line="425" selection-end-column="1" />
           <folding />
         </state>
       </provider>
