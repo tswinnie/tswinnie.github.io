@@ -400,3 +400,9 @@ img {
     padding-left: 0em;
     padding-right: 0em;
 }
+
+
+#banner {
+    padding: 3em 2em 3em 2em;
+    background-size: auto 155%;
+}
