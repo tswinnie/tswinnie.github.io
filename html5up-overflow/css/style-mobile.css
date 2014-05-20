@@ -375,6 +375,6 @@ p{
     /* padding: 3em 2em 3em 2em; */
     /*background-size: auto 150%;*/
     background-image: url("../images/mobileMainBackground.png");
-    height: auto;
-    width: 400px;
+    min-height: 80%;
+    width:400px;
 }
