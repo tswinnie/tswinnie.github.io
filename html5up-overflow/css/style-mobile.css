@@ -432,4 +432,5 @@ img {
     /* width: 100% !important; */
     max-width: 124%;
     display: inline-block;
+    margin-bottom: -127px;
 }
