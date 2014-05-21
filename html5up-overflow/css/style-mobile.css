@@ -361,7 +361,7 @@ p{
 .container {
     max-width: none!important;
     min-width: 0!important;
-    width: 99%!important;
+    width: 100%!important;
 }
 
 img {
