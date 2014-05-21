@@ -441,18 +441,8 @@ img {
     padding: 0 2em 0 2em;
 }
 
-#header footer:before {
-    width: 45px;
-    height: 33px;
-    bottom: -2.25em;
-    margin-left: -22.5px;
-    margin-bottom: -16.5px;
-    background-size: 45px 33px;
-    margin-left: -1px;
-}
-
 #header footer:after {
     bottom: -13.5em;
-    left: 56.5%;
+    left: 50%;
     height: 13.5em;
 }
