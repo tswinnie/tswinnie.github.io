@@ -361,7 +361,7 @@ p{
 .container {
     max-width: none!important;
     min-width: 0!important;
-    width: 102%!important;
+    width: 101%!important;
 }
 
 img {
@@ -407,8 +407,7 @@ img {
 #banner {
     padding: 3em 2em 3em 2em;
     background-size: auto 155%;
-    /*width: 368px !important;*/
-    width: 102% !important;
+    width: 368px !important;
 
 
 
