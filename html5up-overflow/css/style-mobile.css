@@ -399,6 +399,7 @@ img {
     padding-left: 0em;
     padding-right: 0em;
     /*margin-right: -40px;*/
+    margin-right: -35px;
 }
 
 
@@ -427,6 +428,6 @@ img {
     height: 568px;
     /* margin-right: -34px; */
     /* width: 100% !important; */
-    max-width: 100%;
-    display:inline-block;
+    max-width: 124%;
+    display: inline-block;
 }
