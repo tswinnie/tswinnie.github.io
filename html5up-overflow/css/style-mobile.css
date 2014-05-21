@@ -448,11 +448,11 @@ img {
     margin-left: -22.5px;
     margin-bottom: -16.5px;
     background-size: 45px 33px;
-    margin-left: -8px;
+    margin-left: -4px;
 }
 
 #header footer:after {
     bottom: -13.5em;
-    left: 53.3%;
+    left: 55%;
     height: 13.5em;
 }
