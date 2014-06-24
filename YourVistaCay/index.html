@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Your Vista Cay</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/wallop-slider.css">
+    <link rel="stylesheet" href="css/wallop-slider--slide.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--scripts-->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <style>
+
+
+        .wallop-slider__item img {
+            display: block;
+            width: 100%;
+            height: 607px !important;
+        }
+    </style>
+
+</head>
+<body>
+
+<!--header-->
+<header>
+
+    <!--logo and contact info-->
+    <ul class="companyLogo">
+    <h2 class="logo">Logo</h2>
+        <a href="#"><li class="rightContact" style="position: relative;left: 85px; top: -10px; font-weight: 300; color: #282828;">contact us</li></a>
+        <a href="#"><li class="rightContact" style="position: relative;left: 49px; top: -10px; color: #282828; font-weight: bold;">+ 407 289 6080</li></a>
+        <a href="mailTo"><li class="rightContact" style="position: relative;top:-10px; font-weight: 300; color: #282828;">lin@yourvistacay.com</li></a>
+        <li class="rightContact" style="position: relative;left: -70px; font-weight: bold; color: #282828;">Follow us</li>
+        <a href="#"><img src="images/twitter.png" width="28" height="28" style="margin-left: -45px; max-width: 18px; max-height: 18px; margin-right: 10px;"/></a>
+        <a href="#"><img src="images/facebook.png" width="28" height="28" style=" max-width: 20px; max-height: 20px; margin-right: 10px;"/></a>
+            <a href="#"><img src="images/Instagram.png" width="28" height="28" style=" max-width: 20px; max-height: 20px; margin-right: 10px;"/></a>
+                <a href="#"><img src="images/pinterest.png" width="28" height="28" style=" max-width: 20px; max-height: 20px; margin-right: 10px;"/></a>
+    </ul>
+
+<hr class="style-six"/>
+
+<!--nav menu-->
+    <ul class="navMenu">
+
+         <a class="tooltips" href="#"><li class="nav" style="margin-right: 65px;" >HOME</li> </a>
+
+
+        <a href="#"><li class="nav" style="display: inline-block; width: 20px; margin-right: 96px;"><p style="margin: 0px; padding: 0px; position: relative; left: 12px;">OUR</p> RENTALS</li></a>
+        <a href="#"><li class="nav" style="display: inline-block; width: 63px; margin-right: 50px;"><p style="margin: 0px; padding: 0px; position: relative; left: 9px;">ABOUT</p>VISTA CAY</li></a>
+        <a href="#"><li class="nav"  style="margin-right: 60px;">TO SEE & DO</li></a>
+        <a href="#"><li class="nav" style="display: inline-block; width: 63px; margin-right: 58px;"><p style="margin: 0px; padding: 0px; position: relative; left: -4px;">CONCIERGE</p>SERVICES</li></a>
+        <a href="#"><li class="nav" style="display: inline-block; width: 63px; margin-right: 76px;"><p style="margin: 0px; padding: 0px; position: relative; left: 8px;">PROPERTY</p>MANAGEMENT</li></a>
+        <a href="#"><li class="nav">FAQ</li></a>
+
+    </ul>
+
+<ul class="navMenu"style="margin-top: -36px; position: relative;">
+    <div class="hoverBTn">HOME</div>
+</ul>
+
+</header>
+
+<!--end of header-->
+
+
+<!--main slider-->
+
+
+<div class="mainSlider">
+
+
+    <div class="container">
+
+        <!-- SLIDER STARTS -->
+        <div class="photo-slider wallop-slider wallop-slider--slide">
+            <ul class="wallop-slider__list">
+                <li class="wallop-slider__item wallop-slider__item--current"><img src="images/pool.png"></li>
+                <li class="wallop-slider__item"><img src="images/poolchair.png"></li>
+                <li class="wallop-slider__item"><img src="images/path.png"></li>
+                <li class="wallop-slider__item"><img src="images/bar.png"></li>
+                <li class="wallop-slider__item"><img src="images/sunrise.png"></li>
+            </ul>
+            <button class="wallop-slider__btn wallop-slider__btn--previous btn btn--previous" disabled  style="float: left; margin-top: -250px; position: relative; clear:both; width: 38px; height: 42px; background-color: #282828; border: none; opacity: 0.8; text-indent: -999999999999999px;">Previous</button>
+            <button class="wallop-slider__btn wallop-slider__btn--next btn btn--next" style="float: right; margin-top: -281px; position: relative; width: 38px; height: 42px; background-color: #282828; border: none; opacity: 0.8; text-indent: -999999999999999px;">Next</button>
+        </div>
+        <!-- SLIDER ENDS -->
+
+    </div>
+    <div class="secondContainer">
+    <h2 class="sliderText">Wish you were here</h2>
+
+    <!--date picker-->
+    <div id="datePicker">
+        <!--text -->
+
+        <p class="datepickertextOne">Quick</p><br/><p class="datepickertextTwo">Search</p>
+        <img src="images/nextBTN.png" width="32" height="32" style="position: relative; top: -6px;  min-width: 20px; min-height: 23px; left: -20px; margin-right: -13px; margin-bottom: -10px;"/>
+        <input type="text" id="DateFrom" value="Arrive">
+        <input type="text" id="DateTo" value="Depart">
+        <select id="Bedrooms">
+            <option value="volvo">2 Guest</option>
+            <option value="saab">3 Guest</option>
+            <option value="mercedes">4 Guest</option>
+            <option value="audi">5 Guest</option>
+            <option value="audi">6 Guest</option>
+            <option value="audi">7 Guest</option>
+            <option value="audi">8 Guest</option>
+            <option value="audi">9 Guest</option>
+            <option value="audi">10 Guest</option>
+        </select>
+
+        <select id="Sleeps">
+            <option value="volvo">2 Bedrooms</option>
+
+            <option value="mercedes">3 Bedrooms</option>
+            <option value="audi">4 Bedrooms</option>
+            <option value="audi">5 Bedrooms</option>
+            <option value="audi">6 Bedrooms</option>
+            <option value="audi">7 Bedrooms</option>
+            <option value="audi">8 Bedrooms</option>
+            <option value="audi">9 Bedrooms</option>
+            <option value="audi">10 Bedrooms</option>
+            <option value="audi">11 Bedrooms</option>
+            <option value="audi">12 Bedrooms</option>
+            <option value="audi">13 Bedrooms</option>
+            <option value="audi">14 Bedrooms</option>
+            <option value="audi">15 Bedrooms</option>
+            <option value="audi">16 Bedrooms</option>
+            <option value="audi">17 Bedrooms</option>
+
+        </select>
+
+
+        <input type="submit" id="smit" value="Search"/>
+
+    </div>
+
+    </div>
+
+</div>
+
+
+
+<!--mainContainer-->
+
+
+<div id="mainContainer">
+
+
+   <a href="#"> <div class="box">
+
+        <p class="overlayText">ABOUT <br/> VISTA CAY</p>
+
+        <div class="overlay"> </div>
+
+        <img src="images/vista.png"/>
+
+
+
+    </div>
+
+   </a>
+
+    <a href="#">
+    <div class="box">
+        <p class="overlayText">OUR  <br/>RENTALS</p>
+        <div class="overlay"> </div>
+        <img src="images/rentals.png"/>
+
+
+    </div>
+
+    </a>
+
+    <a href="#">
+    <div class="box">
+
+        <p class="overlayText">PROPERTY   <br/>MANAGEMENT</p>
+        <div class="overlay"> </div>
+
+        <img src="images/pm.png"/>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="box">
+        <p class="overlayText">TO SEE &  <br/>DO</p>
+        <div class="overlay"> </div>
+
+        <img src="images/toSee.png"/>
+    </div>
+
+    </a>
+
+    <a href="#">
+    <div class="box">
+
+        <p class="overlayText">CONCIERGE  <br/>SERVICES</p>
+        <div class="overlay"> </div>
+        <img src="images/concierge.png"/>
+
+    </div>
+
+    </a>
+
+    <a href="#">
+    <div class="box">
+
+        <p class="overlayText">ABOUT  <br/>US</p>
+        <div class="overlay"> </div>
+
+        <img src="images/about.png"/>
+
+    </div>
+    </a>
+
+
+    <hr class="newHR"/>
+
+
+
+
+<!--sub content-->
+
+    <div class="boxSub">
+        <h3 style="font-weight: 300; font-size: 15px; ">YOUR VISTA CAY</h3>
+        <hr  class="style-one"/>
+        <p class="subText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est elit. consectetur adipiscing elit. Aenean et</p>
+        <p class="subTextTwo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est elit. consectetur adipiscing elit. Aenean et</p>
+        <a href="#"><p class="readmore">read more</p></a>
+
+
+    </div>
+
+    <div class="boxSub">
+        <h3 style="font-weight: 300; font-size: 15px;">GUESTIMONIAL</h3>
+        <hr  class="style-one"/>
+        <p class="subText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est elit."</p>
+
+        <p class="reviewName">john smith</p>
+
+
+        <p class="subTextTwo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est elit."</p>
+
+        <p class="reviewName">john smith</p>
+
+
+
+        <a href="#"><p class="readmore">read more</p></a>
+
+
+    </div>
+
+    <div class="boxSub">
+        <h3 style="font-weight: 300; font-size: 15px;">PLEASE SEND ME NEWS AND OFFERS</h3>
+        <hr  class="style-one"/>
+
+        <input type="text" id="name" value="Your name"/>
+        <input type="text" id="email" value="Your email"/>
+       <div class="submitBTN">Send details</div>
+
+
+    </div>
+
+
+
+
+</div>
+
+<!--footer-->
+
+<footer>
+
+    <p style="text-align: center; color: white; font-weight: 300;">&copy;Your Vista Cay Ltd 2014</p>
+    <p style="text-align: center; color: white;font-weight: 300; ">Privacy Policy Terms & Conditions</p>
+
+
+</footer>
+
+
+
+<!-- Including the JavaScript files -->
+<script src="js/WallopSlider.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+/**************************************************
+
+  wallop-slider--fade.css
+
+  This is the fade animation styles
+
+**************************************************/
+
+.wallop-slider--fade .wallop-slider__item--show-previous {
+	-webkit-animation: none;
+}
+
+.wallop-slider--fade .wallop-slider__item--show-next {
+	-webkit-animation: none;
+}
+
+/* In order to animate the hidden elemends, we need to reset the display to block */
+.wallop-slider--fade .wallop-slider__item--hide-previous,
+.wallop-slider--fade .wallop-slider__item--hide-next {
+  display: block;
+}
+
+.wallop-slider--fade .wallop-slider__item--hide-previous {
+	-webkit-animation: fadeOut 450ms ease forwards;
+}
+
+.wallop-slider--fade .wallop-slider__item--hide-next {
+	-webkit-animation: fadeOut 450ms ease forwards;
+}
+
+
+/*==========  FADE ANIMATIONS  ==========*/
+@-webkit-keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}

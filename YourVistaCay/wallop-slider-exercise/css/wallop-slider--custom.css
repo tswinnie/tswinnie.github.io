@@ -1,0 +1,43 @@
+/**************************************************
+
+  wallop-slider--custom.css
+
+  This is your custom animation, do a bit will ya!
+
+**************************************************/
+
+.wallop-slider--custom .wallop-slider__item--show-previous {
+  -webkit-animation: yourAnimation 400ms ease both;
+}
+
+.wallop-slider--custom .wallop-slider__item--show-next {
+  -webkit-animation: yourAnimation 400ms ease both;
+}
+
+/*
+  In order to animate the hidden elemends, we need to reset the display to block
+  Uncomment the block below if you will animate those elements
+*/
+
+/*.wallop-slider--custom .wallop-slider__item--hide-previous,
+.wallop-slider--custom .wallop-slider__item--hide-next {
+  display: block;
+}*/
+
+.wallop-slider--custom .wallop-slider__item--hide-previous {
+
+}
+
+.wallop-slider--custom .wallop-slider__item--hide-next {
+
+}
+
+/*==========  SLIDE ANIMATIONS  ==========*/
+@-webkit-keyframes yourAnimation {
+  0% {
+    /* Add your animation properties here */
+  }
+  100% {
+    /* Add your animation properties here */
+  }
+}
