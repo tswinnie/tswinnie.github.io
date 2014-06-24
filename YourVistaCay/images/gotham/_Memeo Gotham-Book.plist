@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessDate</key>
+		<date>2013-08-13T11:01:05Z</date>
+		<key>actualSize</key>
+		<integer>0</integer>
+		<key>attributeModDate</key>
+		<date>2009-10-08T13:45:55Z</date>
+		<key>createDate</key>
+		<date>2009-10-08T13:45:52Z</date>
+		<key>creationDate</key>
+		<date>2013-09-09T19:04:29Z</date>
+		<key>encrypted</key>
+		<false/>
+		<key>id</key>
+		<string>3372E37B-49E8-48ED-B763-EB991A540A8E</string>
+		<key>lastModifiedDate</key>
+		<date>2009-10-08T13:45:52Z</date>
+		<key>originalPath</key>
+		<string>/Users/lin/Desktop/GOLFMISSION/All final artwork/gotham/Gotham-Book</string>
+		<key>originalSize</key>
+		<integer>0</integer>
+		<key>versionMetadataList</key>
+		<array>
+			<dict>
+				<key>POSIXPermissions</key>
+				<integer>-32348</integer>
+				<key>creatorCode</key>
+				<integer>1145917270</integer>
+				<key>fileType</key>
+				<integer>1179011404</integer>
+				<key>id</key>
+				<string>82D3B125-8548-4511-B375-F57A7EC74DCB</string>
+				<key>macAttributes</key>
+				<integer>192</integer>
+				<key>ownerGID</key>
+				<integer>501</integer>
+				<key>ownerUID</key>
+				<integer>501</integer>
+			</dict>
+		</array>
+		<key>versionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>
