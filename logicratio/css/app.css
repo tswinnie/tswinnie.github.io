@@ -4370,7 +4370,11 @@ button.close {
     margin-left: 3px;
 }
 .icon-blog:before {
-    content: "H"}
+    content: "C";
+    position: relative;
+    left: 2px;
+
+}
 .icon-arrow-right2:before {
     content: "\e60e"}
 .icon-arrow-right:before {
@@ -5644,4 +5648,24 @@ th.hidden-lg, td.hidden-lg {
         display: none!important;
     }
 }
+
+
+
+ @media only screen and (max-width: 480px) {
+
+     .home-content {
+         margin-left: -21% !important;
+
+
+     }
+
+     .intro-tag {
+
+         margin-left: -29% !important;
+     }
+
+ }
+
+
+
 
