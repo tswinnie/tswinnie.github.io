@@ -5742,6 +5742,14 @@ th.hidden-lg, td.hidden-lg {
          z-index: 999;
      }
 
+     #mobileHhome{
+
+         max-width: 65%;
+         max-height: 75%;
+         margin-left: -27px;
+
+     }
+
 
 
  }
