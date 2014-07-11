@@ -5720,9 +5720,15 @@ th.hidden-lg, td.hidden-lg {
     .hidden-lg.hidden-md, tr.hidden-lg.hidden-md, th.hidden-lg.hidden-md, td.hidden-lg.hidden-md {
         /*display: none!important;*/
     }
+    #backgroundIMG {
+       display: none !important;
+    }
 }@media (min-width:1200px) {
     .hidden-lg, tr.hidden-lg, th.hidden-lg, td.hidden-lg {
         /*display: none!important;*/
+    }
+    #backgroundIMG {
+        display: none !important;
     }
 }.visible-print, tr.visible-print, th.visible-print, td.visible-print {
      /*display: none!important;*/
@@ -5745,6 +5751,17 @@ th.hidden-lg, td.hidden-lg {
         /*display: none!important;*/
     }
 }
+
+@media only screen and (max-height: 1024px) {
+
+
+    #backgroundIMG {
+        height: 1026px !important;
+    }
+
+}
+
+
 
 
 

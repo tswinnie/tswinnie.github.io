@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.625" vertical-offset="825" max-vertical-offset="2265">
-              <caret line="80" column="55" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.22865854" vertical-offset="825" max-vertical-offset="2265">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -108,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8394495" vertical-offset="86826" max-vertical-offset="88095">
-              <caret line="5825" column="32" selection-start-line="5825" selection-start-column="32" selection-end-line="5825" selection-end-column="32" />
+            <state vertical-scroll-proportion="-11.307693" vertical-offset="85851" max-vertical-offset="88350">
+              <caret line="5743" column="37" selection-start-line="5743" selection-start-column="37" selection-end-line="5743" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -751,24 +751,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.307693" vertical-offset="85851" max-vertical-offset="88350">
+          <caret line="5743" column="37" selection-start-line="5743" selection-start-column="37" selection-end-line="5743" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625" vertical-offset="825" max-vertical-offset="2265">
-          <caret line="80" column="55" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.22865854" vertical-offset="825" max-vertical-offset="2265">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8394495" vertical-offset="86826" max-vertical-offset="88095">
-          <caret line="5825" column="32" selection-start-line="5825" selection-start-column="32" selection-end-line="5825" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
