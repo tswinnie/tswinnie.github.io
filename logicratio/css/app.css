@@ -5745,7 +5745,7 @@ th.hidden-lg, td.hidden-lg {
      #mobileHhome {
          max-width: 66%;
          max-height: 100%;
-         margin-left: -27px;
+         margin-left: -35px;
      }
 
      .btn-primary {
@@ -5753,7 +5753,7 @@ th.hidden-lg, td.hidden-lg {
          background-color: #e74c3c;
          border-color: #e74c3c;
          position: relative;
-         top: -42px;
+         top: -69px;
          left: -72px !important;
      }
 
@@ -5761,7 +5761,8 @@ th.hidden-lg, td.hidden-lg {
          font-size: 21px;
          line-height: 1.25em;
          margin-left: -58% !important;
-         padding: 26px !important;
+         padding: 41px !important;
+         margin-left: -161px !important;
      }
 
      hr{
