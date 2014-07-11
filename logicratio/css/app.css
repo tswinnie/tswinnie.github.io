@@ -4398,7 +4398,11 @@ html, body {
 .content-wrapper {
     position: relative;
     left: 0;
-    height: 100%}
+    height: 100%;
+    /*background-image: url("../images/homeIpadres.png");*/
+    /*background-repeat: no-repeat;*/
+
+}
 .home-wrap {
     max-width: 1000px;
     position: absolute;
@@ -4420,7 +4424,7 @@ html, body {
     height: 100%;
     overflow: hidden;
     z-index: -100;
-    background-image: url(/static/img/bg-home.jpg);
+    background-image: url(/images/homeIpadres.png);
     opacity: .3;
     filter: alpha(opacity=30);
 }
@@ -5181,6 +5185,10 @@ li a span.icon-twitter:hover, a span.icon-linkedin:hover, a.span.icon-facebook:h
         margin-left: 31% !important;
         margin-top: 41px;
     }
+
+    #backgroundIMG {
+        height: 695px !important;
+    }
     .menu-mobile {
         position: absolute;
         width: 100%;
@@ -5407,10 +5415,15 @@ section.wrap-left .hover-background.active {
     th.visible-sm, td.visible-sm {
         display: table-cell!important;
     }
+    #backgroundIMG {
+        height: 695px !important;
+    }
 }@media (min-width:1025px) and (max-width:1199px) {
     .visible-sm.visible-md {
         display: block!important;
     }
+
+
     table.visible-sm.visible-md {
         display: table;
     }
@@ -5807,6 +5820,11 @@ th.hidden-lg, td.hidden-lg {
          background-image: url("../images/newLogo.png");
          background-position: left;
          height: 94px;
+     }
+
+     #backgroundIMG {
+         width: 100% !important;
+         height: 695px !important;
      }
 
 
