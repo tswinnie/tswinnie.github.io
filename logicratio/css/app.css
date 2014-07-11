@@ -5781,9 +5781,10 @@ th.hidden-lg, td.hidden-lg {
          box-sizing: border-box;
          -moz-box-sizing: border-box;
          -webkit-box-sizing: border-box;
-         height: 80px;
+         height: 97px;
          z-index: 999;
-         margin-top: 10px !important;
+         /* margin-top: 10px !important; */
+         /* top: 15px; */
      }
 
 
