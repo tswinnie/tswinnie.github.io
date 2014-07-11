@@ -5742,12 +5742,31 @@ th.hidden-lg, td.hidden-lg {
          z-index: 999;
      }
 
-     #mobileHhome{
-
-         max-width: 65%;
-         max-height: 75%;
+     #mobileHhome {
+         max-width: 66%;
+         max-height: 100%;
          margin-left: -27px;
+     }
 
+     .btn-primary {
+         color: #fff;
+         background-color: #e74c3c;
+         border-color: #e74c3c;
+         position: relative;
+         top: -42px;
+         left: -72px !important;
+     }
+
+     h3.intro-tag {
+         font-size: 21px;
+         line-height: 1.25em;
+         margin-left: -58% !important;
+         padding: 26px !important;
+     }
+
+     hr{
+
+         display:none !important;
      }
 
 
