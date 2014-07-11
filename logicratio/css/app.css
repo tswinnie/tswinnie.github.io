@@ -5769,14 +5769,7 @@ th.hidden-lg, td.hidden-lg {
          display:none !important;
      }
 
-     .menu-bg {
-         position: fixed;
-         height: 100%;
-         width: 320px !important;
-         background-color: #161d22;
-         z-index: 199;
-         top: 0;
-     }
+   
 
 
 
