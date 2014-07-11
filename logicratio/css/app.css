@@ -5736,7 +5736,7 @@ th.hidden-lg, td.hidden-lg {
 
 
 
- @media only screen and (max-width: 480px) {
+ @media only screen and (max-width: 342px) {
 
      .home-content {
          margin-left: -21% !important;
