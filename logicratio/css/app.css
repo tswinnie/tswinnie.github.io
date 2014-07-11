@@ -5732,7 +5732,7 @@ th.hidden-lg, td.hidden-lg {
 
      .menu-mobile {
          position: absolute;
-         width: 103%;
+         width: 100%;
          background: #161d22;
          padding: 18px 0 0 20px;
          box-sizing: border-box;
@@ -5767,6 +5767,15 @@ th.hidden-lg, td.hidden-lg {
      hr{
 
          display:none !important;
+     }
+
+     .menu-bg {
+         position: fixed;
+         height: 100%;
+         width: 320px !important;
+         background-color: #161d22;
+         z-index: 199;
+         top: 0;
      }
 
 
