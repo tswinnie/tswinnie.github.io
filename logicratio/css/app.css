@@ -5769,7 +5769,11 @@ th.hidden-lg, td.hidden-lg {
          display:none !important;
      }
 
-   
+     .visible-xs {
+         display: inline-block !important;
+     }
+
+
 
 
 
