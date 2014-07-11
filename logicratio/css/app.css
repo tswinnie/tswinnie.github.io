@@ -5728,7 +5728,23 @@ th.hidden-lg, td.hidden-lg {
 
 
 
- /*@media only screen and (max-width: 342px) {*/
+ @media only screen and (max-width: 342px) {
+
+     .menu-mobile {
+         position: absolute;
+         width: 103%;
+         background: #161d22;
+         padding: 18px 0 0 20px;
+         box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         -webkit-box-sizing: border-box;
+         height: 80px;
+         z-index: 999;
+     }
+
+
+
+ }
 
      /*.home-content {*/
          /*margin-left: -21% !important;*/
