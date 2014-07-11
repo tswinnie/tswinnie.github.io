@@ -5787,6 +5787,20 @@ th.hidden-lg, td.hidden-lg {
          /* top: 15px; */
      }
 
+     a.logo-sm-wrap {
+         position: absolute;
+         right: 0;
+         top: -7px !important;
+         box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         -webkit-box-sizing: border-box;
+         width: 73px;
+         height: 80px;
+         background-image: url("../images/newLogo.png");
+         background-position: left;
+         height: 94px;
+     }
+
 
 
 
