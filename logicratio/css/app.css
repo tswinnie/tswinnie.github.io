@@ -5696,6 +5696,13 @@ th.hidden-lg, td.hidden-lg {
     .hidden-lg.hidden-sm, tr.hidden-lg.hidden-sm, th.hidden-lg.hidden-sm, td.hidden-lg.hidden-sm {
         /*display: none!important;*/
     }
+
+    #moveText{
+
+        margin-left: -53% !important;
+
+
+    }
 }@media (min-width:1025px) and (max-width:1199px) {
     .hidden-lg.hidden-md, tr.hidden-lg.hidden-md, th.hidden-lg.hidden-md, td.hidden-lg.hidden-md {
         /*display: none!important;*/
@@ -5802,12 +5809,7 @@ th.hidden-lg, td.hidden-lg {
          height: 94px;
      }
 
-     #moveText{
 
-         margin-left: -53% !important;
-
-
-     }
 
 
 
