@@ -5773,6 +5773,19 @@ th.hidden-lg, td.hidden-lg {
          display: inline-block !important;
      }
 
+     .menu-mobile {
+         position: absolute;
+         width: 100%;
+         background: #161d22;
+         padding: 18px 0 0 20px;
+         box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         -webkit-box-sizing: border-box;
+         height: 80px;
+         z-index: 999;
+         margin-top: 10px !important;
+     }
+
 
 
 
