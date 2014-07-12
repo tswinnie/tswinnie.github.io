@@ -4424,10 +4424,10 @@ html, body {
     height: 100%;
     overflow: hidden;
     z-index: -100;
-    background-image: url(/images/homeIpadres.png);
+    background-image: url(/static/img/bg-home.jpg);
     opacity: .3;
-    filter: alpha(opacity=30);
 }
+
 h1.intro {
     font-size: 140px;
     font-weight: 400;
@@ -4766,10 +4766,9 @@ a.logo-lg:hover {
     letter-spacing: .225em;
 }
 .navigation li.capabilities .menu-icon {
-
     margin: 0 15px 0 20px;
-    border: 2px solid;
-    padding: 4px;
+    /* border: 2px solid; */
+    /* padding: 4px; */
     /* text-align: center; */
     /* margin-left: 2px; */
     /* position: relative; */
@@ -4779,26 +4778,18 @@ a.logo-lg:hover {
 }
 .navigation li.approach .menu-icon {
     margin: 0 13px 0 17px;
-    border: 2px solid;
-    padding: 4px;
     margin-left: 11px
 }
 .navigation li.studies .menu-icon {
     margin: 0 13px 0 16px;
-    border: 2px solid;
-    padding: 4px;
     margin-left: 11px
 }
 .navigation li.team .menu-icon {
     margin: 0 16px 0 19px;
-    border: 2px solid;
-    padding: 4px;
     margin-left: 11px
 }
 .navigation li.blog .menu-icon {
     margin: 0 13px 0 19px;
-    border: 2px solid;
-    padding: 9px;
     margin-left: 11px;
 }
 .navigation li .menu-icon, .menu-icon-prod, .menu-icon-get-started {
