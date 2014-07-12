@@ -4405,7 +4405,7 @@ html, body {
     height: 100%;
     overflow: hidden;
     z-index: -100;
-    background-image: url(../images/bg-home.jpg);
+    background-image: url(../images/bg-home1.png);
     opacity: .3;
     filter: alpha(opacity=30);
 }
@@ -4813,7 +4813,7 @@ video#video-capabilities {
     width: 100%;
     height: 100%;
     display: block;
-    background-image: url(images/texture.png);
+    background-image: url(../images/texture.png);
     background-repeat: repeat;
     z-index: 100;
 }
