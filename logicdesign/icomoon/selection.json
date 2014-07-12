@@ -1,0 +1,54 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [],
+				"width": 791,
+				"grid": 0,
+				"tags": [
+					"mylogo"
+				]
+			},
+			"properties": {
+				"order": 7,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "mylogo",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 1
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"search": ""
+	}
+}
