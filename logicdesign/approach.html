@@ -3,32 +3,17 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link href="styles.css" rel="stylesheet">
-    <!--<link href="https://fontastic.s3.amazonaws.com/RxpMX7xemdr4P97vZuZcU3/icons.css" rel="stylesheet">-->
-    <!--<link href="css/estyle.css" rel="stylesheet">-->
-    <link href="css/main.css" rel="stylesheet">
-
-
-
+       <link href="css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <![endif]-->
 </head>
 <body>
-
-<div class="content-wrapper">
-
-    <div class="texture"></div>
-    <video id="videohome" class="hidden-xs hidden-sm" autoplay="true" loop muted >
-        <source src="video/logicVideo.mp4" type="video/mp4"></source>
-        <source src="/static/vid/electrik-web-bw.webmhd.webm" type="video/webm"></source>
-        <source src="/static/vid/electrik-web-bw.oggtheora.ogv" type="ogv"></source>
-    </video>
-
+<div class="wrapper">
     <div class="menu-mobile">
         <div id="push" class="visible-xs not-displayed">
             <a class="menu-mobile-close"><span aria-hidden="true" class="icon-menu-open"></span></a>
-            <a class="logo-sm-wrap" href="/"><span aria-hidden="true" class="logo-sm icon-ec-logomark"> </span></a>
+            <a class="logo-sm-wrap" href="/"><span aria-hidden="true" class="logo-sm icon-ec-logomark"></span></a>
         </div>
     </div>
     <div class="menu-bg"></div>
@@ -62,19 +47,45 @@
     </div>
 
 
-    <div class="home-photo hidden-md hidden-lg"></div>
+    <section class="wrap-left approach">
+        <div class="texture"></div>
+    </section><!--/wrap-left-->
 
-    <div class="home-wrap">
-        <div class="home-content">
-            <h1 class="intro">Bringing Your Ideas To Life</h1>
-            <!--<hr width="120" align="left" style="border: 1px solid #e9edef;margin:30px 0 35px;">-->
-            <h3 class="intro-tag nomar-b" style="max-width:800px;">Logic Design prides itself on delivering purposefully designed websites with a logical approach to user experience.</h3>
-            <div class="bump-lg"></div>
-            <a href="go.html" class="btn btn-primary btn-lg" role="button">Take the next step</a>
-        </div>
-    </div>
-</div>
+    <section class="wrap-right">
+        <div class="inner">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h1>Approach</h1>
+                    </div>
+                    <h3>Every clients needs and wants are unique</h3>
+                    <blockquote>
+                        <h5>01</h5>
+                        <h4>You have an idea for a website that you want use for your business</h4>
+                        <h5>02</h5>
+                        <h4>You would like to have a mobile application built for your business</h4>
+                        <h5>03</h5>
+                        <h4>You have an existing website that you would like redone to keep up with the times</h4>
+                    </blockquote>
 
+                    <p>Logic Design ensures that whatever idea you have for your business is executed from the approach of a Logical Design.</p>
+                    <div class="bump-lg"></div>
+                    <a href="/start" class="btn btn-primary btn-lg" role="button">Take the next step</a>
+                </div>
+            </div><!--/row-->
+        </div><!--/inner-->
+    </section><!--/wrap-right-->
+
+    <div class="clearfix"></div>
+    <div class="push"></div>
+</div><!--/wrapper-->
+
+<footer>
+    <dl>
+        <dt><a href=""></a>&nbsp;&nbsp;&nbsp;<a href="go.html" class="text-brand"><strong>GET STARTED</strong></a></dt>
+        <dd><small>&copy;2014 Logic Design, LLC &nbsp;&nbsp;|&nbsp;&nbsp; <a href="mailto:logicdesign@gmail.com</a> &nbsp;&nbsp;|&nbsp;&nbsp;</small></dd>
+    </dl>
+</footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/app.js"></script>
