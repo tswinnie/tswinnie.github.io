@@ -4425,24 +4425,24 @@ html, body {
     margin-left: 170px;
     z-index: 200;
 }
-/*.home-photo {*/
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 100%;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center center;*/
-    /*height: 100%;*/
-    /*overflow: hidden;*/
-    /*z-index: -100;*/
-    /*background-image: url(../images/bg-home1.png);*/
-    /*opacity: .3;*/
-    /*filter: alpha(opacity=30);*/
-/*}*/
+.home-photo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    overflow: hidden;
+    z-index: -100;
+    background-image: url(../images/bg-home1.png);
+    opacity: .3;
+    filter: alpha(opacity=30);
+}
 h1.intro {
     font-size: 140px;
     font-weight: 400;
@@ -5181,7 +5181,7 @@ li a span.icon-twitter:hover, a span.icon-linkedin:hover, a.span.icon-facebook:h
         width: 72px;
         height: 83px;
         background: #e74c3c;
-        /*background-image: url("../images/logicDesignLogomobile.png");*/
+        background-image: url("../images/logicDesignLogomobile.png");
         background-repeat: no-repeat;
         /* top: 4px; */
         background-position: right;
@@ -5634,9 +5634,9 @@ th.hidden-lg, td.hidden-lg {
 
 }
 
-/*#myLogo {*/
-    /*position: absolute;*/
-    /*top: 10px;*/
-    /*min-width: 163px;*/
-    /*left: 0px;*/
-/*}*/
+#myLogo {
+    position: absolute;
+    top: 10px;
+    min-width: 163px;
+    left: 0px;
+}
