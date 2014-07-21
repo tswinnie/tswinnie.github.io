@@ -4328,29 +4328,29 @@ button.close {
 }
 
 @font-face {
-    font-family: "untitled-font-1";
-    src:url("../fonts/untitled-font-1.eot");
-    src:url("../fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/untitled-font-1.woff") format("woff"),
-    url("../fonts/untitled-font-1.ttf") format("truetype"),
-    url("../fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+    font-family: "untitled-font-2";
+    src:url("../fonts/untitled-font-2.eot");
+    src:url("../fonts/untitled-font-2.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/untitled-font-2.woff") format("woff"),
+    url("../fonts/untitled-font-2.ttf") format("truetype"),
+    url("../fonts/untitled-font-2.svg") format("svg");
     font-weight: normal;
     font-style: normal;
 
 }
 
 
-[class^=icon-], [class*=" icon-"] {
-    font-family: "untitled-font-1";
-    speak: none;
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+/*[class^=icon-], [class*=" icon-"] {*/
+    /*font-family: "untitled-font-2";*/
+    /*speak: none;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*font-variant: normal;*/
+    /*text-transform: none;*/
+    /*line-height: 1;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
 
 
 [class^=icon-], [class*=" icon-"] {
@@ -4381,15 +4381,16 @@ button.close {
 .icon-facebook:before {
     content: "\e607"}
 .icon-ec-logotype:before {
-    content: "\e608"}
+    content: ""}
 .icon-ec-logomark:before {
-    content: "\a500"}
+    content: ""}
 .icon-ec-logo:before {
-    content: "\a600";
+    content:  ""
 
 
 
 }
+
 .icon-close:before {
     content: "\e60b"}
 .icon-capabilities:before {
@@ -4759,9 +4760,9 @@ a.logo-lg {
     display: block;
     background: #e74c3c;
     color: #11181c;
-     background-image: url("../images/logo.png");
-     background-repeat: no-repeat;
-     width: 100%;
+
+     width: 235px;
+    height: 135px;
 }
 a.logo-lg:hover {
     -webkit-transition: all .3s ease-in-out;
@@ -5177,10 +5178,10 @@ li a span.icon-twitter:hover, a span.icon-linkedin:hover, a.span.icon-facebook:h
         box-sizing: border-box;
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
-        width: 75px;
-        height: 80px;
+        width: 72px;
+        height: 83px;
         background: #e74c3c;
-        background-image: url("../images/logo.png");
+        background-image: url("../images/logicDesignLogomobile.png");
         background-repeat: no-repeat;
         /* top: 4px; */
         background-position: right;
@@ -5631,4 +5632,10 @@ th.hidden-lg, td.hidden-lg {
     position: relative;
     top: -23px;
 
+}
+
+#myLogo {
+    position: absolute;
+    top: 10px;
+    min-width: 163px;
 }
