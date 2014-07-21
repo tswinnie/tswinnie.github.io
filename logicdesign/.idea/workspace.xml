@@ -26,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125" vertical-offset="435" max-vertical-offset="1500">
-              <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="63" selection-end-column="10" />
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1500">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -121,8 +121,8 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88114107" vertical-offset="84059" max-vertical-offset="84705">
-              <caret line="5641" column="1" selection-start-line="5641" selection-start-column="1" selection-end-line="5641" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.6196513" vertical-offset="84074" max-vertical-offset="84705">
+              <caret line="5631" column="23" selection-start-line="5631" selection-start-column="23" selection-end-line="5631" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -170,13 +170,13 @@
       <list>
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/css/estyle.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/go.html" />
         <option value="$PROJECT_DIR$/who.html" />
         <option value="$PROJECT_DIR$/concept.html" />
         <option value="$PROJECT_DIR$/approach.html" />
         <option value="$PROJECT_DIR$/talents.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -551,8 +551,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="435" max-vertical-offset="1500">
-          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="63" selection-end-column="10" />
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1500">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -562,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88114107" vertical-offset="84059" max-vertical-offset="84705">
-          <caret line="5641" column="1" selection-start-line="5641" selection-start-column="1" selection-end-line="5641" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.6196513" vertical-offset="84074" max-vertical-offset="84705">
+          <caret line="5631" column="23" selection-start-line="5631" selection-start-column="23" selection-end-line="5631" selection-end-column="23" />
           <folding />
         </state>
       </provider>
