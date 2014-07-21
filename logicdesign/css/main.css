@@ -4425,24 +4425,24 @@ html, body {
     margin-left: 170px;
     z-index: 200;
 }
-.home-photo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100%;
-    overflow: hidden;
-    z-index: -100;
-    background-image: url(../images/bg-home1.png);
-    opacity: .3;
-    filter: alpha(opacity=30);
-}
+/*.home-photo {*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+    /*z-index: -100;*/
+    /*background-image: url(../images/bg-home1.png);*/
+    /*opacity: .3;*/
+    /*filter: alpha(opacity=30);*/
+/*}*/
 h1.intro {
     font-size: 140px;
     font-weight: 400;
