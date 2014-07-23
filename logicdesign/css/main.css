@@ -5181,10 +5181,10 @@ li a span.icon-twitter:hover, a span.icon-linkedin:hover, a.span.icon-facebook:h
         width: 72px;
         height: 80px;
         background: #e74c3c;
-        background-image: url("../images/mobileLogo.svg");
-        background-repeat: no-repeat;
+        /*background-image: url("../images/mobileLogo.svg");*/
+        /*background-repeat: no-repeat;*/
         /* top: 4px; */
-        z-index: 99999999999999999999999999999999;
+        /*z-index: 99999999999999999999999999999999;*/
     }
 
     a span.logo-sm {
