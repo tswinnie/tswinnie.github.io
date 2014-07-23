@@ -26,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45731708" vertical-offset="240" max-vertical-offset="1425">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.41158536" vertical-offset="150" max-vertical-offset="1410">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -120,8 +120,8 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.538462" vertical-offset="77256" max-vertical-offset="84720">
-              <caret line="5186" column="27" selection-start-line="5186" selection-start-column="0" selection-end-line="5187" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.192307" vertical-offset="77256" max-vertical-offset="84705">
+              <caret line="5175" column="17" selection-start-line="5175" selection-start-column="17" selection-end-line="5175" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -150,8 +150,8 @@
         <option value="$PROJECT_DIR$/newGo.html" />
         <option value="$PROJECT_DIR$/newApproach.html" />
         <option value="$PROJECT_DIR$/newConcept.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -532,16 +532,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.538462" vertical-offset="77256" max-vertical-offset="84720">
-          <caret line="5186" column="27" selection-start-line="5186" selection-start-column="0" selection-end-line="5187" selection-end-column="0" />
+        <state vertical-scroll-proportion="-14.192307" vertical-offset="77256" max-vertical-offset="84705">
+          <caret line="5175" column="17" selection-start-line="5175" selection-start-column="17" selection-end-line="5175" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45731708" vertical-offset="240" max-vertical-offset="1425">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.41158536" vertical-offset="150" max-vertical-offset="1410">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
