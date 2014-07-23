@@ -5184,9 +5184,8 @@ li a span.icon-twitter:hover, a span.icon-linkedin:hover, a.span.icon-facebook:h
         background-image: url("../images/mobileLogo.svg");
         background-repeat: no-repeat;
         /* top: 4px; */
-        background-position: right;
+        z-index: 99999999999999999999999999999999;
     }
-
 
     a span.logo-sm {
         position: absolute;
