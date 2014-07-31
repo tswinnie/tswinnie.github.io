@@ -20,7 +20,8 @@ body{
     border-bottom: 5px solid #2980b9;
     margin-bottom: 60px;
     position: relative;
-    left: 10px;
+    left: 11px;
+    max-width: 295px;
 }
 
 #DateFrom{
