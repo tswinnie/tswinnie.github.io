@@ -88,38 +88,148 @@
 =================================-->
 <div class="container">
     <div class="row">
-        <div class="col-lg-12"><div class="well"><p>Featured Properties</p></div></div>
+        <div class="col-lg-12"><div class="well" style="opacity: 0;"><p>Featured Properties</p></div></div>
     </div>
     <div class="row">
-        <div class="col-md-4"><div class="well"><p>4 cols</p></div></div>
-        <div class="col-md-4"><div class="well"><p>4 cols</p></div></div>
-        <div class="col-md-4"><div class="well"><p>4 cols</p></div></div>
+        <div class="col-md-4"><div class="well">
+
+        <div class="searchContainer">
+            <h2 style=" color: #2980b9;">Search</h2>
+            <label>Arrival Date:</label><br/>
+            <input type="text" name="DateFrom" id="DateFrom" /><br/>
+            <label>Departure Date:</label><br/>
+            <input type="text" name="DateTo" id="DateTo" /><br/>
+
+
+            <label>Number of People</label><br/>
+            <select id="Sleeps">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <label>Number of Rooms</label><br/>
+
+            <select id="Bedrooms">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <input type="button" id="submit" value="Submit" onclick="smit();"/>
+            <a href="#"><p id="mapText">Search by Map</p></a>
+
+
+
+        </div>
+
+
+        </div></div>
+        <div class="col-md-4"><div class="well">
+
+
+            <div class="searchContainer">
+                <h2>Featured Property Name</h2>
+                <ul style="text-decoration: none">
+                    <li class="fText">Description of the property by the user</li>
+
+
+                </ul>
+
+                <hr/>
+
+                <a href="#"><img src="images/1.jpg" id="fImage"/></a>
+
+            </div>
+
+
+
+
+        </div></div>
+        <div class="col-md-4"><div class="well">
+
+            <div class="searchContainer">
+                <h2>Featured Property Name</h2>
+                <ul style="text-decoration: none">
+                    <li class="fText">Description of the property by the user</li>
+
+
+                </ul>
+
+                <hr/>
+
+                <a href="#"><img src="images/2.jpg" id="fImage"/></a>
+
+            </div>
+
+
+        </div></div>
+
+
+
+        <div class="col-md-4"><div class="well">
+
+            <div class="searchContainer">
+                <h2>Featured Property Name</h2>
+                <ul style="text-decoration: none">
+                    <li class="fText">Description of the property by the user</li>
+
+
+                </ul>
+
+                <hr/>
+
+                <a href="#"><img src="images/3.jpg" id="fImage"/></a>
+
+            </div>
+
+
+        </div></div>
+
+
+
+
+        <div class="col-md-4"><div class="well">
+
+            <div class="searchContainer">
+
+                <h2>About Us</h2>
+
+                <p style="clear:both; padding: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci turpis, malesuada ac congue sit amet,Quisque ac sem nec quam viverra venenatis vel ut elit. Suspendisse vestibulum id felis vitae hendrerit.  </p>
+
+                <p style="clear:both; padding: 16px;position: relative; top: -33px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci turpis, malesuada ac congue sit amet,Quisque ac sem nec quam viverra venenatis vel ut elit. Suspendisse vestibulum id felis vitae hendrerit.  </p>
+
+            </div>
+
+
+        </div></div>
     </div>
-    <div class="row">
-        <div class="col-lg-6 col-sm-6"><div class="well"><p>6 cols, 6 small cols</p></div></div>
-        <div class="col-lg-6 col-sm-6"><div class="well"><p>6 cols, 6 small cols</p></div></div>
     </div>
-    <div class="row">
-        <div class="col-lg-4 col-sm-6"><div class="well">4 cols, 6 small cols</div></div>
-        <div class="col-lg-4 col-sm-6"><div class="well">4 cols, 6 small cols</div></div>
-        <div class="col-lg-4 col-sm-12"><div class="well">4 cols, 12 small cols</div></div>
-    </div>
-  	<div class="row">
-        <div class="col-md-3"><div class="well"><p>3 md cols</p></div></div>
-        <div class="col-md-3"><div class="well"><p>3 md cols</p></div></div>
-        <div class="col-md-3"><div class="well"><p>3 md cols</p></div></div>
-      	<div class="col-md-3"><div class="well"><p>3 md cols</p></div></div>
-    </div>
-  	<div class="row">
-        <div class="col-xs-3"><div class="well"><p>3 xs cols</p></div></div>
-        <div class="col-xs-3"><div class="well"><p>3 xs cols</p></div></div>
-        <div class="col-xs-3"><div class="well"><p>3 xs cols</p></div></div>
-      	<div class="col-xs-3"><div class="well"><p>3 xs cols</p></div></div>
-    </div>
-  	<hr>
-  	<a href="http://bootply.com/73778">Edit on Bootply</a>
+    <!--<div class="row">-->
+        <!--<div class="col-lg-6 col-sm-6"><div class="well"><p>6 cols, 6 small cols</p></div></div>-->
+        <!--<div class="col-lg-6 col-sm-6"><div class="well"><p>6 cols, 6 small cols</p></div></div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+        <!--<div class="col-lg-4 col-sm-6"><div class="well">4 cols, 6 small cols</div></div>-->
+        <!--<div class="col-lg-4 col-sm-6"><div class="well">4 cols, 6 small cols</div></div>-->
+        <!--<div class="col-lg-4 col-sm-12"><div class="well">4 cols, 12 small cols</div></div>-->
+    <!--</div>-->
+  	<!--<div class="row">-->
+        <!--<div class="col-md-3"><div class="well"><p>3 md cols</p></div></div>-->
+        <!--<div class="col-md-3"><div class="well"><p>3 md cols</p></div></div>-->
+        <!--<div class="col-md-3"><div class="well"><p>3 md cols</p></div></div>-->
+      	<!--<div class="col-md-3"><div class="well"><p>3 md cols</p></div></div>-->
+    <!--</div>-->
+  	<!--<div class="row">-->
+        <!--<div class="col-xs-3"><div class="well"><p>3 xs cols</p></div></div>-->
+        <!--<div class="col-xs-3"><div class="well"><p>3 xs cols</p></div></div>-->
+        <!--<div class="col-xs-3"><div class="well"><p>3 xs cols</p></div></div>-->
+      	<!--<div class="col-xs-3"><div class="well"><p>3 xs cols</p></div></div>-->
+    <!--</div>-->
+<footer><p style="text-align: center; color: #2980b9;">Powered By CiiRUS</p></footer>
 </div>
-<hr>
 <!-- /CONTENT ============-->
 
 	<!-- script references -->

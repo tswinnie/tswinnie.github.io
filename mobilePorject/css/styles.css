@@ -5,3 +5,125 @@ body{
     background: #F5F5F5;
 
 }
+
+.searchContainer {
+    width: 350px;
+    height: 350px;
+    background: #fff;
+    /* margin: 0 auto; */
+    box-shadow: 0px 1px 2px #bdc3c7;
+    border-bottom: 5px solid #2980b9;
+}
+
+#DateFrom{
+
+    border: 1px solid gray;
+    width: 308px;
+    margin-top: -6px;
+    border-radius: 3px;
+    background: #F5F5F5;
+    height: 40px;
+
+
+}
+
+#DateTo{
+
+    border: 1px solid gray;
+    width: 308px;
+    height: 40px;
+    margin-top: -6px;
+    border-radius: 3px;
+    background: #F5F5F5;
+
+
+}
+
+#Sleeps{
+
+    border: 1px solid gray;
+    width: 125px;
+    height: 40px;
+    margin-top: -6px;
+    border-radius: 3px;
+    background: #F5F5F5;
+
+
+}
+
+#Bedrooms{
+
+    border: 1px solid gray;
+    width: 125px;
+    height: 40px;
+    margin-top: -6px;
+    border-radius: 3px;
+    background: #F5F5F5;
+
+
+}
+
+#submit {
+    border: 3px solid #2980b9;
+    width: 125px;
+    height: 45px;
+    margin-top: -78px;
+    border-radius: 3px;
+    background: #2980b9;
+    float: right;
+    margin-right: 25px;
+    color: #fff;
+}
+
+#mapText{
+    clear: both;
+    float: right;
+    margin-right: 41px;
+    margin-top: -17px;
+    text-decoration: underline;
+    color: #2980b9;
+
+}
+
+.fText {
+    /* display: inline; */
+    /* width: 372px; */
+    padding: 19px;
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#fImage{
+    width: 335px;
+    height: 224px;
+    margin-top: -11px;
+    border: 7px solid #282828;
+
+}
+
+
+::-webkit-input-placeholder {
+    color: #2980b9;
+    margin-left: 10px;
+    font-weight: 300 ;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #2980b9;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #2980b9;
+}
+
+:-ms-input-placeholder {
+    color: #2980b9;
+}
+
+footer{
+
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}

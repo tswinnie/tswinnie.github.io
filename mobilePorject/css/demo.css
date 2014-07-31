@@ -25,9 +25,11 @@ h1 {
   }
 
 h2 {
-  font: 16px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 40px;
-  }
+    font: 29px/26px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 19px;
+    float: left;
+    margin-left: 19px;
+}
 
 #wrapper {
   padding: 20px;
