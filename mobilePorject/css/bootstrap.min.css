@@ -558,7 +558,9 @@ pre code {
     }
 }.row {
      margin-right: 0px;
-     margin-left: -15px;
+     margin-left: -13px;
+     position: relative;
+     left: 13px;
  }
 .row:before, .row:after {
     display: table;
