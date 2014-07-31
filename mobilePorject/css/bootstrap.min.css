@@ -2798,7 +2798,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 .navbar-toggle .icon-bar {
     display: block;
     width: 22px;
-    height: 2px;
+    height: 3px;
     border-radius: 1px;
 }
 .navbar-toggle .icon-bar+.icon-bar {
@@ -3017,6 +3017,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
     background-color: #fff;
     border-color: #ecf0f1;
     box-shadow: 1px 1px 2px #282828;
+    border-bottom: 5px solid #2980b9;
 }
 .navbar-inverse .navbar-brand {
     color: #999;
@@ -3044,14 +3045,14 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
     background-color: transparent;
 }
 .navbar-inverse .navbar-toggle {
-    border-color: #333;
+    border-color: #2980b9;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #333;
     background: none;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #282828;
+    background-color: #2980b9;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #101010;
