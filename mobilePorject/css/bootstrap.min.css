@@ -557,7 +557,7 @@ pre code {
         width: 1170px;
     }
 }.row {
-     margin-right: -15px;
+     margin-right: -29px;
      margin-left: -15px;
  }
 .row:before, .row:after {
@@ -3318,6 +3318,7 @@ a.list-group-item.active>.badge, .nav-pills>.active>a>.badge {
     margin-top: 54px;
     box-shadow: 0px 3px 7px #282828;
     height: 168px;
+    width: 105%;
 }
 .jumbotron h1, .jumbotron .h1 {
     line-height: 1;
