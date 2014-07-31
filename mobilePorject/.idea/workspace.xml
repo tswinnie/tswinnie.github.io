@@ -109,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.66561013" vertical-offset="7965" max-vertical-offset="70830">
-              <caret line="559" column="23" selection-start-line="559" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
+              <caret line="559" column="25" selection-start-line="559" selection-start-column="25" selection-end-line="559" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -606,7 +606,7 @@
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66561013" vertical-offset="7965" max-vertical-offset="70830">
-          <caret line="559" column="23" selection-start-line="559" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
+          <caret line="559" column="25" selection-start-line="559" selection-start-column="25" selection-end-line="559" selection-end-column="25" />
           <folding />
         </state>
       </provider>
