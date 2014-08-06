@@ -131,6 +131,28 @@ body{
     color: #2980b9;
 }
 
+
+.bootomNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: gray;
+    margin-top: 75px;
+}
+
+
+.navA{
+
+    display: inline;
+    width: 60px;
+
+}
+
+.navL{
+
+    display: inline;
+}
+
 footer {
     width: 100%;
     height: 50px;
