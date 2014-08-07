@@ -136,7 +136,6 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background: gray;
     margin-top: 75px;
 }
 
@@ -148,9 +147,31 @@ body{
 
 }
 
-.navL{
+.navL {
+    display: inline-block;
+    /* background: #F5F5F5; */
+    /* padding: 7px; */
+    /* border: 1px solid; */
+    /* border-right: 1px solid #F5F5F5; */
+    padding: 11.9px;
+    /* border: 1px solid; */
+    border-right: 1px solid #F5F5FD;
+    float: left;
+    box-shadow: -1px -1px 1px -1px #2980b9;
+    font-size: .96em;
+    /* width: 300px; */
+    /* max-width: 100%; */
+    /* min-width: 100%; */
+    background: #F5F5F5;
+}
 
-    display: inline;
+#seaarchIcs{
+    
+    width: 40px;
+    height: 26px;
+    display: inline-block;
+
+    
 }
 
 footer {
@@ -159,3 +180,5 @@ footer {
     background: #2980b9;
 
 }
+
+
