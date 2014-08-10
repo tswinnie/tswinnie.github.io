@@ -1,66 +1,44 @@
 /**
  * Created by tyroneswinnie on 6/25/14.
  */
-//
-//var myVideo = document.getElementById('#videohome');
-//if (typeof myVideo.loop == 'boolean') { // loop supported
-//    myVideo.loop = true;
-//} else { // loop property not supported
-//    myVideo.on('ended', function () {
-//        this.currentTime = 0;
-//        this.play();
-//    }, false);
-//}
-//myVideo.play();
-//
+
+window.onload=function(){
+
+var newContainer = document.querySelector("#container");
+
+    newContainer.style.width = 1024;
+    newContainer.style.marginLeft = "45%";
+    var newLabel = document.querySelectorAll("label");
+    for(var i = 0; i < newLabel.length; i++){
+        newLabel[i].style.width = 400;
+        newLabel[i].style.display = "block";
+        newLabel[i].style.color = "#282828";
+        newLabel[i].style.font = "Normal small-caps 300 18px/150% Helvetica Neue, sans-serif";
 
 
-$(document).ready(function(){
 
 
-//    jQuery(function($){
-//        (function swoop(element) {
-//            element
-//                .animate({top:'62%', easing: 'easeOutElastic'}, 1000, function(){
-//                    setTimeout(function(){
-//                        swoop(element);
-//                    }, 5000);
-//                });
-//        })($('.whoamIOne'));
-//    });
-//
-//var myArry =  ["Logical","Designer","User Minded", "Mobile Designer", "Front End Enthusiast"];
-//
-//       $(".whoamIOne").append("&nbsp;").append(myArry[Math.floor(myArry.length * Math.random())]);
-//    setInterval(function() {
-//
-//       $(".whoamIOne").animate({top: "62%", easing: "easeOutElastic"}, 1000);
-//
-//
-//   });
+
+    }
+
+    var newInputs = document.querySelectorAll("input");
+
+    for(var j = 0; j < newInputs.length; j++){
+
+        newInputs[j].style.border = "1px solid green";
+        newInputs[j].style.borderWidth = "220";
 
 
-//    setInterval(function() {
-//
-//        var myArry =  ["Logical","Designer","User Minded", "Mobile Designer", "Front End Enthusiast"];
-//
-//        $(".whoamIOne").append(myArry[Math.random()]);
-//        setInterval(function() {
-//
-//            $(".whoamIOne").animate({top: "62%", easing: "easeOutElastic"}, 1000);
-//
-//
-//
-//
-//
-//    });
-//    }, 3000);
-//
+
+    }
+
+
 //
 
 
 
 
+};
 
 
 
@@ -83,4 +61,3 @@ $(document).ready(function(){
 
 
 
-    });

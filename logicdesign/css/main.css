@@ -4575,10 +4575,10 @@ section.wrap-left img {
     z-index: -5;
 }
 section.capabilities {
-    /*background-image: url(../images/bg-capabilities.jpg);*/
+    background-image: url(../images/concept.png);
 }
 section.approach {
-    background-image: url(/static/img/bg-approach.jpg);
+    background-image: url(../images/approachOne.png);
 }
 section.studies {
     background-image: url(/static/img/bg-studies.jpg);
@@ -4599,7 +4599,7 @@ section.products {
     background-image: url(/static/img/bg-getstarted.jpg);
 }
 section.getstarted {
-    background-image: url(/static/img/bg-getstarted.jpg);
+    background-image: url(../images/letsGo.png);
 }
 section.wrap-right {
     float: left;
