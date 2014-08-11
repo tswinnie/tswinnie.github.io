@@ -4587,7 +4587,7 @@ section.careers {
     background-image: url(/static/img/bg-careers.jpg);
 }
 section.team {
-    background-image: url(/static/img/bg-team.jpg);
+    background-image: url(../images/talents.png);
 }
 section.team-jesse {
     background-image: url(/static/img/jesse.jpg);
@@ -4822,9 +4822,9 @@ a.logo-lg:hover {
 .navigation li a:active, .navigation li a:focus {
     text-decoration: none;
 }
-.navigation li.active a {
-    color: #e74c3c;
-}
+/*.navigation li.active a {*/
+    /*color: #e74c3c;*/
+/*}*/
 ul.social {
     position: absolute;
     bottom: 25px;
