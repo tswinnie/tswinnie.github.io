@@ -72,11 +72,11 @@ if(isset($_POST['email'])) {
 
     $comments = $_POST['details']; // required
 
-    $comments = $_POST['what']; // required
+    $whatIs = $_POST['what']; // required
 
-    $comments = $_POST['time']; // required
+    $times = $_POST['time']; // required
 
-    $comments = $_POST['budget']; // required
+    $budgets = $_POST['budget']; // required
 
 
 
@@ -87,7 +87,7 @@ if(isset($_POST['email'])) {
 
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
 
-  if(!preg_match($email_exp,$email_from)) {
+  if(!preg_match($email_exp, $email_from)) {
 
     $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
 
@@ -95,7 +95,7 @@ if(isset($_POST['email'])) {
 
     $string_exp = "/^[A-Za-z .'-]+$/";
 
-  if(!preg_match($string_exp,$name)) {
+  if(!preg_match($string_exp, $first_name)) {
 
     $error_message .= 'The First Name you entered does not appear to be valid.<br />';
 
@@ -107,7 +107,7 @@ if(isset($_POST['email'])) {
 //
 //  }
 
-  if(strlen($details) < 2) {
+  if(strlen($comments) < 2) {
 
     $error_message .= 'The Comments you entered do not appear to be valid.<br />';
 
@@ -133,19 +133,19 @@ if(isset($_POST['email'])) {
 
 
 
-    $email_message .= "Name: ".clean_string($name)."\n";
+    $email_message .= "Name: ".clean_string($first_name)."\n";
 
-    $email_message .= "Company: ".clean_string($company)."\n";
+    $email_message .= "Company: ".clean_string($last_name)."\n";
 
-    $email_message .= "Email: ".clean_string(email)."\n";
+    $email_message .= "Email: ".clean_string($email_from)."\n";
 
-    $email_message .= "Telephone: ".clean_string($phone)."\n";
+    $email_message .= "Telephone: ".clean_string($telephone)."\n";
 
-    $email_message .= "Comments: ".clean_string($details)."\n";
+    $email_message .= "Comments: ".clean_string($comments)."\n";
 
-    $email_message .= "Budget: ".clean_string($budget)."\n";
+    $email_message .= "Budget: ".clean_string($budgets)."\n";
 
-    $email_message .= "Time: ".clean_string($time)."\n";
+    $email_message .= "Time: ".clean_string($times)."\n";
 
 
 
@@ -172,6 +172,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 
 Thank you for contacting us. We will be in touch with you very soon.
+<a href="index.html">Back Home</a>
 
 
 
