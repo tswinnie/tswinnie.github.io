@@ -316,17 +316,79 @@ a {
 }
 
 .menuBT {
-    text-decoration: underline;
     font-size: 1.2em;
     color: #0A9388;
     /* margin: 16px; */
-    margin-bottom: 23px;
+    margin-bottom: 3px;
     padding-bottom: 8px;
-    border-bottom: 1px solid #0A9388;
     line-height: 2;
     position: relative;
     top: -5px;
-    border: none;
+    /* border: none; */
+    /* border: 1px solid #fff; */
+    /* border-bottom: 1px solid #fff; */
+    border-top: 1px solid #fff;
+}
+
+.icon-home{
+
+
+}
+
+.close{
+
+
+}
+
+
+
+
+.my_popup_open{
+    font-size: 1.2em;
+    color: #0A9388;
+    /* margin: 16px; */
+    margin-bottom: 3px;
+    padding-bottom: 8px;
+    line-height: 2;
+    position: relative;
+    top: -5px;
+    /* border: none; */
+    /* border: 1px solid #fff; */
+    /* border-bottom: 1px solid #fff; */
+    border-top: 1px solid #fff;
+
+
+
+}
+
+.my_popuptwo_open{
+    font-size: 1.2em;
+    color: #0A9388;
+    /* margin: 16px; */
+    margin-bottom: 3px;
+    padding-bottom: 8px;
+    line-height: 2;
+    position: relative;
+    top: -5px;
+    /* border: none; */
+    /* border: 1px solid #fff; */
+    /* border-bottom: 1px solid #fff; */
+    border-top: 1px solid #fff;
+
+
+
+}
+
+
+
+
+.icon-id-card {
+    font-size: 3.8em;
+    margin: 0 auto;
+    width: 63px;
+    position: relative;
+    top: -34px;
+    margin-bottom: -50px;
 }
 button {
     -webkit-font-smoothing: antialiased;
@@ -348,6 +410,105 @@ button {
     margin: 0 auto;
     outline: none;
     border: none;
+}
+
+#rsvp {
+    width: 350px;
+    height: 450px;
+    background: #fff;
+}
+
+/*#first {*/
+    /*width: 273px;*/
+    /*height: 38px;*/
+    /*float: left;*/
+    /*margin-right: 15px;*/
+    /*margin-left: 15px;*/
+    /*margin-top: 28px;*/
+    /*border: 1px solid #fff;*/
+    /*background: none;*/
+    /*padding: 0px;*/
+    /*color: #285c5a;*/
+    /*font-style: italic;*/
+/*}*/
+
+.menuBox{
+
+    width: 100%;
+    height: 350px;
+    /*background: #fff;*/
+}
+
+#first {
+    width: 250px;
+    height: 33px;
+    padding: 0px;
+    color: #285c5a;
+    font-style: italic;
+    border: none;
+    background: #ecf0f1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0px 1px 1px #bdc3c7;
+}
+.topBox{
+    width: 100%;
+    height: 50px;
+
+}
+#submit {
+    width: 185px;
+    height: 40px;
+    background: #FFC50C;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.rsvpText {*/
+    /*font-weight: 100;*/
+    /*font-size: 1.2em;*/
+    /*padding: 0px;*/
+    /*margin-bottom: -24px;*/
+    /*text-align: center;*/
+    /*border-bottom: 1px solid #fff;*/
+    /*line-height: 3;*/
+    /*color: #282828;*/
+/*}*/
+::-webkit-input-placeholder {
+    color: #285c5a;
+    padding-left: 10px;
+    font-style: italic;
+
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #285c5a;
+    padding-left: 10px;
+    font-style: italic;
+
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #285c5a;
+    padding-left: 10px;
+    font-style: italic;
+
+
+}
+
+:-ms-input-placeholder {
+    color: #285c5a;
+    padding-left: 10px;
+    font-style: italic;
+
+
 }
 
 footer {
@@ -548,6 +709,8 @@ footer .twitter-share-button {
     left: 0;
     top: 0;
 }
+
+
 .about .panel h1 {
     font-weight: 100;
     color: #d92400;
@@ -556,12 +719,14 @@ footer .twitter-share-button {
     color: #1d1f27;
 }
 .about .panel p {
-    margin: 0 8% 1.2em;
+    margin: 0 0% 0.2em;
     position: relative;
     z-index: 1;
-    color: #fff;
-    border-bottom: 1px solid;
+    color: #098870;
     line-height: 3;
+    background: #098870;
+    color: #fff;
+
 }
 .about .panel p strong {
     font-weight: 700;
@@ -1367,6 +1532,129 @@ footer .twitter-share-button {
     transform: scale(0.5);
 }
 
+.menuItemsBox{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ecf0f1;
+    position: relative;
+    top: 15px;
+}
+
+
+@media all and (min-width: 300px) {
+
+    #one{
+        margin-bottom: -50px;
+    }
+
+
+    #two{
+        margin-bottom: -50px;
+    }
+
+    #three{
+        margin-bottom: -60px;
+    }
+
+    #four{
+        margin-bottom: -70px;
+    }
+
+    #five{
+        margin-bottom: -80px;
+    }
+
+    #six{
+        margin-bottom: -90px;
+    }
+
+    #seven{
+        margin-bottom: -133px;
+    }
+
+    #ballonOne{
+        margin-bottom: -42px;
+
+    }
+
+    #ballonTwo{
+        margin-bottom: -52px;
+
+    }
+
+
+
+    .background {
+        background: url(../images/background.png) no-repeat 50% 100%;
+        bottom: 31px;
+        background-size: cover;
+        position: absolute;
+        width: 110%;
+        left: -5%;
+        top: -5%;
+    }
+
+    .backSun {
+        -webkit-transform-origin: 50% 90%;
+        -moz-transform-origin: 50% 90%;
+        /* transform-origin: 50% 90%; */
+        /* -webkit-animation: lighthouse 4s 0.1s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+        -moz-animation: lighthouse 4s 0.1s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation: lighthouse 4s 0.1s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        margin: 0px -64px;
+        background-size: 389px 389px;
+        height: 389px;
+        width: 389px;
+        background-image: url(../images/sun.png);
+        background-repeat: no-repeat;
+        bottom: 64px;
+        position: absolute;
+        left: 11%;
+        margin: 0 auto;
+        margin-top: 36px;
+        bottom: -7%;
+    }
+
+    .light.b {
+        bottom: 80px;
+        left: 19%;
+    }
+
+    .light.d {
+        bottom: 96px;
+        left: 87%;
+        width: 400px;
+    }
+
+    #rsvp {
+        width: 288px;
+        height: 450px;
+        background: #fff;
+    }
+
+    .icon-id-card {
+        font-size: 3.8em;
+        margin: 0 auto;
+        width: 47px;
+        position: relative;
+        top: -34px;
+        margin-bottom: -50px;
+    }
+
+    .menuItemsBox {
+        width: 256px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #ecf0f1;
+        position: relative;
+        top: 45px;
+        left: 5px;
+    }
+
+
+}
+
 @media all and (min-width: 400px) {
     html {
         font-size: 12px;
@@ -1563,6 +1851,20 @@ footer .twitter-share-button {
         bottom: 96px;
         left: 87%;
         width: 400px;
+    }
+
+    #rsvp {
+        width: 288px;
+        height: 450px;
+        background: #fff;
+    }
+    .icon-id-card {
+        font-size: 3.8em;
+        margin: 0 auto;
+        width: 63px;
+        position: relative;
+        top: -34px;
+        margin-bottom: -50px;
     }
 
 
@@ -1970,6 +2272,20 @@ footer .twitter-share-button {
         width: 400px;
     }
 
+    #rsvp {
+        width: 350px;
+        height: 450px;
+        background: #fff;
+    }
+    .icon-id-card {
+        font-size: 3.8em;
+        margin: 0 auto;
+        width: 63px;
+        position: relative;
+        top: -34px;
+        margin-bottom: -50px;
+    }
+
 
 
 
@@ -2317,6 +2633,20 @@ footer .twitter-share-button {
         width: 400px;
     }
 
+    #rsvp {
+        width: 350px;
+        height: 450px;
+        background: #fff;
+    }
+    .icon-id-card {
+        font-size: 3.8em;
+        margin: 0 auto;
+        width: 63px;
+        position: relative;
+        top: -34px;
+        margin-bottom: -50px;
+    }
+
 
 
 
@@ -2633,6 +2963,19 @@ footer .twitter-share-button {
     .light.d {
         bottom: 172px;
         left: 43%;
+    }
+    #rsvp {
+        width: 350px;
+        height: 450px;
+        background: #fff;
+    }
+    .icon-id-card {
+        font-size: 3.8em;
+        margin: 0 auto;
+        width: 63px;
+        position: relative;
+        top: -34px;
+        margin-bottom: -50px;
     }
 
 
