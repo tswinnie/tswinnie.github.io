@@ -21,10 +21,10 @@
 }
 
 .grid-gallery figure img {
-	display: block;
-	width: 100%;
+    display: block;
+    width: 100%;
+    border: 3px solid #fff;
 }
-
 .grid-gallery figcaption h3 {
 	margin: 0;
 	padding: 0 0 0.5em;
@@ -164,13 +164,13 @@
 
 /* Navigation */
 .slideshow nav span {
-	position: fixed;
-	z-index: 1000;
-	color: #59656c;
-	text-align: center;
-	padding: 3%;
-	cursor: pointer;
-	font-size: 2.2em;
+    position: fixed;
+    z-index: 1000;
+    color: #fff;
+    text-align: center;
+    padding: 3%;
+    cursor: pointer;
+    font-size: 2.2em;
 }
 
 .slideshow nav span.nav-prev,
@@ -185,10 +185,10 @@
 }
 
 .slideshow nav span.nav-close {
-	top: 0;
-	right: 0;
-	padding: 0.5em 1em;
-	color: #31373a;
+    top: 0;
+    right: 0;
+    padding: 0.5em 1em;
+    color: #D92400;
 }
 
 .icon:before,

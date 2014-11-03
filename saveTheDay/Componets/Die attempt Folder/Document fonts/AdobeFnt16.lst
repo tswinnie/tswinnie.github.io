@@ -1,0 +1,69 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brad.berberich\Desktop\saveTheDay\Componets\Die attempt Folder\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1329321226
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LHFBillhead1890
+FamilyName:LHF Billhead 1890
+StyleName:Regular
+FullName:LHF Billhead 1890
+MenuName:LHF Billhead 1890
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brad.berberich\Desktop\saveTheDay\Componets\Die attempt Folder\Document fonts\ufonts.com_lhf-billhead-1890.ttf
+DataFormat:sfntData
+FileLength:63980
+FileModTime:1410317014
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,LHF Billhead 1890
+NameArray:0,Win,1,LHF Billhead 1890
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LHFBillhead1910
+FamilyName:LHF Billhead 1910
+StyleName:Regular
+FullName:LHF Billhead 1910
+MenuName:LHF Billhead 1910
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brad.berberich\Desktop\saveTheDay\Componets\Die attempt Folder\Document fonts\ufonts.com_lhf-billhead-1910.ttf
+DataFormat:sfntData
+FileLength:66044
+FileModTime:1410317054
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,LHF Billhead 1910
+NameArray:0,Win,1,LHF Billhead 1910
+%EndFont
+
