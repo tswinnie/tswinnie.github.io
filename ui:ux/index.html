@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ideas for UI/UX</title>
+
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>UI/UX Designs</h1>
+					<h3>Ideas for UI/UX Design</h3>
+					<p>
+                        Tyrone Swinnie
+					</p>
+				</section>
+
+				<section>
+					<h2>Suggestive Tips For Redesign</h2>
+                    <ul>
+                        <li>3 Panel Design Layout</li>
+                        <li>Card Based Grouping/Layout</li>
+                        <li>Breadcrumb Navigation</li>
+
+                    </ul>
+
+				</section>
+
+				<section>
+					<section>
+						<h2>3 Panel Design Layout</h2>
+						<p>
+                            Content Grouped in 3 Key Panels
+
+						</p>
+							<img width="100%" height="100%" src="img/3panelDesign.png" alt="3 panel img">
+					</section>
+					<section>
+						<h2>Main Panel</h2>
+                        <ul>
+                            <li>Hierarchy Data Display</li>
+                            <li>Content Continuity</li>
+                            <li>Provides a sense of intuitive design</li>
+                        </ul>
+
+                        <img width="100%" height="100%" src="img/menuPanel.png" alt="3 panel img">
+
+                    </section>
+					<section>
+						<h2>Card Based Grouping/Layout</h2>
+
+                       <ul>
+                           <li>Organized Card Views</li>
+                           <li>Menu Specific Related Content</li>
+                           <li>Actionable Cards</li>
+
+                       </ul>
+
+                        <img width="100%" height="100%" src="img/cardlayout.png" alt="3 panel img">
+
+                        <!--<a class="test" href="http://cornify.com">-->
+							<!--<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">-->
+						<!--</a>-->
+					</section>
+					<section>
+						<h2>Breadcrumb Navigation</h2>
+                        <li>Orientates User's Location</li>
+                        <li>Intuitive Navigation</li>
+                        <li>Main Menu Relative</li>
+						<!--<a href="#/2" class="image">-->
+							<!--<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">-->
+						<!--</a>-->
+
+                        <img width="100%" height="100%" src="img/breadcrumb.png" alt="3 panel img">
+
+                    </section>
+				</section>
+
+				<section>
+					<h2>Relative Options</h2>
+
+                    <ul>
+                    <li>Relative Options </li>
+                    <li>Adds Sub Navigation Options</li>
+                    <li>Intuitive Group Options</li>
+                    </ul>
+
+                    <img width="100%" height="100%" src="img/optionPanel.png" alt="3 panel img">
+
+                </section>
+
+                <section>
+                    <h2>Design in mind for application </h2>
+
+
+
+                    <img width="100%" height="100%" src="img/adminPanel.png" alt="3 panel img">
+
+                </section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
